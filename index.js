@@ -57,4 +57,16 @@ function toDate(time) {
 	return new Date(year, month, day, hour, min, sec);
 }
 
+function fixText(text) {
+	return text.replace(/\\n/g, "\n").replace(/\\,/g, ",");
+}
+
+function fixEvent(event) {
+	event.SUMMARY = fixText(event.SUMMARY);
+	event.DESCRIPTION = fixText(event.DESCRIPTION);
+	event.startDate = toDate(startTime(event)).toString();
+	return event;
+}
+events = events.map(fixEvent);
+
 fs.writeFileSync(eventJson, JSON.stringify(events, null, 4), { encoding: 'UTF8' });
