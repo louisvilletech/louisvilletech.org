@@ -4,6 +4,7 @@ var ical2json = require("ical2json");
 var _ = require("lodash");
 
 var icsDir = "ics";
+var eventJson = "data/events.json";
 
 function wholePath(file) {
 	return path.join(icsDir, file);
@@ -56,6 +57,4 @@ function toDate(time) {
 	return new Date(year, month, day, hour, min, sec);
 }
 
-console.log(events.map(function(event) {
-	return event.SUMMARY + " - " + toDate(startTime(event));
-}));
+fs.writeFileSync(eventJson, JSON.stringify(events, null, 4), { encoding: 'UTF8' });

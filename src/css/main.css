@@ -1,0 +1,8 @@
+.event {
+	float: left;
+	width: 300px;
+	margin: 10px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	background-color: #eee;
+}

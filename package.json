@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "ical2json": "^0.1.3",
-    "lodash": "^2.4.1"
+    "lodash": "^2.4.1",
+    "unfold": "^0.3.0"
   }
 }

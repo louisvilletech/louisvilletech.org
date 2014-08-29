@@ -1,0 +1,10 @@
+{
+	"sourceDirectory": "src",
+	"destinationDirectory": "dest",
+	"dataDirectory": "data",
+	"partialsDirectory": "partials",
+	"helpersDirectory": "helpers",
+	"data": {
+		"layout": "layout/layout.html.hbs"
+	}
+}
