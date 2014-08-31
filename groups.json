@@ -1,0 +1,50 @@
+{
+	"aiga-louisville": {
+		"name": "AIGA Louisville",
+		"web": "http://lgda.org",
+		"facebook": "https://www.facebook.com/aigalou",
+		"twitter": "aigalou"
+	},
+	"gamedevlou": {
+		"calendar": "http://www.meetup.com/GameDevLou/events/ical/"
+	},
+	"jslou": {
+		"calendar": "http://www.meetup.com/JSLouKY/events/ical/"
+	},
+	"derbypy": {
+		"calendar": "http://www.meetup.com/derbypy/events/ical/"
+	},
+	"louisvilledotnet": {
+		"calendar": "http://www.meetup.com/Louisville-DotNet/events/ical/"
+	},
+	"louisville-open-source": {
+		"calendar": "http://www.meetup.com/LouisvilleOpenSourceProgramming/events/ical/"
+	},
+	"louisville-linux": {
+		"calendar": "http://www.meetup.com/louisville-linux/events/ical/"
+	},
+	"louisville-agile-forum": {
+		"calendar": "http://www.meetup.com/Louisville-Agile-Forum/events/ical/"
+	},
+	"lvl1-hackerspace": {
+		"calendar": "http://www.meetup.com/LVL1Hackerspace/events/ical/"
+	},
+	"louisville-hardware-startup": {
+		"calendar": "http://www.meetup.com/LouisvilleHardwareStartups/events/ical/"
+	},
+	"louisville-php-user-group": {
+		"calendar": "http://www.meetup.com/Louisville-PHP-User-Group/events/ical/"
+	},
+	"laravel-louisville": {
+		"calendar": "http://www.meetup.com/Laravel-Louisville/events/ical/"
+	},
+	"mymobileville": {
+		"calendar": "http://www.meetup.com/MyMobileVille-Meetup/events/ical/"
+	},
+	"wordpress-louisville": {
+		"calendar": "http://www.meetup.com/WordPress-Meetup-Louisville/events/ical/"
+	},
+	"louisville-bi-and-big-data-analytics": {
+		"calendar": "Http://www.meetup.com/Louisville-BI-Big-Data-Analytics-Meetup/events/ical/"
+	}
+}
