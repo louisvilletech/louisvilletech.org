@@ -5,9 +5,90 @@
 		"facebook": "https://www.facebook.com/aigalou",
 		"twitter": "aigalou"
 	},
-	"gamedevlou": {
+	"game-dev-lou": {
+		"name": "Game Dev Lou",
+		"web": "http://gamedevlou.org/",
+		"twitter": "GameDevLouKY"
 		"calendar": "http://www.meetup.com/GameDevLou/events/ical/"
 	},
+	"girl-develop-it-louisville": {
+		"name": "Girl Develop It Louisville",
+		"web": "http://www.meetup.com/Girl-Develop-It-Louisville/"
+		"calendar": "http://www.meetup.com/Girl-Develop-It-Louisville/events/ical/"
+	},
+	"ixda-louisville": {
+		"name": "IxDA Louisville",
+		"web": "http://ixda.org/local/louisville-ixda",
+		"facebook": "https://www.facebook.com/IxDA.Louisville"
+	},
+	"issa-kentuckiana": {
+		"name": "ISSA Kentuckiana",
+		"web": "http://issa-kentuckiana.org/",
+		"twitter": "issakentuckiana",
+		"facebook": "https://www.facebook.com/issakentuckiana"
+	},
+	"kipcug": {
+		"name": "Kentucky-Indiana PC Users Group (KIPCUG)",
+		"web": "http://kipcug.com/",
+	},
+	"kyoss": {
+		"name": "Kentucky Open Source Society (KYOSS)",
+		"web": "http://kyoss.org/",
+		"calendar": "http://www.meetup.com/LouisvilleOpenSourceProgramming/events/ical/"
+	},
+	"let-them-tweet-cake": {
+		"name": "Let Them Tweet Cake",
+		"web": "http://www.letthemtweetcake.com/",
+		"twitter": "tweetcakelou"
+	},
+	"louisville-agile-forum": {
+		"name": "Louisville Agile Forum",
+		"web": "http://www.meetup.com/Louisville-Agile-Forum/",
+		"calendar": "http://www.meetup.com/Louisville-Agile-Forum/events/ical/"
+	},
+	"louisville-bi-and-big-data-analytics-meetup": {
+		"name": "Louisville BI & Big Data Analytics Meetup",
+		"web": "http://www.meetup.com/Louisville-BI-Big-Data-Analytics-Meetup/",
+		"calendar": "http://www.meetup.com/Louisville-BI-Big-Data-Analytics-Meetup/events/ical/"
+	},
+	"louisville-civic-data-alliance": {
+		"name": "Louisville Civic Data Alliance",
+		"web": "http://www.meetup.com/Louisville-Civic-Data-Alliance",
+		"calendar": "http://www.meetup.com/Louisville-Civic-Data-Alliance/events/ical/",
+		"twitter": "CivicDataAlly"
+	},
+	"louisville-hardware-startup": {
+		"name": "Louisville Hardware Startup Meetup",
+		"web": "http://www.meetup.com/LouisvilleHardwareStartups/",
+		"calendar": "http://www.meetup.com/LouisvilleHardwareStartups/events/ical/"
+	},
+	"louisville-software-engineering-meetup": {
+		"name": "Louisville Software Engineering Meetup",
+		"web": "http://www.meetup.com/Louisville-Software-Engineering/",
+		"calendar": "http://www.meetup.com/Louisville-Software-Engineering/events/ical/",
+	},
+	"lvl1-hackerspace": {
+		"name": "LVL1 Hackerspace",
+		"web": "http://www.lvl1.org/",
+		"calendar": "https://www.google.com/calendar/ical/1n5qvjga6i4t6lde35vq5dg8ds%40group.calendar.google.com/public/basic.ics"
+		"twitter": "LVL1HackerSpace"
+	},
+	"mymobileville": {
+		"name": "My Mobile Ville",
+		"web": "http://mymobileville.com/",
+		"calendar": "http://www.meetup.com/MyMobileVille-Meetup/events/ical/"
+	},
+	"openhack-louisville": {
+		"name": "OpenHack Louisville",
+		"web": "https://openhack.github.io/louisville/",
+		"calendar": "https://www.google.com/calendar/ical/pi7ffck72n9a5n9es3f2ce090k%40group.calendar.google.com/public/basic.ics",
+		"twitter": "OpenHackLVL"
+	},
+	"technology-association-of-louisville-kentucky": {
+		"name": "Technology Association of Louisville Kentucky",
+		"web": "http://www.talklou.com/"
+	},
+
 	"jslou": {
 		"calendar": "http://www.meetup.com/JSLouKY/events/ical/"
 	},
@@ -17,29 +98,11 @@
 	"louisvilledotnet": {
 		"calendar": "http://www.meetup.com/Louisville-DotNet/events/ical/"
 	},
-	"louisville-open-source": {
-		"calendar": "http://www.meetup.com/LouisvilleOpenSourceProgramming/events/ical/"
-	},
-	"louisville-linux": {
-		"calendar": "http://www.meetup.com/louisville-linux/events/ical/"
-	},
-	"louisville-agile-forum": {
-		"calendar": "http://www.meetup.com/Louisville-Agile-Forum/events/ical/"
-	},
-	"lvl1-hackerspace": {
-		"calendar": "http://www.meetup.com/LVL1Hackerspace/events/ical/"
-	},
-	"louisville-hardware-startup": {
-		"calendar": "http://www.meetup.com/LouisvilleHardwareStartups/events/ical/"
-	},
 	"louisville-php-user-group": {
 		"calendar": "http://www.meetup.com/Louisville-PHP-User-Group/events/ical/"
 	},
 	"laravel-louisville": {
 		"calendar": "http://www.meetup.com/Laravel-Louisville/events/ical/"
-	},
-	"mymobileville": {
-		"calendar": "http://www.meetup.com/MyMobileVille-Meetup/events/ical/"
 	},
 	"wordpress-louisville": {
 		"calendar": "http://www.meetup.com/WordPress-Meetup-Louisville/events/ical/"
