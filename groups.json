@@ -88,26 +88,61 @@
 		"name": "Technology Association of Louisville Kentucky",
 		"web": "http://www.talklou.com/"
 	},
+	"treehouse-web-development-training-for-beginners": {
+		"name": "Treehouse Web Development Training for Beginners",
+		"web": "http://www.meetup.com/Treehouse-web-development-training-for-beginners",
+		"calendar": "http://www.meetup.com/Treehouse-web-development-training-for-beginners/events/ical/",
+	},
+	"louisville-ux-meetup": {
+		"name": "Louisville UX Meetup",
+		"web": "http://www.meetup.com/Louisville-UX/",
+		"calendar": "http://www.meetup.com/Treehouse-web-development-training-for-beginners/events/ical/",
+	},
 
-	"jslou": {
-		"calendar": "http://www.meetup.com/JSLouKY/events/ical/"
-	},
 	"derbypy": {
-		"calendar": "http://www.meetup.com/derbypy/events/ical/"
+		"name": "DerbyPy",
+		"web": "http://www.meetup.com/derbypy/",
+		"calendar": "http://www.meetup.com/derbypy/events/ical/",
+		"twitter": "DerbyPy"
 	},
-	"louisvilledotnet": {
-		"calendar": "http://www.meetup.com/Louisville-DotNet/events/ical/"
+	"jslou": {
+		"name": "JSLou",
+		"web": "http://jslou.org",
+		"calendar": "http://www.meetup.com/JSLouKY/events/ical/",
+		"twitter": "JsLouKY"
 	},
-	"louisville-php-user-group": {
-		"calendar": "http://www.meetup.com/Louisville-PHP-User-Group/events/ical/"
+	"juggl": {
+		"name": "Java Users Group of Greater Louisville",
+		"web": "http://www.juggl.us",
+		"calendar": "https://www.google.com/calendar/ical/tbof7k6q2rr2i2c699ij9hfee8%40group.calendar.google.com/public/basic.ics",
+		"twitter": "JUGGLou"
 	},
 	"laravel-louisville": {
-		"calendar": "http://www.meetup.com/Laravel-Louisville/events/ical/"
+		"name": "Laravel Louisville",
+		"web": "https://laravel-louisville.github.io/meetup/",
+		"calendar": "http://www.meetup.com/Laravel-Louisville/events/ical/",
+		"twitter": "lurvul"
 	},
+	"louisville-dot-net": {
+		"name": "Louisville .NET Meetup",
+		"web": "http://www.meetup.com/Louisville-DotNet/"
+		"calendar": "http://www.meetup.com/Louisville-DotNet/events/ical/"
+		"twitter": "LouDotNet"
+	},
+	"louisville-cocoaheads": {
+		"name": "Louisville Cocoaheads",
+		"web": "http://www.meetup.com/Louisville-Cocoaheads/"
+		"calendar": "http://www.meetup.com/Louisville-Cocoaheads/events/ical/"
+		"twitter": "LouCocoaheads"
+	},
+	"louisville-go-meetup": {
+		"name": "Louisville Go Meetup",
+		"web": "http://www.meetup.com/Louisville-Golang-Meetup/"
+		"calendar": "http://www.meetup.com/Louisville-Golang-Meetup/events/ical/"
+		"twitter": "LVL_Go"
+	},
+
 	"wordpress-louisville": {
 		"calendar": "http://www.meetup.com/WordPress-Meetup-Louisville/events/ical/"
-	},
-	"louisville-bi-and-big-data-analytics": {
-		"calendar": "Http://www.meetup.com/Louisville-BI-Big-Data-Analytics-Meetup/events/ical/"
 	}
 }
