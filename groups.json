@@ -125,14 +125,14 @@
 	},
 	"louisville-dot-net": {
 		"name": "Louisville .NET Meetup",
-		"web": "http://www.meetup.com/Louisville-DotNet/"
-		"calendar": "http://www.meetup.com/Louisville-DotNet/events/ical/"
+		"web": "http://www.meetup.com/Louisville-DotNet/",
+		"calendar": "http://www.meetup.com/Louisville-DotNet/events/ical/",
 		"twitter": "LouDotNet"
 	},
 	"louisville-cocoaheads": {
 		"name": "Louisville Cocoaheads",
-		"web": "http://www.meetup.com/Louisville-Cocoaheads/"
-		"calendar": "http://www.meetup.com/Louisville-Cocoaheads/events/ical/"
+		"web": "http://www.meetup.com/Louisville-Cocoaheads/",
+		"calendar": "http://www.meetup.com/Louisville-Cocoaheads/events/ical/",
 		"twitter": "LouCocoaheads"
 	},
 	"louisville-go-meetup": {
@@ -141,8 +141,40 @@
 		"calendar": "http://www.meetup.com/Louisville-Golang-Meetup/events/ical/"
 		"twitter": "LVL_Go"
 	},
-
+	"loumug": {
+		"name": "Louisville Microsoft Users Group",
+		"web": "http://www.loumug.org/",
+		"twitter": "LouMUG"
+	},
+	"louposh": {
+		"name": "Louisville PowerShell Users Group",
+		"web": "http://www.louposh.org/",
+		"twitter": "LouPOSH"
+	},
+	"louisville-ruby-brigade": {
+		"name": "Louisville Ruby Brigade",
+		"web": "http://www.meetup.com/Louisville-Ruby-Brigade/",
+		"calendar": "http://www.meetup.com/Louisville-Ruby-Brigade/events/ical/",
+		"twitter": "lvlrb"
+	},
+	"louspu": {
+		"name": "Louisville SharePoint Users",
+		"web": "http://www.louspu.com/",
+		"calendar": "http://www.meetup.com/Lou-SPU-Louisville-SharePoint-Users-Meetup/events/ical/"
+	},
+	"louisville-sql-server-users-group": {
+		"name": "Louisville SQL Server Users Group",
+		"web": "http://louisville.sqlpass.org/"
+	},
+	"louisville-vmware-users-group": {
+		"name": "Louisville VMWare Users Group",
+		"web": "http://www.louisvillevmug.info/",
+		"calendar": "https://www.google.com/calendar/ical/csilouisville.net_g3l1qnciiu5g0cdbbm36gs8omg%40group.calendar.google.com/public/basic.ics",
+		"twitter": "louisvillevmug"
+	},
 	"wordpress-louisville": {
+		"name": "WordPress Louisville",
+		"web": "http://www.meetup.com/WordPress-Meetup-Louisville/",
 		"calendar": "http://www.meetup.com/WordPress-Meetup-Louisville/events/ical/"
 	}
 }
