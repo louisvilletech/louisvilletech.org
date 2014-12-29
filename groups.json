@@ -115,6 +115,7 @@
 		"name": "Java Users Group of Greater Louisville",
 		"web": "http://www.juggl.us",
 		"calendar": "https://www.google.com/calendar/ical/tbof7k6q2rr2i2c699ij9hfee8%40group.calendar.google.com/public/basic.ics",
+		"facebook": "https://www.facebook.com/JUGGLou",
 		"twitter": "JUGGLou"
 	},
 	"laravel-louisville": {
@@ -183,12 +184,14 @@
 		"name": "Build Guild Louisville",
 		"web": "http://louisville.buildguild.org/",
 		"calendar": "https://www.google.com/calendar/ical/n0ge31qs8b5qdq6f2chousef8o%40group.calendar.google.com/public/basic.ics",
+		"facebook": "https://www.facebook.com/groups/129014403813898/",
 		"twitter": "bg_louisville"
 	},
 	"it-happy-hour": {
 		"name": "IT Happy Hour",
 		"web": "https://www.facebook.com/groups/118582591623817/",
 		"calendar": "https://www.google.com/calendar/ical/e60gdkt7dkdkn5llcg7g8c102g%40group.calendar.google.com/public/basic.ics",
+		"facebook": "https://www.facebook.com/groups/118582591623817/",
 		"twitter": "ITHHLouKY"
 	},
 	"louisville-geek-dinner": {
