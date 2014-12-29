@@ -8,12 +8,12 @@
 	"game-dev-lou": {
 		"name": "Game Dev Lou",
 		"web": "http://gamedevlou.org/",
+		"calendar": "http://www.meetup.com/GameDevLou/events/ical/",
 		"twitter": "GameDevLouKY"
-		"calendar": "http://www.meetup.com/GameDevLou/events/ical/"
 	},
 	"girl-develop-it-louisville": {
 		"name": "Girl Develop It Louisville",
-		"web": "http://www.meetup.com/Girl-Develop-It-Louisville/"
+		"web": "http://www.meetup.com/Girl-Develop-It-Louisville/",
 		"calendar": "http://www.meetup.com/Girl-Develop-It-Louisville/events/ical/"
 	},
 	"ixda-louisville": {
@@ -29,7 +29,7 @@
 	},
 	"kipcug": {
 		"name": "Kentucky-Indiana PC Users Group (KIPCUG)",
-		"web": "http://kipcug.com/",
+		"web": "http://kipcug.com/"
 	},
 	"kyoss": {
 		"name": "Kentucky Open Source Society (KYOSS)",
@@ -65,12 +65,12 @@
 	"louisville-software-engineering-meetup": {
 		"name": "Louisville Software Engineering Meetup",
 		"web": "http://www.meetup.com/Louisville-Software-Engineering/",
-		"calendar": "http://www.meetup.com/Louisville-Software-Engineering/events/ical/",
+		"calendar": "http://www.meetup.com/Louisville-Software-Engineering/events/ical/"
 	},
 	"lvl1-hackerspace": {
 		"name": "LVL1 Hackerspace",
 		"web": "http://www.lvl1.org/",
-		"calendar": "https://www.google.com/calendar/ical/1n5qvjga6i4t6lde35vq5dg8ds%40group.calendar.google.com/public/basic.ics"
+		"calendar": "https://www.google.com/calendar/ical/1n5qvjga6i4t6lde35vq5dg8ds%40group.calendar.google.com/public/basic.ics",
 		"twitter": "LVL1HackerSpace"
 	},
 	"mymobileville": {
@@ -91,12 +91,12 @@
 	"treehouse-web-development-training-for-beginners": {
 		"name": "Treehouse Web Development Training for Beginners",
 		"web": "http://www.meetup.com/Treehouse-web-development-training-for-beginners",
-		"calendar": "http://www.meetup.com/Treehouse-web-development-training-for-beginners/events/ical/",
+		"calendar": "http://www.meetup.com/Treehouse-web-development-training-for-beginners/events/ical/"
 	},
 	"louisville-ux-meetup": {
 		"name": "Louisville UX Meetup",
 		"web": "http://www.meetup.com/Louisville-UX/",
-		"calendar": "http://www.meetup.com/Treehouse-web-development-training-for-beginners/events/ical/",
+		"calendar": "http://www.meetup.com/Treehouse-web-development-training-for-beginners/events/ical/"
 	},
 
 	"derbypy": {
@@ -137,8 +137,8 @@
 	},
 	"louisville-go-meetup": {
 		"name": "Louisville Go Meetup",
-		"web": "http://www.meetup.com/Louisville-Golang-Meetup/"
-		"calendar": "http://www.meetup.com/Louisville-Golang-Meetup/events/ical/"
+		"web": "http://www.meetup.com/Louisville-Golang-Meetup/",
+		"calendar": "http://www.meetup.com/Louisville-Golang-Meetup/events/ical/",
 		"twitter": "LVL_Go"
 	},
 	"loumug": {
