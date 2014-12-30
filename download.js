@@ -1,63 +1,103 @@
 "use strict";
 
+var async = require("async");
 var fs = require("fs");
-var path = require("path");
 var http = require("http");
+var https = require("https");
+var path = require("path");
+var R = require("ramda");
 
 var groups = require("./groups");
 var IcsDir = "ics";
 var MaxCalendarAgeMinutes = 30;
+var ConcurrentDownloads = 5;
 
-for (var groupId in groups) {
-	if (groups.hasOwnProperty(groupId)) {
-		var group = groups[groupId];
-		var icsPath = getIcsPath(groupId);
-		if (group.calendar) {
-			fileAgeMinutes(icsPath, downloadOldCalendars.bind(undefined, group));
-		}
-	}
-}
-
-function fileAgeMinutes(path, callback) {
-	fs.stat(path, function(err, stats) {
-		if (err) {
-			if (err.code === "ENOENT") {
-				callback(undefined, path, msToMin(new Date().getTime()));
-				return;
-			}
-			callback(err);
-			return;
-		}
-		callback(undefined, path, msToMin(new Date() - stats.mtime));
-	});
-}
-
-function msToMin(ms) {
-	return Math.floor(ms / 1000 / 60);
-}
+var setIdFromPair = R.apply(R.assoc('id'))
+var hasCalendar = R.has('calendar');
 
 function getIcsPath(groupId) {
 	return path.join(IcsDir, groupId + ".ics");
 }
 
-function downloadOldCalendars(group, err, path, ageMinutes) {
+function getIcsPathForGroup(group) {
+	return R.assoc("icsPath", getIcsPath(group.id), group);
+}
+
+var getGroupProperties = R.pipe(R.toPairs, R.map(setIdFromPair), R.filter(hasCalendar), R.map(getIcsPathForGroup));
+groups = getGroupProperties(groups);
+
+function swallowError(callback) {
+	return function(err) {
+		if (err) {
+			callback(undefined);
+			return;
+		}
+		callback.apply(this, arguments);
+	};
+}
+
+function statForGroup(group, callback) {
+	fs.stat(group.icsPath, swallowError(callback));
+}
+
+async.map(groups, statForGroup, function(err, stats) {
 	if (err) {
 		console.error(err);
 		return;
 	}
-	console.log(path, "is", ageMinutes, "old");
-	if (ageMinutes > MaxCalendarAgeMinutes) {
-		downloadCalendar(group.calendar, path);
-	}
+
+	var returnOldAge = function() {
+		return MaxCalendarAgeMinutes + 1;
+	};
+	var statsToAge = R.ifElse(R.identity, R.pipe(R.prop("mtime"), R.subtract(new Date()), msToMin), returnOldAge);
+	var ages = R.map(statsToAge, stats);
+	var pairs = R.zip(ages, groups);
+
+	var groupsWithAge = R.map(R.apply(R.assoc("age")), pairs);
+
+	var fileIsTooOld = R.pipe(R.prop("age"), R.lt(MaxCalendarAgeMinutes));
+	var groupsWithOldFiles = R.filter(fileIsTooOld, groupsWithAge);
+	var downloads = R.map(R.props(["calendar", "icsPath"]), groupsWithOldFiles);
+
+	console.log("Downloading", downloads.length, "files...");
+	async.eachLimit(downloads, ConcurrentDownloads, function(item, callback) {
+		downloadCalendar(item[0], item[1], callback);
+	}, function(err) {
+		if (err) {
+			console.error(err);
+			return;
+		}
+		console.log("Done!");
+	});
+});
+
+function msToMin(ms) {
+	return Math.floor(ms / 1000 / 60);
 }
 
-function downloadCalendar(url, path) {
-	console.log("downloading", url, "to", path);
-	http.get(url, function(res) {
-		console.log(res.statusCode);
-		var file = fs.createWriteStream(path);
-		res.pipe(file);
-	}).on("error", function(e) {
-		console.error(e);
+function httpGet(url, callback) {
+	var proto = url.indexOf("https://") === 0 ? https : http;
+	proto.get(url, function(res) {
+		callback(undefined, res);
+	}).on("error", function(err) {
+		callback(err);
+	});
+}
+
+function downloadCalendar(url, path, callback) {
+	console.log("  GET", url, "=>", path);
+	httpGet(url, function(err, res) {
+		if (err) {
+			callback(err);
+			return;
+		}
+		if (res.statusCode === 200) {
+			console.log("    writing", path);
+			var file = fs.createWriteStream(path);
+			res.pipe(file);
+			callback();
+		} else {
+			callback("Got " + res.statusCode + " when reading " + url);
+		}
 	});
 }
