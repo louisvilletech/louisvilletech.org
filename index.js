@@ -19,6 +19,9 @@ function cal2tz(cal) {
 	return cal.VTIMEZONE || [];
 }
 function tz2event(tz) {
+	if (tz.VTIMEZONE) {
+		tz = tz.VTIMEZONE[0];
+	}
 	return tz.VEVENT;
 }
 
