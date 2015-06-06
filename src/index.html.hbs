@@ -2,7 +2,9 @@
 	<div class="event">
 		<h2><a href="{{URL}}">{{SUMMARY}}</a></h2>
 		<p>{{DESCRIPTION}}</p>
-		<p>{{startDate}}</p>
+    <time data-format="%B %e, %Y %l:%M%P"
+      data-local="time"
+      datetime="{{jsonDate}}">{{startDate}}</time>
 	</div>
 {{/each}}
 

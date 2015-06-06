@@ -101,6 +101,7 @@ function fixEvent(event) {
 	event.SUMMARY = fixText(event.SUMMARY);
 	event.DESCRIPTION = fixText(event.DESCRIPTION);
 	event.startDate = toDate(startTime(event)).toString();
+	event.jsonDate = toDate(startTime(event)).toJSON();
 	return event;
 }
 events = events.map(fixEvent);

@@ -6,6 +6,18 @@
 		<title>{{title}}</title>
 
 		<link rel="stylesheet" href="css/main.css">
+		<script type="text/javascript" src="js/local_time.js"></script>
+		<script type="text/javascript">
+			function clearTimes(){
+				var items = document.getElementsByTagName("time");
+		    for (var i = 0; i < items.length; i++) {
+		        items[i].removeAttribute("data-localized");
+		        //console.log("time: ", i);
+		    }
+		    LocalTime.run();
+			}
+			var intervalId = setInterval(clearTimes, 6000);
+		</script>
 	</head>
 	<body>
 		<h1 class="logo">Louisville Tech Calendar</h1>
