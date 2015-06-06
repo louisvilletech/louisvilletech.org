@@ -11,5 +11,9 @@
 		</div>
 	</div>
 	<p>{{DESCRIPTION}}</p>
-	<time data-format="%A, %B %e, %Y @ %l:%M%P" data-local="time" datetime="{{jsonDate}}">{{startDate}}</time>
+	<div class="time-div">
+		<time data-format="%A, %B %e, %Y" data-local="time" datetime="{{jsonDate}}">{{startDate}}</time>
+		<br />
+		<time data-format="@ %l:%M%P" data-local="time" datetime="{{jsonDate}}">{{startDate}}</time>
+	</div>
 </div>

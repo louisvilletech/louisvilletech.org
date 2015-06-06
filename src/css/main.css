@@ -19,7 +19,7 @@ body {
 .event {
 	width: 300px;
 	margin: 10px;
-	border: 1px solid #5F9FE8;
+	border: 1px solid #5f9fe8;
 	padding: 10px 15px;
 	border-radius: 6px;
 	background-color: #fff;
@@ -30,7 +30,7 @@ body {
 }
 
 .event:hover {
-	border: 1px solid #EEC900;
+	border: 1px solid #eec900;
 }
 
 .event h2 , .event h3 {
@@ -42,11 +42,11 @@ body {
 }
 
 .event a {
-	color: #5F9FE8;
+	color: #5f9fe8;
 }
 
 .event a:hover {
-	color:#EEC900;
+	color:#eec900;
 	text-decoration: underline;
 }
 
@@ -71,9 +71,16 @@ body {
 	margin: 1em 0;
 }
 
-.event time {
+.event .time-div {
 	color: #696969;
 	font-style: italic;
 	font-weight: bold;
-	padding: 1em 0 1.3em;
+	margin: 1em auto 1.3em;
+	padding: 1em;
+	text-align: center;
+	font-size: 1.1em;
+	border: 1px solid #558fd0;
+	border-top: 6px solid #558fd0;
+	background-color: #eff5fc;
+	border-radius: 0 0 6px 6px;
 }
