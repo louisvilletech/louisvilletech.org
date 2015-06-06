@@ -7,6 +7,36 @@ var groups = require("./groups.json");
 var icsDir = "ics";
 var eventJson = "data/events.json";
 
+var events = _.chain(fs.readdirSync(icsDir))
+	.reject(hiddenFile)
+	.map(loadCal)
+	.flatten()
+	.sortBy(function(event) {
+		return toDate(startTime(event));
+	})
+	.reject(isOld)
+	.value();
+
+fs.writeFileSync(eventJson, JSON.stringify(events, null, 4), { encoding: 'UTF8' });
+
+function hiddenFile(file) {
+	return file[0] === ".";
+}
+
+function loadCal(filename) {
+	var cal = cal2vcal(ical2json.convert(readUtf8(wholePath(filename))));
+	var group = filename.substr(0, filename.indexOf("."));
+	var events = _.chain(cal)
+		.flatten()
+		.map(cal2tz)
+		.flatten()
+		.map(tz2event)
+		.flatten()
+		.map(fixEvent.bind(undefined, group))
+		.value();
+	return events;
+}
+
 function wholePath(file) {
 	return path.join(icsDir, file);
 }
@@ -26,10 +56,6 @@ function tz2event(tz) {
 	return tz.VEVENT;
 }
 
-function hiddenFile(file) {
-	return file[0] === ".";
-}
-
 function isOld(event) {
 	var start = toDate(startTime(event));
 
@@ -38,30 +64,6 @@ function isOld(event) {
 
 	return start < now;
 }
-
-function loadCal(filename) {
-	var cal = cal2vcal(ical2json.convert(readUtf8(wholePath(filename))));
-	var group = filename.substr(0, filename.indexOf("."));
-	var events = _.chain(cal)
-		.flatten()
-		.map(cal2tz)
-		.flatten()
-		.map(tz2event)
-		.flatten()
-		.map(fixEvent.bind(undefined, group))
-		.value();
-	return events;
-}
-
-var events = _.chain(fs.readdirSync(icsDir))
-	.reject(hiddenFile)
-	.map(loadCal)
-	.flatten()
-	.sortBy(function(event) {
-		return toDate(startTime(event));
-	})
-	.reject(isOld)
-	.value();
 
 function startTime(event) {
 	for (var prop in event) {
@@ -115,5 +117,3 @@ function fixEvent(group, event) {
 	event.groupUrl = groups[group].web;
 	return event;
 }
-
-fs.writeFileSync(eventJson, JSON.stringify(events, null, 4), { encoding: 'UTF8' });
