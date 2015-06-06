@@ -25,7 +25,14 @@ function tz2event(tz) {
 	return tz.VEVENT;
 }
 
+function hiddenFile(file) {
+	return file[0] === ".";
+}
+
+
+
 var events = _.chain(fs.readdirSync(icsDir))
+	.reject(hiddenFile)
 	.map(wholePath)
 	.map(readUtf8)
 	.map(ical2json.convert)
