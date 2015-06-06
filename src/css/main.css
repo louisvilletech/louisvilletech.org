@@ -15,6 +15,14 @@ body {
 	justify-content: center;
 }
 
+.nav {
+	display: flex;
+	flex-direction: row;
+}
+.nav-item {
+	flex: 1 1;
+}
+
 /*Styling for each event item*/
 .event {
 	width: 300px;
