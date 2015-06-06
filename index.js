@@ -11,13 +11,11 @@ var events = _.chain(fs.readdirSync(icsDir))
 	.reject(hiddenFile)
 	.map(loadCal)
 	.flatten()
-	.sortBy(function(event) {
-		return toDate(startTime(event));
-	})
+	.sortBy(startTime)
 	.reject(isOld)
 	.value();
 
-fs.writeFileSync(eventJson, JSON.stringify(events, null, 4), { encoding: 'UTF8' });
+writeJson(eventJson, events);
 
 function hiddenFile(file) {
 	return file[0] === ".";
@@ -34,7 +32,12 @@ function loadCal(filename) {
 		.flatten()
 		.map(fixEvent.bind(undefined, group))
 		.value();
+	writeJson("data/" + group + ".json", events);
 	return events;
+}
+
+function writeJson(path, data) {
+	fs.writeFileSync(path, JSON.stringify(data, null, 4), { encoding: 'UTF8' });
 }
 
 function wholePath(file) {
@@ -57,7 +60,7 @@ function tz2event(tz) {
 }
 
 function isOld(event) {
-	var start = toDate(startTime(event));
+	var start = startTime(event);
 
 	var now = new Date(Date.now());
 	now.setDate(now.getDate() - 1);
@@ -69,7 +72,7 @@ function startTime(event) {
 	for (var prop in event) {
 		if (event.hasOwnProperty(prop)) {
 			if (prop.indexOf("DTSTART") === 0) {
-				return event[prop];
+				return toDate(event[prop]);
 			}
 		}
 	}
@@ -110,8 +113,8 @@ function fixText(text) {
 function fixEvent(group, event) {
 	event.SUMMARY = fixText(event.SUMMARY);
 	event.DESCRIPTION = fixText(event.DESCRIPTION);
-	event.startDate = toDate(startTime(event)).toString();
-	event.jsonDate = toDate(startTime(event)).toJSON();
+	event.startDate = startTime(event).toString();
+	event.jsonDate = startTime(event).toJSON();
 	event.group = group;
 	event.groupName = groups[group].name;
 	event.groupUrl = groups[group].web;
