@@ -5,6 +5,7 @@
 	"partialsDirectory": "partials",
 	"helpersDirectory": "helpers",
 	"data": {
+		"title": "Louisville Technology Event Calendar",
 		"layout": "layout/layout.html.hbs"
 	}
 }
