@@ -1,53 +1,74 @@
 {
 	"aiga-louisville": {
 		"name": "AIGA Louisville",
-		"web": "http://lgda.org",
+		"frequency": "Meets sporadically",
+		"web": "http://louisville.aiga.org",
 		"facebook": "https://www.facebook.com/aigalou",
 		"twitter": "aigalou"
 	},
 	"game-dev-lou": {
 		"name": "Game Dev Lou",
+		"freqency": "Meets every other Sunday @ 2pm",
 		"web": "http://gamedevlou.org/",
+		"mailing list": "https://groups.google.com/forum/#!forum/gamedevlou",  
 		"calendar": "http://www.meetup.com/GameDevLou/events/ical/",
 		"twitter": "GameDevLouKY"
 	},
 	"girl-develop-it-louisville": {
 		"name": "Girl Develop It Louisville",
+		"frequency": "Meets sprodically",
 		"web": "http://www.meetup.com/Girl-Develop-It-Louisville/",
-		"calendar": "http://www.meetup.com/Girl-Develop-It-Louisville/events/ical/"
+		"calendar": "http://www.meetup.com/Girl-Develop-It-Louisville/events/ical/",
+		"facebook": "https://www.facebook.com/gdilouisville?fref=ts",
+		"twitter": "gdilouisville"
 	},
 	"ixda-louisville": {
 		"name": "IxDA Louisville",
+		"frequency": "Meets every Thursday @ 5pm",
+		"calendar": "http://www.meetup.com/Louisville-IxDA-Meetup/events/ical/",
 		"web": "http://ixda.org/local/louisville-ixda",
-		"facebook": "https://www.facebook.com/IxDA.Louisville"
+		"facebook": "https://www.facebook.com/IxDA.Louisville",
+		"twitter": "ixdalou"
 	},
 	"issa-kentuckiana": {
 		"name": "ISSA Kentuckiana",
+		"frequency": "Meets one Friday a month @ 11am",
 		"web": "http://issa-kentuckiana.org/",
 		"twitter": "issakentuckiana",
 		"facebook": "https://www.facebook.com/issakentuckiana"
 	},
 	"kipcug": {
 		"name": "Kentucky-Indiana PC Users Group (KIPCUG)",
-		"web": "http://kipcug.com/"
+		"frequency": "Meets the 1st Tuesday every month @ 6:30pm",
+		"web": "http://kipcug.com/",
+		"calendar": "http://kipcug.com/calendar.htm",
+		"facebook": "https://www.facebook.com/pages/Kipcug/140598436007668"
 	},
 	"kyoss": {
 		"name": "Kentucky Open Source Society (KYOSS)",
+		"frequency": "Meets the 2nd Wednesday every month @ 6:30pm",
 		"web": "http://kyoss.org/",
-		"calendar": "http://www.meetup.com/LouisvilleOpenSourceProgramming/events/ical/"
+		"calendar": "http://www.meetup.com/LouisvilleOpenSourceProgramming/events/ical/",
+		"mailing list": "http://kyoss.org/mailman/listinfo/kyoss-discuss",
+		"irc": "#kyoss on Freenode", 
+		"google+": "https://plus.google.com/+KyossOrg/posts",
+		"google+ community": "https://plus.google.com/communities/116631799593310550964"
 	},
 	"let-them-tweet-cake": {
 		"name": "Let Them Tweet Cake",
 		"web": "http://www.letthemtweetcake.com/",
+		"facebook": "https://www.facebook.com/letthemtweetcake?fref=ts",
 		"twitter": "tweetcakelou"
 	},
 	"louisville-agile-forum": {
 		"name": "Louisville Agile Forum",
+		"frequency": "Meets the 3rd Wednesday every month @ 6pm",
 		"web": "http://www.meetup.com/Louisville-Agile-Forum/",
 		"calendar": "http://www.meetup.com/Louisville-Agile-Forum/events/ical/"
 	},
 	"louisville-bi-and-big-data-analytics-meetup": {
 		"name": "Louisville BI & Big Data Analytics Meetup",
+		"frequency": "Meets monthly on a Thursday at 6pm",
 		"web": "http://www.meetup.com/Louisville-BI-Big-Data-Analytics-Meetup/",
 		"calendar": "http://www.meetup.com/Louisville-BI-Big-Data-Analytics-Meetup/events/ical/"
 	},
@@ -64,22 +85,28 @@
 	},
 	"louisville-software-engineering-meetup": {
 		"name": "Louisville Software Engineering Meetup",
+		"frequency": "Meets the 1st Wednesday every month @ 6pm",
 		"web": "http://www.meetup.com/Louisville-Software-Engineering/",
 		"calendar": "http://www.meetup.com/Louisville-Software-Engineering/events/ical/"
 	},
 	"lvl1-hackerspace": {
 		"name": "LVL1 Hackerspace",
+		"frequency": "Meets every Tuesday @ 8pm",
 		"web": "http://www.lvl1.org/",
+		"mailing list": "https://groups.google.com/forum/#!forum/lvl1",
 		"calendar": "https://www.google.com/calendar/ical/1n5qvjga6i4t6lde35vq5dg8ds%40group.calendar.google.com/public/basic.ics",
 		"twitter": "LVL1HackerSpace"
 	},
 	"mymobileville": {
 		"name": "My Mobile Ville",
+		"frequency": "Meets online the 4th Tuesday every month @ 6:30pm",
 		"web": "http://mymobileville.com/",
-		"calendar": "http://www.meetup.com/MyMobileVille-Meetup/events/ical/"
+		"calendar": "http://www.meetup.com/MyMobileVille-Meetup/events/ical/", 
+		"twitter": "mymobileville"
 	},
 	"openhack-louisville": {
 		"name": "OpenHack Louisville",
+		"frequency": "Meets the 1st Tuesday every month @ 6pm",
 		"web": "https://openhack.github.io/louisville/",
 		"calendar": "https://www.google.com/calendar/ical/pi7ffck72n9a5n9es3f2ce090k%40group.calendar.google.com/public/basic.ics",
 		"twitter": "OpenHackLVL"
@@ -95,6 +122,7 @@
 	},
 	"louisville-ux-meetup": {
 		"name": "Louisville UX Meetup",
+		"frequency": "Meets the 1st Thursday every month @ 5pm",
 		"web": "http://www.meetup.com/Louisville-UX/",
 		"calendar": "http://www.meetup.com/Treehouse-web-development-training-for-beginners/events/ical/"
 	},
@@ -107,31 +135,38 @@
 	},
 	"jslou": {
 		"name": "JSLou",
+		"frequency": "Meets the 1st and 3rd Wednesday every month @ 7pm",
 		"web": "http://jslou.org",
+		"mailing list": "http://kyoss.org/mailman/listinfo/jslou",
 		"calendar": "http://www.meetup.com/JSLouKY/events/ical/",
 		"twitter": "JsLouKY"
 	},
 	"juggl": {
 		"name": "Java Users Group of Greater Louisville",
+		"frequency": "Meets the 3rd Tuesday every month @6pm",
 		"web": "http://www.juggl.us",
 		"calendar": "https://www.google.com/calendar/ical/tbof7k6q2rr2i2c699ij9hfee8%40group.calendar.google.com/public/basic.ics",
 		"facebook": "https://www.facebook.com/JUGGLou",
+		"google+": "https://plus.google.com/+JugglUs/posts",
 		"twitter": "JUGGLou"
 	},
 	"laravel-louisville": {
 		"name": "Laravel Louisville",
+		"frequency": "Meets the 3rd Thursday every moth @ 6:30pm",
 		"web": "https://laravel-louisville.github.io/meetup/",
 		"calendar": "http://www.meetup.com/Laravel-Louisville/events/ical/",
 		"twitter": "lurvul"
 	},
 	"louisville-dot-net": {
 		"name": "Louisville .NET Meetup",
+		"frequency": "Meets the 3rd Thursday every month @ 6:30pm",
 		"web": "http://www.meetup.com/Louisville-DotNet/",
 		"calendar": "http://www.meetup.com/Louisville-DotNet/events/ical/",
 		"twitter": "LouDotNet"
 	},
 	"louisville-cocoaheads": {
 		"name": "Louisville Cocoaheads",
+		"frequency": "Meets on sporadic Thursdays @ 6:30 pm",
 		"web": "http://www.meetup.com/Louisville-Cocoaheads/",
 		"calendar": "http://www.meetup.com/Louisville-Cocoaheads/events/ical/",
 		"twitter": "LouCocoaheads"
@@ -144,16 +179,19 @@
 	},
 	"loumug": {
 		"name": "Louisville Microsoft Users Group",
+		"frequency": "Meets the last Friday every month @ 11:30 am",
 		"web": "http://www.loumug.org/",
 		"twitter": "LouMUG"
 	},
 	"louposh": {
 		"name": "Louisville PowerShell Users Group",
+		"frequency": "Meets the 3rd Thursday every month @5:30 pm",
 		"web": "http://www.louposh.org/",
 		"twitter": "LouPOSH"
 	},
 	"louisville-ruby-brigade": {
 		"name": "Louisville Ruby Brigade",
+		"frequency": "Meets the third Thursday every month @ 5:30 pm",
 		"web": "http://www.meetup.com/Louisville-Ruby-Brigade/",
 		"calendar": "http://www.meetup.com/Louisville-Ruby-Brigade/events/ical/",
 		"twitter": "lvlrb"
@@ -166,22 +204,26 @@
 	},
 	"louisville-sql-server-users-group": {
 		"name": "Louisville SQL Server Users Group",
+		"frequency": "Meets sporadically",
 		"web": "http://louisville.sqlpass.org/"
 	},
 	"louisville-vmware-users-group": {
 		"name": "Louisville VMWare Users Group",
+		"frequency": "Meets every three months",
 		"web": "http://www.louisvillevmug.info/",
 		"calendar": "https://www.google.com/calendar/ical/csilouisville.net_g3l1qnciiu5g0cdbbm36gs8omg%40group.calendar.google.com/public/basic.ics",
 		"twitter": "louisvillevmug"
 	},
 	"wordpress-louisville": {
 		"name": "WordPress Louisville",
+		"frequency": "Meets the 2nd Tuesday every month @ 6:15 pm",
 		"web": "http://www.meetup.com/WordPress-Meetup-Louisville/",
 		"calendar": "http://www.meetup.com/WordPress-Meetup-Louisville/events/ical/"
 	},
 
 	"build-guild-louisville": {
 		"name": "Build Guild Louisville",
+		"frequency": "Meets the 3rd Tuesday every month @ 7pm",
 		"web": "http://louisville.buildguild.org/",
 		"calendar": "https://www.google.com/calendar/ical/n0ge31qs8b5qdq6f2chousef8o%40group.calendar.google.com/public/basic.ics",
 		"facebook": "https://www.facebook.com/groups/129014403813898/",
@@ -189,6 +231,7 @@
 	},
 	"it-happy-hour": {
 		"name": "IT Happy Hour",
+		"frequency": "Meets the 2nd Tuesday every month @ 6pm",
 		"web": "https://www.facebook.com/groups/118582591623817/",
 		"calendar": "https://www.google.com/calendar/ical/e60gdkt7dkdkn5llcg7g8c102g%40group.calendar.google.com/public/basic.ics",
 		"facebook": "https://www.facebook.com/groups/118582591623817/",
@@ -196,7 +239,15 @@
 	},
 	"louisville-geek-dinner": {
 		"name": "Louisville Geek Dinner",
+		"frequency": "Meets sporadically",
 		"web": "http://louisvillegeekdinner.com/",
 		"twitter": "geekdinner"
-	}
+	}, 
+	"creative-mornings-louisville": {
+		"name": "Creative Mornings Louisville",
+		"twitter": "cm_louisville"
+	}, 
+	"ember.js-lousville": {
+		"name": "Ember.js Louisville"
+	},
 }
