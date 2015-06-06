@@ -3,3 +3,4 @@ npm-debug.log
 ics
 dest
 data/events.json
+data/group-events/

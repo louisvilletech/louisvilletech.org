@@ -33,7 +33,7 @@ function loadCal(filename) {
 		.sortBy(startTime)
 		.reject(isOld)
 		.value();
-	writeJson("data/" + group + ".json", events);
+	writeJson("data/group-events/" + group + ".json", events);
 	return events;
 }
 
