@@ -8,7 +8,7 @@
     "process": "node index.js",
     "unfold": "unfold site.json",
     "build": "npm run download && npm run process && npm run unfold",
-    "build-deploy": "scp -r dest/* deploy@louisville.io:/www/louisville.io/htdocs/",
+    "deploy": "scp -r dest/* deploy@louisville.io:/www/louisville.io/htdocs/",
     "build-deploy": "npm run build && scp -r dest/* deploy@louisville.io:/www/louisville.io/htdocs/"
   },
   "author": "Eric Lathrop <eric@ericlathrop.com> (http://ericlathrop.com/)",
