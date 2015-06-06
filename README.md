@@ -13,3 +13,7 @@ To generate the site:
 5. The "dest" folder contains the generated site. You can upload this to a server somewhere.
 
 Steps 4-6 are meant to be run as a cron job.
+
+## Temporary steps for deployment
+1. Run `npm run build` locally
+2. Copy contents of "dest" to `deploy@louisville.io:/www/louisville.io/htdocs`
