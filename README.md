@@ -9,8 +9,7 @@ To generate the site:
 1. Clone this repo
 2. Install [Node.js](http://nodejs.org/)
 3. Run `npm install`
-4. Run `node download.sh`
-5. Run `./build.sh`
-6. The "dest" folder contains the generated site. You can upload this to a server somewhere.
+4. Run `npm run build`
+5. The "dest" folder contains the generated site. You can upload this to a server somewhere.
 
 Steps 4-6 are meant to be run as a cron job.

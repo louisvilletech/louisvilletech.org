@@ -4,7 +4,10 @@
   "description": "Louisville Tech Calendar",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "download": "node download.js",
+    "process": "node index.js",
+    "unfold": "unfold site.json",
+    "build": "npm run download && npm run process && npm run unfold"
   },
   "author": "Eric Lathrop <eric@ericlathrop.com> (http://ericlathrop.com/)",
   "license": "MIT",
@@ -13,6 +16,6 @@
     "ical2json": "^0.1.4",
     "lodash": "^2.4.1",
     "ramda": "^0.8.0",
-    "unfold": "^0.3.0"
+    "unfold": "^0.3.1"
   }
 }
