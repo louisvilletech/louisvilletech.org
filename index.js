@@ -29,7 +29,14 @@ function hiddenFile(file) {
 	return file[0] === ".";
 }
 
+function isOld(event) {
+	var start = toDate(startTime(event));
 
+	var now = new Date(Date.now());
+	now.setDate(now.getDate() - 1);
+
+	return start < now;
+}
 
 var events = _.chain(fs.readdirSync(icsDir))
 	.reject(hiddenFile)
@@ -45,6 +52,7 @@ var events = _.chain(fs.readdirSync(icsDir))
 	.sortBy(function(event) {
 		return toDate(startTime(event));
 	})
+	.reject(isOld)
 	.value();
 
 function startTime(event) {
@@ -57,14 +65,32 @@ function startTime(event) {
 	}
 }
 
-function toDate(time) {
-	var year = time.substr(0, 4);
-	var month = time.substr(4, 2) - 1;
-	var day = time.substr(6, 2);
-	var hour = time.substr(9, 2);
-	var min = time.substr(11, 2);
-	var sec = time.substr(13, 2);
-	return new Date(year, month, day, hour, min, sec);
+function toDate(timeStr) {
+	var parts = timeStr.split(":");
+
+	var tz = "US-Eastern";
+	var datetime = timeStr;
+	if (parts.length > 1) {
+		if (parts.indexOf("TZID=") === 0) {
+			tz = parts.substr(5);
+		}
+		datetime = parts[1];
+	}
+	parts = datetime.split("T");
+	var date = parts[0];
+	var time = parts[1] || "";
+
+	var year = parseInt(date.substr(0, 4));
+	var month = parseInt(date.substr(4, 2)) - 1;
+	var day = parseInt(date.substr(6, 2));
+	var hour = parseInt(time.substr(0, 2)) || 0;
+	var min = parseInt(time.substr(2, 2)) || 0;
+	var sec = parseInt(time.substr(4, 2)) || 0;
+	if (time[6] === "Z") {
+		return new Date(Date.UTC(year, month, day, hour, min, sec));
+	} else {
+		return new Date(year, month, day, hour, min, sec);
+	}
 }
 
 function fixText(text) {
