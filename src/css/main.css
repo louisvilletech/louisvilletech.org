@@ -1,17 +1,21 @@
+/*Default Website Font*/
 * {
 	font-family: sans-serif;
 }
 
+/*Page backround*/
 body {
 	background-color: #eee;
 }
 
+/*Make the .page container a flexbox container*/
 .page {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
+/*Styling for each event item*/
 .event {
 	width: 300px;
 	margin: 10px;
@@ -19,13 +23,17 @@ body {
 	padding: 10px;
 	background-color: #fff;
 	word-wrap: break-word;
-	/*display: flex;
+	display: flex;
 	flex-flow: column nowrap;
-	justify-content: space-between;*/
+	justify-content: space-between;
 }
 
 .event:hover {
 	border: 1px solid #EEC900;
+}
+
+.event h2 , .event h3 {
+	margin: .5em 0;
 }
 
 .event h2 a, .event h3 a{
@@ -41,10 +49,20 @@ body {
 	text-decoration: underline;
 }
 
+.event .event-title {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+
 .event .group-logo {
-	float: right;
+	width: 75px;
 }
 
 .event .group-logo img {
-	width: 100px;
+	width: 100%;
+}
+
+.event p {
+	margin: 1em 0;
 }
