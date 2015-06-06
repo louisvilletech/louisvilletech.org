@@ -258,17 +258,17 @@
 		"frequency": "Meets sporadically",
 		"web": "http://louisvillegeekdinner.com/",
 		"twitter": "geekdinner"
-	}, 
+	},
 	"creative-mornings-louisville": {
 		"name": "Creative Mornings Louisville",
-		"frequency": "Meets monthly"
+		"frequency": "Meets monthly",
 		"web": "http://creativemornings.com/cities/lou",
 		"twitter": "cm_louisville"
-	}, 
+	},
 	"ember.js-lousville": {
 		"name": "Ember.js Louisville",
 		"web": "http://www.meetup.com/Ember-js-Louisville/",
-		"calendar": "webcal://www.meetup.com/Ember-js-Louisville/events/ical/",
+		"calendar": "https://www.meetup.com/Ember-js-Louisville/events/ical/",
 		"twitter": "emberjslou"
 	}
 }
