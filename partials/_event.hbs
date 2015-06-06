@@ -1,7 +1,11 @@
 <div class="event">
 	<div class="event-title">
 		<div class="event-and-group">
-			<h2><a href="{{URL}}">{{SUMMARY}}</a></h2>
+			<h2>
+				{{#if URL}}<a href="{{URL}}">{{/if}}
+					{{SUMMARY}}
+				{{#if URL}}</a>{{/if}}
+			</h2>
 			<h3><a href="{{groupUrl}}">{{groupName}}</a></h3>
 		</div>
 		<div class="group-logo">
