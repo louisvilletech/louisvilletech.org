@@ -6,3 +6,9 @@
 	padding: 10px;
 	background-color: #eee;
 }
+.event .group-logo {
+	float: right;
+}
+.event .group-logo img {
+	width: 100px;
+}

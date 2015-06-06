@@ -1,5 +1,10 @@
 {{#each events}}
 	<div class="event">
+		<div class="group-logo">
+			<a href="{{groupUrl}}">
+				<img src="group-icons/{{group}}.png" alt="{{groupName}}" />
+			</a>
+		</div>
 		<h2><a href="{{groupUrl}}">{{groupName}}</a></h2>
 		<h2><a href="{{URL}}">{{SUMMARY}}</a></h2>
 		<p>{{DESCRIPTION}}</p>
@@ -8,4 +13,3 @@
       datetime="{{jsonDate}}">{{startDate}}</time>
 	</div>
 {{/each}}
-
