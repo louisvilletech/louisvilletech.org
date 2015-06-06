@@ -2,6 +2,7 @@ var fs = require("fs");
 var path = require("path");
 var ical2json = require("ical2json");
 var _ = require("lodash");
+var groups = require("./groups.json");
 
 var icsDir = "ics";
 var eventJson = "data/events.json";
@@ -38,16 +39,23 @@ function isOld(event) {
 	return start < now;
 }
 
+function loadCal(filename) {
+	var cal = cal2vcal(ical2json.convert(readUtf8(wholePath(filename))));
+	var group = filename.substr(0, filename.indexOf("."));
+	var events = _.chain(cal)
+		.flatten()
+		.map(cal2tz)
+		.flatten()
+		.map(tz2event)
+		.flatten()
+		.map(fixEvent.bind(undefined, group))
+		.value();
+	return events;
+}
+
 var events = _.chain(fs.readdirSync(icsDir))
 	.reject(hiddenFile)
-	.map(wholePath)
-	.map(readUtf8)
-	.map(ical2json.convert)
-	.map(cal2vcal)
-	.flatten()
-	.map(cal2tz)
-	.flatten()
-	.map(tz2event)
+	.map(loadCal)
 	.flatten()
 	.sortBy(function(event) {
 		return toDate(startTime(event));
@@ -97,13 +105,15 @@ function fixText(text) {
 	return text.replace(/\\n/g, "\n").replace(/\\,/g, ",");
 }
 
-function fixEvent(event) {
+function fixEvent(group, event) {
 	event.SUMMARY = fixText(event.SUMMARY);
 	event.DESCRIPTION = fixText(event.DESCRIPTION);
 	event.startDate = toDate(startTime(event)).toString();
 	event.jsonDate = toDate(startTime(event)).toJSON();
+	event.group = group;
+	event.groupName = groups[group].name;
+	event.groupUrl = groups[group].web;
 	return event;
 }
-events = events.map(fixEvent);
 
 fs.writeFileSync(eventJson, JSON.stringify(events, null, 4), { encoding: 'UTF8' });
