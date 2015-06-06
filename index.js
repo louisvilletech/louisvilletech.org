@@ -12,7 +12,6 @@ var events = _.chain(fs.readdirSync(icsDir))
 	.map(loadCal)
 	.flatten()
 	.sortBy(startTime)
-	.reject(isOld)
 	.value();
 
 writeJson(eventJson, events);
@@ -31,6 +30,8 @@ function loadCal(filename) {
 		.map(tz2event)
 		.flatten()
 		.map(fixEvent.bind(undefined, group))
+		.sortBy(startTime)
+		.reject(isOld)
 		.value();
 	writeJson("data/" + group + ".json", events);
 	return events;
