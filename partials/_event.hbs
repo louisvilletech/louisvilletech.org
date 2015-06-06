@@ -11,9 +11,11 @@
 		</div>
 	</div>
 	<p>{{DESCRIPTION}}</p>
+	{{#if LOCATION}}
 	<div class="location">
 		<a href="http://maps.google.com/?q={{mapQuery}}">{{LOCATION}}</a>
 	</div>
+	{{/if}}
 	<div class="start-time">
 		<time data-format="%A, %B %e, %Y" data-local="time" datetime="{{jsonDate}}">{{startDate}}</time>
 		<br />
