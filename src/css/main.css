@@ -1,14 +1,50 @@
-.event {
-	float: left;
-	width: 300px;
-	margin: 10px;
-	border: 1px solid #ccc;
-	padding: 10px;
+* {
+	font-family: sans-serif;
+}
+
+body {
 	background-color: #eee;
 }
+
+.page {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.event {
+	width: 300px;
+	margin: 10px;
+	border: 1px solid #5F9FE8;
+	padding: 10px;
+	background-color: #fff;
+	word-wrap: break-word;
+	/*display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;*/
+}
+
+.event:hover {
+	border: 1px solid #EEC900;
+}
+
+.event h2 a, .event h3 a{
+	text-decoration: none;
+}
+
+.event a {
+	color: #5F9FE8;
+}
+
+.event a:hover {
+	color:#EEC900;
+	text-decoration: underline;
+}
+
 .event .group-logo {
 	float: right;
 }
+
 .event .group-logo img {
 	width: 100px;
 }
