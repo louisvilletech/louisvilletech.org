@@ -108,12 +108,19 @@ function toDate(timeStr) {
 }
 
 function fixText(text) {
-	return text.replace(/\\n/g, "\n").replace(/\\,/g, ",");
+	if (text) {
+		return text.replace(/\\n/g, "\n").replace(/\\,/g, ",");
+	}
+	return text;
 }
 
 function fixEvent(group, event) {
 	event.SUMMARY = fixText(event.SUMMARY);
 	event.DESCRIPTION = fixText(event.DESCRIPTION);
+	event.LOCATION = fixText(event.LOCATION);
+	if (event.LOCATION) {
+		event.mapQuery = event.LOCATION.replace("(", " ").replace(")", " ");
+	}
 	event.startDate = startTime(event).toString();
 	event.jsonDate = startTime(event).toJSON();
 	event.group = group;
