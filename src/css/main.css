@@ -45,7 +45,7 @@ body {
 	margin: 0 0 .5em;
 }
 
-.event h2 a, .event h3 a{
+.event h2 a, .event h3 a {
 	text-decoration: none;
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 .event a:hover {
-	color:#eec900;
+	color: #eec900;
 	text-decoration: underline;
 }
 

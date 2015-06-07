@@ -1,0 +1,16 @@
+{{#each groups}}
+	<div class="event">
+		<div class="event-title">
+			<h2><a href="{{web}}">{{name}}</a></h2>
+			<div class="group-logo"><img src="group-icons/{{@key}}.png" alt="{{name}}" /></div>
+		</div>
+		<p>{{frequency}}</p>
+		<ul>
+			{{#if mailing-list}}<li><a href="{{mailing-list}}">Mailing List</a></li>{{/if}}
+			{{#if irc}}<li>{{irc}}</li>{{/if}}
+			{{#if twitter}}<li><a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></li>{{/if}}
+			{{#if facebook}}<li><a href="{{facebook}}">Facebook</a></li>{{/if}}
+			{{#if google-plus}}<li><a href="{{google-plus}}">Google+</a></li>{{/if}}
+		</ul>
+	</div>
+{{/each}}

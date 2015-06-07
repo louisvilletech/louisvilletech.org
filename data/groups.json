@@ -10,7 +10,7 @@
 		"name": "Game Dev Lou",
 		"freqency": "Meets every other Sunday @ 2pm",
 		"web": "http://gamedevlou.org/",
-		"mailing list": "https://groups.google.com/forum/#!forum/gamedevlou",  
+		"mailing-list": "https://groups.google.com/forum/#!forum/gamedevlou",
 		"calendar": "http://www.meetup.com/GameDevLou/events/ical/",
 		"twitter": "GameDevLouKY"
 	},
@@ -49,10 +49,10 @@
 		"frequency": "Meets the 2nd Wednesday every month @ 6:30pm",
 		"web": "http://kyoss.org/",
 		"calendar": "http://www.meetup.com/LouisvilleOpenSourceProgramming/events/ical/",
-		"mailing list": "http://kyoss.org/mailman/listinfo/kyoss-discuss",
+		"mailing-list": "http://kyoss.org/mailman/listinfo/kyoss-discuss",
 		"irc": "#kyoss on Freenode", 
-		"google+": "https://plus.google.com/+KyossOrg/posts",
-		"google+ community": "https://plus.google.com/communities/116631799593310550964"
+		"google-plus": "https://plus.google.com/+KyossOrg/posts",
+		"google-plus-community": "https://plus.google.com/communities/116631799593310550964"
 	},
 	"let-them-tweet-cake": {
 		"name": "Let Them Tweet Cake",
@@ -78,7 +78,7 @@
 		"frequency": "Meets sporadically",
 		"web": "http://www.meetup.com/Louisville-Civic-Data-Alliance",
 		"calendar": "http://www.meetup.com/Louisville-Civic-Data-Alliance/events/ical/",
-		"google+": "https://plus.google.com/u/1/105717792509345258567/about",
+		"google-plus": "https://plus.google.com/u/1/105717792509345258567/about",
 		"twitter": "CivicDataAlly"
 	},
 	"louisville-hardware-startup": {
@@ -97,7 +97,7 @@
 		"name": "LVL1 Hackerspace",
 		"frequency": "Meets every Tuesday @ 8pm",
 		"web": "http://www.lvl1.org/",
-		"mailing list": "https://groups.google.com/forum/#!forum/lvl1",
+		"mailing-list": "https://groups.google.com/forum/#!forum/lvl1",
 		"calendar": "https://www.google.com/calendar/ical/1n5qvjga6i4t6lde35vq5dg8ds%40group.calendar.google.com/public/basic.ics",
 		"facebook": "https://www.facebook.com/groups/188587574302/",
 		"twitter": "LVL1HackerSpace"
@@ -146,9 +146,9 @@
 		"name": "JSLou",
 		"frequency": "Meets the 1st and 3rd Wednesday every month @ 7pm",
 		"web": "http://jslou.org",
-		"mailing list": "http://kyoss.org/mailman/listinfo/jslou",
+		"mailing-list": "http://kyoss.org/mailman/listinfo/jslou",
 		"calendar": "http://www.meetup.com/JSLouKY/events/ical/",
-		"google+": "https://plus.google.com/u/1/116976108778413543403/posts",
+		"google-plus": "https://plus.google.com/u/1/116976108778413543403/posts",
 		"twitter": "JsLouKY"
 	},
 	"juggl": {
@@ -157,7 +157,7 @@
 		"web": "http://www.juggl.us",
 		"calendar": "https://www.google.com/calendar/ical/tbof7k6q2rr2i2c699ij9hfee8%40group.calendar.google.com/public/basic.ics",
 		"facebook": "https://www.facebook.com/JUGGLou",
-		"google+": "https://plus.google.com/+JugglUs/posts",
+		"google-plus": "https://plus.google.com/+JugglUs/posts",
 		"twitter": "JUGGLou"
 	},
 	"laravel-louisville": {
@@ -165,7 +165,7 @@
 		"frequency": "Meets the 3rd Thursday every moth @ 6:30pm",
 		"web": "https://laravel-louisville.github.io/meetup/",
 		"calendar": "http://www.meetup.com/Laravel-Louisville/events/ical/",
-		"google+": "https://plus.google.com/u/1/106953969152154021836/posts",
+		"google-plus": "https://plus.google.com/u/1/106953969152154021836/posts",
 		"twitter": "lurvul"
 	},
 	"louisville-dot-net": {
@@ -220,7 +220,7 @@
 		"name": "Louisville SQL Server Users Group",
 		"frequency": "Meets sporadically",
 		"web": "http://louisville.sqlpass.org/",
-		"google+": "https://plus.google.com/u/1/103148637022769319331/about",
+		"google-plus": "https://plus.google.com/u/1/103148637022769319331/about",
 		"facebook": "https://www.facebook.com/groups/louisvillesqlpass/"
 	},
 	"louisville-vmware-users-group": {
@@ -265,7 +265,7 @@
 		"web": "http://creativemornings.com/cities/lou",
 		"twitter": "cm_louisville"
 	},
-	"ember.js-lousville": {
+	"ember-js-louisville": {
 		"name": "Ember.js Louisville",
 		"web": "http://www.meetup.com/Ember-js-Louisville/",
 		"calendar": "https://www.meetup.com/Ember-js-Louisville/events/ical/",
