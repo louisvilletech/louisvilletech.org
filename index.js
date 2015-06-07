@@ -2,7 +2,7 @@ var fs = require("fs");
 var path = require("path");
 var ical2json = require("ical2json");
 var _ = require("lodash");
-var groups = require("./groups.json");
+var groups = require("./data/groups");
 
 var icsDir = "ics";
 var eventJson = "data/events.json";

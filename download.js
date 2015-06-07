@@ -7,7 +7,7 @@ var https = require("https");
 var path = require("path");
 var R = require("ramda");
 
-var groups = require("./groups");
+var groups = require("./data/groups");
 var IcsDir = "ics";
 var MaxCalendarAgeMinutes = 30;
 var ConcurrentDownloads = 5;
