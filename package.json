@@ -9,7 +9,7 @@
     "unfold": "unfold site.json",
     "build": "npm run download && npm run process && npm run unfold",
     "deploy": "scp -r dest/* deploy@louisville.io:/www/louisville.io/htdocs/",
-    "build-deploy": "npm run build && scp -r dest/* deploy@louisville.io:/www/louisville.io/htdocs/"
+    "build-deploy": "npm run build && npm run deploy"
   },
   "author": "Eric Lathrop <eric@ericlathrop.com> (http://ericlathrop.com/)",
   "license": "MIT",
