@@ -13,6 +13,10 @@
   },
   "author": "Eric Lathrop <eric@ericlathrop.com> (http://ericlathrop.com/)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/louisvilleio/loutechcal.git"
+  },
   "dependencies": {
     "async": "^0.9.0",
     "ical2json": "^0.1.4",
