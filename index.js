@@ -79,6 +79,16 @@ function startTime(event) {
 	}
 }
 
+function endTime(event) {
+	for (var prop in event) {
+		if (event.hasOwnProperty(prop)) {
+			if (prop.indexOf("DTEND") === 0) {
+				return toDate(event[prop]);
+			}
+		}
+	}
+}
+
 function toDate(timeStr) {
 	var parts = timeStr.split(":");
 
@@ -121,8 +131,17 @@ function fixEvent(group, event) {
 	if (event.LOCATION) {
 		event.mapQuery = event.LOCATION.replace("(", " ").replace(")", " ");
 	}
-	event.startDate = startTime(event).toString();
-	event.jsonDate = startTime(event).toJSON();
+	var start = startTime(event);
+	event.startDate = start.toString();
+	event.startDateJson = start.toJSON();
+
+	var end = endTime(event);
+	event.endDate = end.toString();
+	event.endDateJson = end.toJSON();
+	if (end < Date.now()) {
+		event.expired = true;
+	}
+
 	event.group = group;
 	event.groupName = groups[group].name;
 	event.groupUrl = groups[group].web;

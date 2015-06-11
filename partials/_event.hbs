@@ -1,4 +1,4 @@
-<div class="event">
+<div class="event {{#if expired}}expired{{/if}}">
 	<div class="event-title">
 		<div class="event-and-group">
 			<h2>
@@ -21,8 +21,8 @@
 	</div>
 	{{/if}}
 	<div class="start-time">
-		<time data-format="%A, %B %e, %Y" data-local="time" datetime="{{jsonDate}}">{{startDate}}</time>
+		<time data-format="%A, %B %e, %Y" data-local="time" datetime="{{startDateJson}}">{{startDate}}</time>
 		<br />
-		<time data-format="@ %l:%M%P" data-local="time" datetime="{{jsonDate}}">{{startDate}}</time>
+		<time data-format="@ %l:%M%P" data-local="time" datetime="{{startDateJson}}"></time>
 	</div>
 </div>

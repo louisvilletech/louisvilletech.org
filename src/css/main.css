@@ -37,6 +37,10 @@ body {
 	justify-content: space-between;
 }
 
+.event.expired {
+	opacity: 0.3;
+}
+
 .event:hover {
 	border: 1px solid #eec900;
 }
