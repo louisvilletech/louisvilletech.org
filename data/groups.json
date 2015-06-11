@@ -8,8 +8,9 @@
 	},
 	"game-dev-lou": {
 		"name": "Game Dev Lou",
-		"freqency": "Meets every other Sunday @ 2pm",
+		"frequency": "Meets every other Sunday @ 2pm",
 		"web": "http://gamedevlou.org/",
+		"freenode": "#gamedevlou",
 		"mailing-list": "https://groups.google.com/forum/#!forum/gamedevlou",
 		"calendar": "http://www.meetup.com/GameDevLou/events/ical/",
 		"twitter": "GameDevLouKY"
@@ -50,7 +51,7 @@
 		"web": "http://kyoss.org/",
 		"calendar": "http://www.meetup.com/LouisvilleOpenSourceProgramming/events/ical/",
 		"mailing-list": "http://kyoss.org/mailman/listinfo/kyoss-discuss",
-		"irc": "#kyoss on Freenode", 
+		"freenode": "#kyoss",
 		"google-plus": "https://plus.google.com/+KyossOrg/posts",
 		"google-plus-community": "https://plus.google.com/communities/116631799593310550964"
 	},
@@ -106,7 +107,7 @@
 		"name": "My Mobile Ville",
 		"frequency": "Meets online the 4th Tuesday every month @ 6:30pm",
 		"web": "http://mymobileville.com/",
-		"calendar": "http://www.meetup.com/MyMobileVille-Meetup/events/ical/", 
+		"calendar": "http://www.meetup.com/MyMobileVille-Meetup/events/ical/",
 		"facebook": "https://www.facebook.com/MyMobileVille/timeline",
 		"twitter": "mymobileville"
 	},
