@@ -1,18 +1,18 @@
 var fs = require("fs");
 var path = require("path");
 var ical2json = require("ical2json");
-var _ = require("lodash");
 var groups = require("./data/groups");
+var R = require("ramda");
 
 var icsDir = "ics";
 var eventJson = "data/events.json";
 
-var events = _.chain(fs.readdirSync(icsDir))
-	.reject(hiddenFile)
-	.map(loadCal)
-	.flatten()
-	.sortBy(startTime)
-	.value();
+var events = R.pipe(
+	R.reject(hiddenFile),
+	R.map(loadCal),
+	R.flatten,
+	R.sortBy(startTime)
+)(fs.readdirSync(icsDir));
 
 writeJson(eventJson, events);
 
@@ -23,16 +23,20 @@ function hiddenFile(file) {
 function loadCal(filename) {
 	var cal = cal2vcal(ical2json.convert(readUtf8(wholePath(filename))));
 	var group = filename.substr(0, filename.indexOf("."));
-	var events = _.chain(cal)
-		.flatten()
-		.map(cal2tz)
-		.flatten()
-		.map(tz2event)
-		.flatten()
-		.map(fixEvent.bind(undefined, group))
-		.sortBy(startTime)
-		.reject(isOld)
-		.value();
+
+	var events = [];
+	if (cal) {
+		events = R.pipe(
+			R.flatten,
+			R.map(cal2tz),
+			R.flatten,
+			R.map(tz2event),
+			R.flatten,
+			R.map(fixEvent.bind(undefined, group)),
+			R.sortBy(startTime),
+			R.reject(isOld)
+		)(cal);
+	}
 	writeJson("data/group-events/" + group + ".json", events);
 	return events;
 }
