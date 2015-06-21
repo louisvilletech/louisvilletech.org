@@ -15,14 +15,16 @@
 		</div>
 	</div>
 	<p>{{DESCRIPTION}}</p>
-	{{#if LOCATION}}
-	<div class="location">
-		<a href="http://maps.google.com/?q={{mapQuery}}">{{LOCATION}}</a>
-	</div>
-	{{/if}}
-	<div class="start-time">
-		<time data-format="%A, %B %e, %Y" data-local="time" datetime="{{startDateJson}}">{{startDate}}</time>
-		<br />
-		<time data-format="@ %l:%M%P" data-local="time" datetime="{{startDateJson}}"></time>
-	</div>
+	<div class="timeandplace">
+		{{#if LOCATION}}
+		<div class="location">
+			<a href="http://maps.google.com/?q={{mapQuery}}">{{LOCATION}}</a>
+		</div>
+		{{/if}}
+		<div class="start-time">
+			<time data-format="%A, %B %e, %Y" data-local="time" datetime="{{startDateJson}}">{{startDate}}</time>
+			<br />
+			<time data-format="@ %l:%M%P" data-local="time" datetime="{{startDateJson}}"></time>
+		</div>
+	</div> <!-- end timeandplace -->
 </div>
