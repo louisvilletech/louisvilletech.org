@@ -1,0 +1,28 @@
+{
+	"c-space": {
+		"name": "(c)space",
+		"web": "http://www.cspace-ky.org",
+		"facebook": "https://www.facebook.com/FoundationForAHealthyKentucky",
+		"twitter": "cspaceky"
+	},
+	"ihub": {
+		"name": "iHub",
+		"web": "http://nucleusky.com/ihub",
+		"twitter": "iHubLou"
+	},
+	"the-park": {
+		"name": "The Park",
+		"web": "http://www.workatthepark.com/",
+		"twitter": "WorkAtThePark"
+	},
+	"sypher-technology": {
+		"name": "Sypher Technology",
+		"web": "https://www.sypher.com/#location",
+		"twitter": "Sypher"
+	},
+	"velocity-indiana": {
+		"name": "Velocity Indiana",
+		"web": "http://www.velocityindiana.org/",
+		"twitter": "VelocityIN"
+	}
+}
