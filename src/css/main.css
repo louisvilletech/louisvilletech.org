@@ -1,22 +1,12 @@
+/*Default Website Font*/
+* {
+	font-family: sans-serif;
+}
+
 /*Page backround*/
-
-
-
-$accent: #4180AB;
-$grey: #82837E;
-$rounded: 15px;
-
 body {
-	background: darken( $grey, 10%);
-	color: white;
-	font-family: helvetica, verdana, sans-serif;
+	background-color: #eee;
 }
-
-a{
-	color: white;
-}
-
-
 
 /*Make the .page container a flexbox container*/
 .page {
@@ -29,18 +19,17 @@ a{
 	display: flex;
 	flex-direction: row;
 }
-
 .nav-item {
 	flex: 1 1;
 }
 
 /*Styling for each event item*/
 .event {
-	color: black;
 	width: 300px;
 	margin: 10px;
-	border: 1px solid lighten($grey, 1%);
+	border: 1px solid #5f9fe8;
 	padding: 10px 15px;
+	border-radius: 6px;
 	background-color: #fff;
 	word-wrap: break-word;
 	display: flex;
@@ -52,6 +41,10 @@ a{
 	opacity: 0.3;
 }
 
+.event:hover {
+	border: 1px solid #eec900;
+}
+
 .event h2 , .event h3 {
 	margin: 0 0 .5em;
 }
@@ -61,11 +54,12 @@ a{
 }
 
 .event a {
-	color: $accent;
+	color: #5f9fe8;
 }
 
 .event a:hover {
-	color: lighten($accent, 10%);
+	color: #eec900;
+	text-decoration: underline;
 }
 
 .event .event-title {
@@ -73,6 +67,8 @@ a{
 	flex-flow: row nowrap;
 	justify-content: space-between;
 }
+
+
 
 .event .group-logo {
 	width: 75px;
@@ -87,15 +83,16 @@ a{
 	margin: 1em 0;
 }
 
-
-.start-time, .location{
-	font-size: 12px;
-	text-align: left;
-	flex: 1;
-	padding: 0 5px;
-}
-
-.timeandplace{
-	display: flex;
-	flex-direction: row;
+.event .start-time {
+	color: #696969;
+	font-style: italic;
+	font-weight: bold;
+	margin: 1em auto 1.3em;
+	padding: 1em;
+	text-align: center;
+	font-size: 1.1em;
+	border: 1px solid #558fd0;
+	border-top: 6px solid #558fd0;
+	background-color: #eff5fc;
+	border-radius: 0 0 6px 6px;
 }
