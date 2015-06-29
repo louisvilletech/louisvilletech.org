@@ -1,0 +1,22 @@
+{
+	"code-palousa": {
+		"name": "Code PaLOUsa",
+		"web": "http://codepalousa.com/",
+		"facebook": "https://www.facebook.com/CodePaLOUsa",
+		"twitter": "CodePaLOUsa"
+	},
+	"derbycon": {
+		"name": "DerbyCon",
+		"web": "http://www.derbycon.com/",
+		"twitter": "DerbyCon"
+	},
+	"sqlsaturday": {
+		"name": "SQLSaturday",
+		"web": "http://www.sqlsaturday.com/403/eventhome.aspx"
+	},
+	"techfest-lou": {
+		"name": "TechFest Lou",
+		"web": "http://www.techfestlou.com/",
+		"twitter": "TechFestLou"
+	}
+}

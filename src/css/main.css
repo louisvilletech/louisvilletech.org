@@ -53,6 +53,7 @@ body {
 	-moz-flex-direction: row;
 	flex-direction: row;
 	-ms-flex-direction: row;
+	margin-right: 149px;
 }
 .nav-item {
 	-webkit-box-flex: 1;
