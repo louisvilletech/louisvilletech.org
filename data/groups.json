@@ -271,5 +271,11 @@
 		"web": "http://www.meetup.com/Ember-js-Louisville/",
 		"calendar": "https://www.meetup.com/Ember-js-Louisville/events/ical/",
 		"twitter": "emberjslou"
+	},
+	"louisville-summer-of-nativescript-meetup": {
+		"name": "Louisville Summer of NativeScript Meetup",
+		"frequency": "Meets monthly",
+		"web": "http://www.meetup.com/Louisville-Summer-of-NativeScript-Meetup/",
+		"calendar": "http://www.meetup.com/Louisville-Summer-of-NativeScript-Meetup/events/ical/"
 	}
 }
