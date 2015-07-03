@@ -10,6 +10,12 @@
 		"web": "http://www.derbycon.com/",
 		"twitter": "DerbyCon"
 	},
+	"louisville-mini-maker-faire": {
+		"name": "Louisville Mini Maker Faire",
+		"web": "http://makerfairelou.org/",
+		"facebook": "https://www.facebook.com/MakerFaireLou",
+		"twitter": "MakerFaireLou"
+	},
 	"sqlsaturday": {
 		"name": "SQLSaturday",
 		"web": "http://www.sqlsaturday.com/403/eventhome.aspx"
