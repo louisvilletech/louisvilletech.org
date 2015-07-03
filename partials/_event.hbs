@@ -2,9 +2,9 @@
 	<div class="event-title">
 		<div class="event-and-group">
 			<h2>
-				{{#if URL}}<a href="{{URL}}">{{/if}}
-					{{SUMMARY}}
-				{{#if URL}}</a>{{/if}}
+				{{#if url}}<a href="{{url}}">{{/if}}
+					{{summary}}
+				{{#if url}}</a>{{/if}}
 			</h2>
 			<h3><a href="{{groupUrl}}">{{groupName}}</a></h3>
 		</div>
@@ -14,10 +14,10 @@
 			</a>
 		</div>
 	</div>
-	<p>{{DESCRIPTION}}</p>
-	{{#if LOCATION}}
+	<p>{{description}}</p>
+	{{#if location}}
 	<div class="location">
-		<a href="http://maps.google.com/?q={{mapQuery}}">{{LOCATION}}</a>
+		<a href="http://maps.google.com/?q={{mapQuery}}">{{location}}</a>
 	</div>
 	{{/if}}
 	<div class="start-time">
