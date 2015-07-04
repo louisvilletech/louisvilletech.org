@@ -9,9 +9,7 @@ var R = require("ramda");
 var icsDir = "ics";
 var eventJson = "data/events.json";
 
-function hiddenFile(file) {
-	return file[0] === ".";
-}
+var isHiddenFile = R.pipe(R.lensIndex(0), R.eq("."));
 
 function expandRecurrences(event) {
 	var future = new Date(Date.now());
@@ -82,7 +80,7 @@ function writeJson(filename, data) {
 }
 
 var events = R.pipe(
-	R.reject(hiddenFile),
+	R.reject(isHiddenFile),
 	R.chain(loadCal),
 	R.sortBy(R.prop("start")),
 	R.reject(R.compose(isOld, R.prop("end")))
