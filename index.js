@@ -55,9 +55,7 @@ function enhanceEvent(group, event) {
 	return event;
 }
 
-function wholePath(file) {
-	return path.join(icsDir, file);
-}
+var icsPath = R.curryN(2, path.join)(icsDir);
 
 function loadCal(filename) {
 	var group = filename.substr(0, filename.indexOf("."));
@@ -66,7 +64,7 @@ function loadCal(filename) {
 		R.filter(R.propEq("type", "VEVENT")),
 		R.chain(expandRecurrences),
 		R.map(enhanceEvent.bind(this, group))
-	)(ical.parseFile(wholePath(filename)));
+	)(ical.parseFile(icsPath(filename)));
 }
 
 function isOld(date) {
