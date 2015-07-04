@@ -4,6 +4,7 @@
   "description": "Louisville Tech Calendar",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint download.js index.js",
     "download": "node download.js",
     "process": "node index.js",
     "unfold": "unfold site.json",
@@ -20,5 +21,8 @@
     "ical": "ericlathrop/ical.js#fix-rrule-dtstart",
     "ramda": "^0.15.1",
     "unfold": "^0.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^0.24.0"
   }
 }
