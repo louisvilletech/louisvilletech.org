@@ -12,8 +12,8 @@ var IcsDir = "ics";
 var MaxCalendarAgeMinutes = 30;
 var ConcurrentDownloads = 5;
 
-var setIdFromPair = R.apply(R.assoc('id'))
-var hasCalendar = R.has('calendar');
+var setIdFromPair = R.apply(R.assoc("id"));
+var hasCalendar = R.has("calendar");
 
 function getIcsPath(groupId) {
 	return path.join(IcsDir, groupId + ".ics");
@@ -40,6 +40,37 @@ function statForGroup(group, callback) {
 	fs.stat(group.icsPath, swallowError(callback));
 }
 
+function msToMin(ms) {
+	return Math.floor(ms / 1000 / 60);
+}
+
+function httpGet(url, callback) {
+	var proto = url.indexOf("https://") === 0 ? https : http;
+	proto.get(url, function(res) {
+		callback(undefined, res);
+	}).on("error", function(err) {
+		callback(err);
+	});
+}
+
+function downloadCalendar(url, filename, callback) {
+	console.log("  GET", url, "=>", filename);
+	httpGet(url, function(err, res) {
+		if (err) {
+			callback(err);
+			return;
+		}
+		if (res.statusCode === 200) {
+			console.log("    writing", filename);
+			var file = fs.createWriteStream(filename);
+			res.pipe(file);
+			callback();
+		} else {
+			callback("Got " + res.statusCode + " when reading " + url);
+		}
+	});
+}
+
 async.map(groups, statForGroup, function(err, stats) {
 	if (err) {
 		console.error(err);
@@ -62,42 +93,11 @@ async.map(groups, statForGroup, function(err, stats) {
 	console.log("Downloading", downloads.length, "files...");
 	async.eachLimit(downloads, ConcurrentDownloads, function(item, callback) {
 		downloadCalendar(item[0], item[1], callback);
-	}, function(err) {
-		if (err) {
-			console.error(err);
+	}, function(downloadErr) {
+		if (downloadErr) {
+			console.error(downloadErr);
 			return;
 		}
 		console.log("Done!");
 	});
 });
-
-function msToMin(ms) {
-	return Math.floor(ms / 1000 / 60);
-}
-
-function httpGet(url, callback) {
-	var proto = url.indexOf("https://") === 0 ? https : http;
-	proto.get(url, function(res) {
-		callback(undefined, res);
-	}).on("error", function(err) {
-		callback(err);
-	});
-}
-
-function downloadCalendar(url, path, callback) {
-	console.log("  GET", url, "=>", path);
-	httpGet(url, function(err, res) {
-		if (err) {
-			callback(err);
-			return;
-		}
-		if (res.statusCode === 200) {
-			console.log("    writing", path);
-			var file = fs.createWriteStream(path);
-			res.pipe(file);
-			callback();
-		} else {
-			callback("Got " + res.statusCode + " when reading " + url);
-		}
-	});
-}

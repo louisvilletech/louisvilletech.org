@@ -1,3 +1,5 @@
+"use strict";
+
 var fs = require("fs");
 var path = require("path");
 var ical = require("ical");
@@ -7,27 +9,8 @@ var R = require("ramda");
 var icsDir = "ics";
 var eventJson = "data/events.json";
 
-var events = R.pipe(
-	R.reject(hiddenFile),
-	R.chain(loadCal),
-	R.sortBy(R.prop("start")),
-	R.reject(R.compose(isOld, R.prop("end")))
-)(fs.readdirSync(icsDir));
-
-writeJson(eventJson, events);
-
 function hiddenFile(file) {
 	return file[0] === ".";
-}
-
-function loadCal(filename) {
-	var group = filename.substr(0, filename.indexOf("."));
-	return R.pipe(
-		R.values,
-		R.filter(R.propEq("type", "VEVENT")),
-		R.chain(expandRecurrences),
-		R.map(enhanceEvent.bind(this, group))
-	)(ical.parseFile(wholePath(filename)));
 }
 
 function expandRecurrences(event) {
@@ -37,7 +20,7 @@ function expandRecurrences(event) {
 	if (event.rrule === undefined) {
 		return [event];
 	}
-	return event.rrule.all(function(date, i) {
+	return event.rrule.all(function(date) {
 		return date < future;
 	}).map(function(date) {
 		var copy = R.clone(event);
@@ -47,20 +30,6 @@ function expandRecurrences(event) {
 		copy.end.setMilliseconds(copy.end.getMilliseconds() + duration);
 		return copy;
 	});
-}
-
-function writeJson(path, data) {
-	fs.writeFileSync(path, JSON.stringify(data, null, 4), { encoding: 'UTF8' });
-}
-
-function wholePath(file) {
-	return path.join(icsDir, file);
-}
-
-function isOld(date) {
-	var now = new Date(Date.now());
-	now.setDate(now.getDate() - 1);
-	return date < now;
 }
 
 function enhanceEvent(group, event) {
@@ -87,3 +56,36 @@ function enhanceEvent(group, event) {
 
 	return event;
 }
+
+function wholePath(file) {
+	return path.join(icsDir, file);
+}
+
+function loadCal(filename) {
+	var group = filename.substr(0, filename.indexOf("."));
+	return R.pipe(
+		R.values,
+		R.filter(R.propEq("type", "VEVENT")),
+		R.chain(expandRecurrences),
+		R.map(enhanceEvent.bind(this, group))
+	)(ical.parseFile(wholePath(filename)));
+}
+
+function isOld(date) {
+	var now = new Date(Date.now());
+	now.setDate(now.getDate() - 1);
+	return date < now;
+}
+
+function writeJson(filename, data) {
+	fs.writeFileSync(filename, JSON.stringify(data, null, 4), { encoding: "UTF8" });
+}
+
+var events = R.pipe(
+	R.reject(hiddenFile),
+	R.chain(loadCal),
+	R.sortBy(R.prop("start")),
+	R.reject(R.compose(isOld, R.prop("end")))
+)(fs.readdirSync(icsDir));
+
+writeJson(eventJson, events);
