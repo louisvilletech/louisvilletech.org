@@ -184,13 +184,6 @@
 		"facebook": "https://www.facebook.com/groups/166763420060216/",
 		"twitter": "LouCocoaheads"
 	},
-	"louisville-go-meetup": {
-		"name": "Louisville Go Meetup",
-		"frequency": "Meets sprodically",
-		"web": "http://www.meetup.com/Louisville-Golang-Meetup/",
-		"calendar": "http://www.meetup.com/Louisville-Golang-Meetup/events/ical/",
-		"twitter": "LVL_Go"
-	},
 	"loumug": {
 		"name": "Louisville Microsoft Users Group",
 		"frequency": "Meets the last Friday every month @ 11:30 am",
