@@ -1,18 +1,25 @@
-<h1>Louisville Technology Conferences</h1>
-<div class="page">
-	{{#each conferences}}
-		<div class="event">
-			<div class="event-title">
-				<h2><a href="{{web}}">{{name}}</a></h2>
-				<div class="group-logo"><a href="{{web}}"><img src="group-icons/{{@key}}.png" alt="{{name}}" /></a></div>
-			</div>
-			<ul>
-				{{#if mailing-list}}<li><a href="{{mailing-list}}">Mailing List</a></li>{{/if}}
-				{{#if freenode}}<li><a href="https://webchat.freenode.net/?channels={{freenode}}">{{freenode}} on Freenode</a></li>{{/if}}
-				{{#if twitter}}<li><a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></li>{{/if}}
-				{{#if facebook}}<li><a href="{{facebook}}">Facebook</a></li>{{/if}}
-				{{#if google-plus}}<li><a href="{{google-plus}}">Google+</a></li>{{/if}}
-			</ul>
+<main role="main" class="l-content">
+	<div class="l-container">
+
+		<h1>Louisville Technology Conferences</h1>
+
+		<div class="l-row">
+			{{#each conferences}}
+				<div class="event">
+					<div class="event-title">
+						<h2><a href="{{web}}">{{name}}</a></h2>
+						<div class="group-logo"><a href="{{web}}"><img src="group-icons/{{@key}}.png" alt="{{name}}" /></a></div>
+					</div>
+					<ul>
+						{{#if mailing-list}}<li><a href="{{mailing-list}}">Mailing List</a></li>{{/if}}
+						{{#if freenode}}<li><a href="https://webchat.freenode.net/?channels={{freenode}}">{{freenode}} on Freenode</a></li>{{/if}}
+						{{#if twitter}}<li><a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></li>{{/if}}
+						{{#if facebook}}<li><a href="{{facebook}}">Facebook</a></li>{{/if}}
+						{{#if google-plus}}<li><a href="{{google-plus}}">Google+</a></li>{{/if}}
+					</ul>
+				</div>
+			{{/each}}
 		</div>
-	{{/each}}
-</div>
+
+	</div>
+</main>

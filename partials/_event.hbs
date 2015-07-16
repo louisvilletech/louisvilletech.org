@@ -1,28 +1,36 @@
 <div class="event {{#if expired}}expired{{/if}}">
-	<div class="event-title">
-		<div class="event-and-group">
-			<h2>
-				{{#if url}}<a href="{{url}}">{{/if}}
-					{{summary}}
-				{{#if url}}</a>{{/if}}
-			</h2>
-			<h3><a href="{{groupUrl}}">{{groupName}}</a></h3>
-		</div>
-		<div class="group-logo">
-			<a href="{{groupUrl}}">
-				<img src="group-icons/{{group}}.png" alt="{{groupName}}" />
-			</a>
-		</div>
+
+	<div class="event-time">
+		<i class="fa fa-calendar"></i> 
+		<time data-format="%a, %B %e, %Y" data-local="time" datetime="{{startDateJson}}">{{startDate}}</time> 
+		<time data-format="@ %l:%M%P" data-local="time" datetime="{{startDateJson}}"></time>
 	</div>
-	<p>{{description}}</p>
+
+	<div class="event-table">
+		<div class="event-cell event-cell_image">
+		  <a href="{{groupUrl}}">
+		    <img src="group-icons/{{group}}.png" alt="{{groupName}}" />
+		  </a>
+	  </div>
+
+	  <div class="event-cell">
+	    <h2 class="event-title">
+					{{#if url}}<a href="{{url}}">{{/if}}
+						{{summary}}
+					{{#if url}}</a>{{/if}}
+				</h2>
+	  </div>
+  </div>
+
+	<h3 class="event-group-title">
+		<a href="{{groupUrl}}">{{groupName}}</a>
+	</h3>
+
 	{{#if location}}
-	<div class="location">
+	<div class="event-location">
 		<a href="http://maps.google.com/?q={{mapQuery}}">{{location}}</a>
 	</div>
 	{{/if}}
-	<div class="start-time">
-		<time data-format="%A, %B %e, %Y" data-local="time" datetime="{{startDateJson}}">{{startDate}}</time>
-		<br />
-		<time data-format="@ %l:%M%P" data-local="time" datetime="{{startDateJson}}"></time>
-	</div>
+
+	<p class="event-description">{{description}}</p>
 </div>

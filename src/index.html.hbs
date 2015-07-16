@@ -1,6 +1,26 @@
-<h1>Louisville Technology Event Calendar</h1>
-<div class="page">
-	{{#each events}}
-		{{> event}}
-	{{/each}}
-</div>
+<header rol="banner" class="hero">
+	<div class="l-container">
+
+		<h2 class="hero-title">Welcome to Louisville.io!</h2>
+		<p class="hero-callout">A consolidated directory and calendar of technology user groups and meetups in Louisville, Kentucky. Phasellus vel felis hendrerit, hendrerit nunc non, ultricies mi. Donec rhoncus ut erat sit amet pellentesque.</p>
+
+		<p class="hero-p">Request an invitation on our Slack team to join the conversation:</p>
+		<script async defer src="http://slackin.louisville.io/slackin.js?large"></script>
+
+	</div>
+</header>
+
+<main role="main" class="l-content">
+	<div class="l-container">
+
+		<h1>Louisville Technology Event Calendar</h1>
+
+		<div class="l-row">
+			{{#each events}}
+				{{> event}}
+			{{/each}}
+		</div>
+
+		</div>
+</main>
+
