@@ -4,3 +4,4 @@ ics
 dest
 data/events.json
 data/group-events/
+.DS_Store

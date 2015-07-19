@@ -8,6 +8,7 @@
 
 		<link rel="stylesheet" href="css/main.css">
 		<script type="text/javascript" src="js/local_time.js"></script>
+		<script type="text/javascript" src="js/louisvilleio.js"></script>
 		<script type="text/javascript">
 			function clearTimes(){
 				var items = document.getElementsByTagName("time");
@@ -19,12 +20,15 @@
 			}
 			var intervalId = setInterval(clearTimes, 6000);
 		</script>
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="js/louisvilleio.js"></script>
+		<script type="text/javascript" src="js/modernizr.custom.70514.js"></script>
 	</head>
 	<body>
 
 		{{!-- <a href="https://github.com/louisvilleio/louisville.io"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a> --}}
 
-		<div class="nav-container">
+		<div class="nav-container" data-object="menu-object">
 			<div class="nav-table nav-table_container">
 
 				<div class="nav-cell">
@@ -47,7 +51,7 @@
 				<div class="nav-cell nav-cell_utility">
 					<div class="utility-table">
 						<div class="utility-cell utility-cell_toggle">
-							<a class="utility-link" href="#toggle-menu" title="Toggle Menu"><i class="fa fa-bars"></i></a>
+							<a class="utility-link" href="#toggle-menu" title="Toggle Menu" data-behavior="toggle-menu"><i class="fa fa-bars"></i></a>
 						</div>
 						<div class="utility-cell">
 							<a class="utility-link" href="https://twitter.com/LouisvilleIO" title="Follow @LouisvilleIO on Twitter"><i class="fa fa-twitter"></i></a>
@@ -70,7 +74,17 @@
 
 		<footer class="l-footer" role="contentinfo">
 			<div class="l-container">
-				<p>Louisville.io</p>
+				<ul class="footer-nav">
+					<li class="footer-nav-item">
+						<a class="footer-nav-link" href="index.html">Louisville.io Home</a>
+					</li>
+					<li class="footer-nav-item">
+						<a class="footer-nav-link" href="code-of-conduct.html">Code of Conduct</a>
+					</li>
+					<li class="footer-nav-item">
+						<a class="footer-nav-link" href="how-to-submit-changes.html">How to Submit Changes</a>
+					</li>
+				</ul>
 			</div>
 		</footer>
 
@@ -83,5 +97,6 @@
 			ga('create', 'UA-63777392-1', 'auto');
 			ga('send', 'pageview');
 		</script>
+
 	</body>
 </html>
