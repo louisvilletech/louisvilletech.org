@@ -11,7 +11,7 @@
 					<div class="event-table">
 						<div class="event-cell event-cell_image">
 						  <a href="{{web}}">
-						    <img src="group-icons/{{@key}}.png" alt="{{name}}" />
+						    <img class="event-image" src="group-icons/{{@key}}.png" alt="{{name}}" />
 						  </a>
 					  </div>
 
@@ -60,3 +60,8 @@
 	</div>
 </main>
 
+<script type="text/javascript">
+window.onload = function () {
+	setMenuState(3);
+}
+</script>

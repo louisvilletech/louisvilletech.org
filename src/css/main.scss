@@ -149,7 +149,7 @@ h2 {
 }
 
 .l-content {
-	padding:$xlarge-padding $large-padding;
+	padding:$xlarge-padding $llarge-padding;
 }
 
 .l-footer {
@@ -293,7 +293,7 @@ h2 {
 .hero {
 	color:$white;
 	background:$dark-gray;
-	padding:$xlarge-padding $large-padding;
+	padding:$xlarge-padding $llarge-padding;
 	border-bottom: 1px solid $light-gray;
 }
 
@@ -360,7 +360,7 @@ h2 {
 		opacity: 0.3;
 		border-color:$red;
 		display: none;
-		@include media($large-screen) {
+		@include media($medium-screen) {
 			display: block;
 		}
 		&:hover {
@@ -411,6 +411,12 @@ h2 {
 .event-cell_image {
 	width:50px;
 	max-width: 50px;
+}
+
+.event-image {
+	.ie9 & {
+		max-width:40px;
+	}
 }
 
 .event-title {
