@@ -260,6 +260,11 @@
 		"web": "http://creativemornings.com/cities/lou",
 		"twitter": "cm_louisville"
 	},
+	"elixir-louisville": {
+		"name": "Elixir Louisville",
+		"web": "http://www.meetup.com/Elixir-Louisville/",
+		"calendar": "http://www.meetup.com/Elixir-Louisville/events/ical/"
+	},
 	"ember-js-louisville": {
 		"name": "Ember.js Louisville",
 		"web": "http://www.meetup.com/Ember-js-Louisville/",
