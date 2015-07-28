@@ -263,7 +263,8 @@
 	"elixir-louisville": {
 		"name": "Elixir Louisville",
 		"web": "http://www.meetup.com/Elixir-Louisville/",
-		"calendar": "http://www.meetup.com/Elixir-Louisville/events/ical/"
+		"calendar": "http://www.meetup.com/Elixir-Louisville/events/ical/",
+		"twitter": "elixir_lou"
 	},
 	"ember-js-louisville": {
 		"name": "Ember.js Louisville",
