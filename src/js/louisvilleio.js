@@ -1,3 +1,5 @@
+
+//Local Time Script
 (function() {
   var CalendarDate, RelativeTime, browserIsCompatible, domLoaded, iso8601, months, pad, parse, process, relativeDate, relativeTimeAgo, relativeTimeOrDate, relativeWeekday, run, strftime, update, weekdays;
 
@@ -344,3 +346,17 @@
   };
 
 }).call(this);
+
+
+//Menu Toggle Script
+
+document.querySelector('[data-behavior="toggle-menu"]').addEventListener('click', function(e) {
+	e.preventDefault();
+  document.querySelector('[data-object="menu-object"]').classList.toggle('is-open');
+});
+
+
+function setMenuState(target) {
+	document.querySelector('[data-object="nav-id-'+target+'"]').classList.add('is-active');
+}
+

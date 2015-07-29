@@ -1,18 +1,67 @@
-<h1>Louisville Coworking Spaces</h1>
-<div class="page">
-	{{#each coworking}}
-		<div class="event">
-			<div class="event-title">
-				<h2><a href="{{web}}">{{name}}</a></h2>
-				<div class="group-logo"><a href="{{web}}"><img src="group-icons/{{@key}}.png" alt="{{name}}" /></a></div>
-			</div>
-			<ul>
-				{{#if mailing-list}}<li><a href="{{mailing-list}}">Mailing List</a></li>{{/if}}
-				{{#if freenode}}<li><a href="https://webchat.freenode.net/?channels={{freenode}}">{{freenode}} on Freenode</a></li>{{/if}}
-				{{#if twitter}}<li><a href="https://twitter.com/{{twitter}}">@{{twitter}}</a></li>{{/if}}
-				{{#if facebook}}<li><a href="{{facebook}}">Facebook</a></li>{{/if}}
-				{{#if google-plus}}<li><a href="{{google-plus}}">Google+</a></li>{{/if}}
-			</ul>
+<main role="main" class="l-content">
+	<div class="l-container">
+
+		<h1>Louisville Coworking Spaces</h1>
+
+		<div class="l-row">
+				
+			{{#each coworking}}
+				<div class="event">
+
+					<div class="event-table">
+						<div class="event-cell event-cell_image">
+						  <a href="{{web}}">
+						    <img class="event-image" src="group-icons/{{@key}}.png" alt="{{name}}" />
+						  </a>
+					  </div>
+
+					  <div class="event-cell">
+					    <h2 class="event-title">
+									<a href="{{web}}">{{name}}</a>
+								</h2>
+					  </div>
+				  </div>
+
+					{{#if mailing-list}}
+						<h3 class="io-icon io-mail">
+							<a href="{{mailing-list}}">Mailing List</a>
+						</h3>
+					{{/if}}
+
+					{{#if freenode}}
+						<h3 class="io-icon io-freenode">
+							<a href="https://webchat.freenode.net/?channels={{freenode}}">{{freenode}} on Freenode</a>
+						</h3>
+					{{/if}}
+
+					{{#if twitter}}
+						<h3 class="io-icon io-twitter">
+							<a href="https://twitter.com/{{twitter}}">@{{twitter}}</a>
+						</h3>
+					{{/if}}
+
+					{{#if facebook}}
+						<h3 class="io-icon io-facebook">
+							<a href="{{facebook}}">Facebook</a>
+						</h3>
+					{{/if}}
+
+					{{#if google-plus}}
+						<h3 class="io-icon io-google-plus">
+							<a href="{{google-plus}}">Google+</a>
+						</h3>
+					{{/if}}
+
+				</div>
+			{{/each}}
+
 		</div>
-	{{/each}}
-</div>
+
+	</div>
+</main>
+
+<script type="text/javascript">
+window.onload = function () {
+	setMenuState(4);
+}
+</script>
