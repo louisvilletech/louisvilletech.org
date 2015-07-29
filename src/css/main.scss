@@ -331,23 +331,23 @@ h2 {
 .event {
 	margin-bottom:$large-padding;
 	background:$white;
-	border:1px solid $blue;
-	border-left-width:6px;
+	// border:1px solid $blue;
+	// border-left-width:6px;
 	padding-top:$large-padding;
 	box-shadow:0 2px 4px $medium-gray;
 	@include media($medium-screen) {
 		margin-bottom:$xlarge-padding;
 	}
 	&:hover {
-		border-color: $green;
+		// border-color: $green;
 		box-shadow:0 1px 8px $medium-gray;
 		.fa {
-			color:$green;
+			color:$orange;
 		}
 		.io-icon,
 		.event-location {
 			&:before {
-				color: $green;
+				color: $orange;
 			}
 		}
 	}
@@ -364,14 +364,14 @@ h2 {
 	}
 	&.expired {
 		opacity: 0.3;
-		border-color:$red;
+		// border-color:$red;
 		display: none;
-		box-shadow: none;
+		box-shadow:0 2px 4px $medium-gray;
 		@include media($medium-screen) {
 			display: block;
 		}
 		&:hover {
-			border-color:$red;
+			// border-color:$red;
 			.fa {
 				color:$medium-gray;
 			}
