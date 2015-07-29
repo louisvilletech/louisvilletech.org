@@ -88,6 +88,7 @@ h2 {
 	@include display(flex);
 	@include flex-flow(row wrap);
 	@include justify-content(flex-start);
+	-ms-flex-wrap: wrap;//Bourbon should take of this but IE 10 wouldn't Flex without it.
 	@include media($medium-screen) {
 		margin-right:-2%;
 	}
