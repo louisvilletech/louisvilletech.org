@@ -1,8 +1,15 @@
 
 @import "imports";
 
+html {
+	height:100%;
+}
+
 body {
 	background:$lighter-gray;
+	position: relative;
+	padding-bottom:200px;
+	min-height:100%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -74,6 +81,16 @@ h2 {
 
 .l-row {
 	@include outer-container;
+}
+
+.l-flex-row {
+	@include align-items(stretch);
+	@include display(flex);
+	@include flex-flow(row wrap);
+	@include justify-content(flex-start);
+	@include media($medium-screen) {
+		margin-right:-2%;
+	}
 }
 
 .col-1-md {
@@ -156,8 +173,12 @@ h2 {
 	color:$white;
 	background:$light-gray;
 	height:200px;
-	padding:40px $base-padding;
+	padding:40px $llarge-padding;
 	border-top:1px solid $medium-gray;
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
 }
 
 .nav-container {
@@ -333,10 +354,13 @@ h2 {
 	background:$white;
 	// border:1px solid $blue;
 	// border-left-width:6px;
-	padding-top:$large-padding;
+	padding:$large-padding;
 	box-shadow:0 2px 4px $medium-gray;
 	@include media($medium-screen) {
-		margin-bottom:$xlarge-padding;
+		margin-bottom:$llarge-padding;
+	}
+	@include media($large-screen) {
+		margin-bottom:20px;
 	}
 	&:hover {
 		// border-color: $green;
@@ -353,21 +377,21 @@ h2 {
 	}
 	&.event-calendar {
 		padding-top: 0;
-		@include media($medium-screen) {
-			overflow:hidden;
-			min-height:250px;
-		}
-		@include media($large-screen) {
-			overflow:hidden;
-			min-height:250px;
-		}
+		// @include media($medium-screen) {
+		// 	overflow:hidden;
+		// 	min-height:250px;
+		// }
+		// @include media($large-screen) {
+		// 	overflow:hidden;
+		// 	min-height:250px;
+		// }
 	}
 	&.expired {
 		opacity: 0.3;
 		// border-color:$red;
 		display: none;
 		box-shadow:0 2px 4px $medium-gray;
-		@include media($medium-screen) {
+		@include media($large-screen) {
 			display: block;
 		}
 		&:hover {
@@ -383,24 +407,34 @@ h2 {
 			}
 		}
 	}
+	// @include media($medium-screen-up) {
+	// 	@include span-columns(2);
+	// 	@include omega(2n);
+	// 	min-height:225px;
+	// }
+	// @include media($large-screen-up) {
+	// 	@include span-columns(2);
+	// 	@include omega(4n);
+	// 	min-height:225px;
+	// }
+	@include flex(0 0 100%);
 	@include media($medium-screen-up) {
-		@include span-columns(2);
-		@include omega(2n);
-		min-height:225px;
+		@include flex(0 0 48%);
+		margin-right:2%;
+		// margin-left: -10px;
 	}
 	@include media($large-screen-up) {
-		@include span-columns(2);
-		@include omega(4n);
-		min-height:225px;
+		@include flex(0 0 23%);
+		margin-right:2%;
 	}
 }
 
 .event-time {
 	font-size: 0.75em;
 	line-height:1em;
-  font-weight: normal;
-  color:$medium-gray;
-  padding:$large-padding;
+	font-weight: normal;
+	color:$medium-gray;
+	padding:$large-padding;
 }
 
 .event-table {
@@ -483,20 +517,20 @@ h2 {
 .event-description {
 	padding:$large-padding;
 	font-size: 0.75em;
-  line-height: 1.2em;
-  margin-bottom: 0;
-  border-top:1px solid $light-gray;
-  color:$medium-gray;
-  word-wrap: break-word;
-  @include media($medium-screen) {
-  	overflow-y: scroll;
-	  max-height:142px;
-  }
+	line-height: 1.2em;
+	margin-bottom: 0;
+	border-top:1px solid $light-gray;
+	color:$medium-gray;
+	word-wrap: break-word;
+	// @include media($medium-screen) {
+	// 	overflow-y: scroll;
+	// 	max-height:142px;
+	// }
 }
 
 .event-location {
-	padding:0 $large-padding 0 23px;
-	font-size: 0.75em;
+  padding:0 $large-padding 0 23px;
+  font-size: 0.75em;
   line-height: 1em;
   margin-bottom: $large-padding;
   position: relative;
