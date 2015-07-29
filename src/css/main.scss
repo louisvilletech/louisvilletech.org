@@ -334,11 +334,13 @@ h2 {
 	border:1px solid $blue;
 	border-left-width:6px;
 	padding-top:$large-padding;
+	box-shadow:0 2px 4px $medium-gray;
 	@include media($medium-screen) {
 		margin-bottom:$xlarge-padding;
 	}
 	&:hover {
 		border-color: $green;
+		box-shadow:0 1px 8px $medium-gray;
 		.fa {
 			color:$green;
 		}
@@ -364,6 +366,7 @@ h2 {
 		opacity: 0.3;
 		border-color:$red;
 		display: none;
+		box-shadow: none;
 		@include media($medium-screen) {
 			display: block;
 		}
