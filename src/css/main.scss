@@ -87,11 +87,11 @@ h2 {
 	@include align-items(stretch);
 	@include display(flex);
 	@include flex-flow(row wrap);
-	@include justify-content(flex-start);
+	@include justify-content(space-between);
 	-ms-flex-wrap: wrap;//Bourbon should take of this but IE 10 wouldn't Flex without it.
-	@include media($medium-screen) {
-		margin-right:-2%;
-	}
+	// @include media($medium-screen) {
+	// 	margin-right:-2%;
+	// }
 }
 
 .col-1-md {
@@ -420,13 +420,13 @@ h2 {
 	// }
 	@include flex(0 0 100%);
 	@include media($medium-screen-up) {
-		@include flex(0 0 48%);
-		margin-right:2%;
+		@include flex(0 0 49%);
+		// margin-right:2%;
 		// margin-left: -10px;
 	}
 	@include media($large-screen-up) {
-		@include flex(0 0 23%);
-		margin-right:2%;
+		@include flex(0 0 24%);
+		// margin-right:2%;
 	}
 }
 
