@@ -21,11 +21,11 @@
     "ical": "ericlathrop/ical.js#fix-rrule-dtstart",
     "normalize.scss": "^0.1.0",
     "ramda": "^0.15.1",
-    "unfold": "^0.3.2"
-  },
-  "devDependencies": {
-    "eslint": "^0.24.0",
+    "unfold": "^0.3.2",
     "node-bourbon": "^4.2.3",
     "node-neat": "^1.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^0.24.0"
   }
 }
