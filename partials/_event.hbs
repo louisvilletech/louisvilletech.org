@@ -8,9 +8,9 @@
 
 	<div class="event-table">
 		<div class="event-cell event-cell_image">
-			<a href="{{groupUrl}}">
+			{{#if groupUrl}}<a href="{{groupUrl}}">{{/if}}
 				<img class="event-image" src="group-icons/{{group}}.png" alt="{{groupName}}" />
-			</a>
+			{{#if groupUrl}}</a>{{/if}}
 		</div>
 
 		<div class="event-cell">
@@ -23,7 +23,9 @@
 	</div>
 
 	<h3 class="io-icon io-group">
-		<a href="{{groupUrl}}">{{groupName}}</a>
+		{{#if groupUrl}}<a href="{{groupUrl}}">{{/if}}
+			{{groupName}}
+		{{#if groupUrl}}</a>{{/if}}
 	</h3>
 
 	{{#if location}}
