@@ -1,26 +1,26 @@
 <div class="event event-calendar {{#if expired}}expired{{/if}}">
 
 	<div class="event-time">
-		<i class="fa fa-calendar"></i> 
-		<time data-format="%a, %B %e, %Y" data-local="time" datetime="{{startDateJson}}">{{startDate}}</time> 
+		<i class="fa fa-calendar"></i>
+		<time data-format="%a, %B %e, %Y" data-local="time" datetime="{{startDateJson}}">{{startDate}}</time>
 		<time data-format="@ %l:%M%P" data-local="time" datetime="{{startDateJson}}"></time>
 	</div>
 
 	<div class="event-table">
 		<div class="event-cell event-cell_image">
-		  <a href="{{groupUrl}}">
-		    <img class="event-image" src="group-icons/{{group}}.png" alt="{{groupName}}" />
-		  </a>
-	  </div>
+			<a href="{{groupUrl}}">
+				<img class="event-image" src="group-icons/{{group}}.png" alt="{{groupName}}" />
+			</a>
+		</div>
 
-	  <div class="event-cell">
-	    <h2 class="event-title">
-					{{#if url}}<a href="{{url}}">{{/if}}
-						{{summary}}
-					{{#if url}}</a>{{/if}}
-				</h2>
-	  </div>
-  </div>
+		<div class="event-cell">
+			<h2 class="event-title">
+				{{#if url}}<a href="{{url}}">{{/if}}
+					{{summary}}
+				{{#if url}}</a>{{/if}}
+			</h2>
+		</div>
+	</div>
 
 	<h3 class="io-icon io-group">
 		<a href="{{groupUrl}}">{{groupName}}</a>
