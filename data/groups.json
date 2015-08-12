@@ -277,5 +277,9 @@
 		"frequency": "Meets monthly",
 		"web": "http://www.meetup.com/Louisville-Summer-of-NativeScript-Meetup/",
 		"calendar": "http://www.meetup.com/Louisville-Summer-of-NativeScript-Meetup/events/ical/"
+	},
+	"louisville-salesforce-user-goup": {
+		"name": "Louisville Salesforce User Group",
+		"calendar": "https://www.google.com/calendar/ical/g1e42sm7o556djcai8h1rceibg%40group.calendar.google.com/public/basic.ics"
 	}
 }
