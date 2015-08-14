@@ -281,5 +281,11 @@
 	"louisville-salesforce-user-goup": {
 		"name": "Louisville Salesforce User Group",
 		"calendar": "https://www.google.com/calendar/ical/g1e42sm7o556djcai8h1rceibg%40group.calendar.google.com/public/basic.ics"
+	},
+	"louisville-golang": {
+		"name": "Louisville Golang",
+		"frequency": "Meets 2nd and 4th Thursday of the month",
+		"web": "http://www.meetup.com/Louisville-Golang",
+		"calendar": "http://www.meetup.com/Louisville-Golang/events/ical/"
 	}
 }
