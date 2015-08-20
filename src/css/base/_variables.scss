@@ -25,6 +25,7 @@ $container-width:	1080px;
 
 // Colors
 $blue: #477dca;
+$dark-blue:#183691;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
@@ -35,10 +36,10 @@ $yellow: #ecd924;
 $red:	#c70707;
 $green:	#0db60d;
 $orange: #F75400;
-$purple:	#9321a1;
+$purple:	#a71d5d;
 // Code Block Colors
-$code-name-color: $dark-gray;
-$code-class-color: $orange;
+$code-name-color: $dark-blue;
+$code-class-color: $medium-gray;
 $code-object-color: $purple;
 
 // Font Colors
