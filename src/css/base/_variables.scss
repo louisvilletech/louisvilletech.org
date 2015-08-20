@@ -1,9 +1,11 @@
 // Typography
 $base-font-family: $helvetica;
 $heading-font-family: $base-font-family;
+$code-font-family: Consolas,monaco,monospace;
 
 // Font Sizes
 $base-font-size: 1em;
+$small-font-size: 0.8em;
 
 // Line height
 $base-line-height: 1.5;
@@ -33,6 +35,11 @@ $yellow: #ecd924;
 $red:	#c70707;
 $green:	#0db60d;
 $orange: #F75400;
+$purple:	#9321a1;
+// Code Block Colors
+$code-name-color: $dark-gray;
+$code-class-color: $orange;
+$code-object-color: $purple;
 
 // Font Colors
 $base-font-color: $dark-gray;

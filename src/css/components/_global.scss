@@ -32,8 +32,43 @@ ul, ol {
   padding: 10px;
   list-style: inside;
 }
+
 ol {
   list-style-type: decimal;
+}
+
+pre {
+	line-height:1.5em;
+	font-family: $code-font-family;
+	color:$medium-gray;
+	white-space: pre;
+	background:$white;
+	border-radius:4px;
+	font-size: $small-font-size;
+	@include media($medium-screen) {
+		font-size: $base-font-size;
+	}
+}
+
+code {
+	line-height:1.25em;
+	font-family: $code-font-family; 
+	&.pre-indent-cheat {
+		position: relative;
+	  left: -170px;
+	  @include media($medium-screen) {
+	  	left: -150px;
+	  }
+	}
+	.code-o {
+		color:$code-object-color;
+	}
+	.code-c {
+		color:$code-class-color;
+	}
+	.code-n {
+		color:$code-name-color;
+	}
 }
 
 .btn {
@@ -79,90 +114,6 @@ ol {
 	margin:0 auto;
 	max-width: $container-width;
 	@include outer-container;
-}
-
-.l-row {
-	@include outer-container;
-}
-
-.l-flex-row {
-	@include align-items(stretch);
-	@include display(flex);
-	@include flex-flow(row wrap);
-	@include justify-content(space-between);
-	-ms-flex-wrap: wrap;//Bourbon should take of this but IE 10 wouldn't Flex without it.
-}
-
-.col-1-md {
-	@include media($medium-screen-up) {
-		@include span-columns(1);
-	}
-}
-
-.col-2-md {
-	@include media($medium-screen-up) {
-		@include span-columns(2);
-	}
-}
-
-.col-3-md {
-	@include media($medium-screen-up) {
-		@include span-columns(3);
-	}
-}
-
-.col-4-md {
-	@include media($medium-screen-up) {
-		@include span-columns(4);
-	}
-}
-
-.col-1-lg {
-	@include media($large-screen-up) {
-		@include span-columns(1);
-	}
-}
-
-.col-2-lg {
-	@include media($large-screen-up) {
-		@include span-columns(2);
-	}
-}
-
-.col-3-lg {
-	@include media($large-screen-up) {
-		@include span-columns(3);
-	}
-}
-
-.col-4-lg {
-	@include media($large-screen-up) {
-		@include span-columns(4);
-	}
-}
-
-.col-5-lg {
-	@include media($large-screen-up) {
-		@include span-columns(5);
-	}
-}
-
-.col-6-lg {
-	@include media($large-screen-up) {
-		@include span-columns(6);
-	}
-}
-
-.col-7-lg {
-	@include media($large-screen-up) {
-		@include span-columns(7);
-	}
-}
-
-.col-8-lg {
-	@include media($large-screen-up) {
-		@include span-columns(8);
-	}
 }
 
 .l-content {
@@ -350,9 +301,7 @@ ol {
 }
 
 .event {
-	margin-bottom:$large-padding;
 	background:$white;
-	padding:$large-padding;
 	box-shadow:0 2px 4px $medium-gray;
 	@include media($medium-screen) {
 		margin-bottom:$llarge-padding;
@@ -393,14 +342,6 @@ ol {
 				}
 			}
 		}
-	}
-
-	@include flex(0 0 100%);
-	@include media($medium-screen-up) {
-		@include flex(0 0 49%);
-	}
-	@include media($large-screen-up) {
-		@include flex(0 0 24%);
 	}
 }
 

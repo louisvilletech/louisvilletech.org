@@ -39,15 +39,17 @@
         The file is formatted as <a href="http://json.org/">JSON</a> (JavaScript Object Notation), with each group added as a property.
         The key for the group should be unique and should match the group icon's filename. Your group's
         property should be another object. Here's an example:
-        <pre><code>"game-dev-lou": {
-    "name": "Game Dev Lou",
-    "frequency": "Meets every other Sunday @ 2pm",
-    "web": "http://gamedevlou.org/",
-    "freenode": "#gamedevlou",
-    "mailing-list": "https://groups.google.com/forum/#!forum/gamedevlou",
-    "calendar": "http://www.meetup.com/GameDevLou/events/ical/",
-    "twitter": "GameDevLouKY"
-  },</pre></code>
+<pre><code class="pre-indent-cheat">
+<span class="code-o">"game-dev-lou"</span> <span class="code-c">: {</span>
+  <span class="code-o">"name"</span><span class="code-c">:</span> <span class="code-n">"Game Dev Lou"</span>,
+  <span class="code-o">"frequency"</span><span class="code-c">:</span> <span class="code-n">"Meets every other Sunday @ 2pm"</span>,
+  <span class="code-o">"web"</span><span class="code-c">:</span> <span class="code-n">"http://gamedevlou.org/"</span>,
+  <span class="code-o">"freenode"</span><span class="code-c">:</span> <span class="code-n">"#gamedevlou"</span>,
+  <span class="code-o">"mailing-list"</span><span class="code-c">:</span> <span class="code-n">"https://groups.google.com/forum/#!forum/gamedevlou"</span>,
+  <span class="code-o">"calendar"</span><span class="code-c">:</span> <span class="code-n">"http://www.meetup.com/GameDevLou/events/ical/"</span>,
+  <span class="code-o">"twitter"</span><span class="code-c">:</span> <span class="code-n">"GameDevLouKY"</span>
+<span class="code-c">},</span></code>
+</pre>
         Be sure to point the <code>calendar</code> property to a valid iCalendar address; our build process pulls
         that down for parsing.
       </dd>
