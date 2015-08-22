@@ -287,5 +287,10 @@
 		"frequency": "Meets 2nd and 4th Thursday of the month",
 		"web": "http://www.meetup.com/Louisville-Golang",
 		"calendar": "http://www.meetup.com/Louisville-Golang/events/ical/"
+	},
+	"louisville-scala-meetup": {
+		"name": "Louisville Scala Meetup",
+		"web": "http://www.meetup.com/Louisville-Scala-Meetup/",
+		"calendar": "http://www.meetup.com/Louisville-Scala-Meetup/events/ical/"
 	}
 }
