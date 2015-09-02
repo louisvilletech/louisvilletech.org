@@ -292,5 +292,10 @@
 		"name": "Louisville Scala Meetup",
 		"web": "http://www.meetup.com/Louisville-Scala-Meetup/",
 		"calendar": "http://www.meetup.com/Louisville-Scala-Meetup/events/ical/"
+	},
+	"food-4-nerds": {
+		"name": "Food4Nerds",
+		"frequency": "Meets monthly",
+		"calendar": "https://www.google.com/calendar/ical/jghri0j8rdpn7svv4tgecb7kl0%40group.calendar.google.com/public/basic.ics"
 	}
 }
