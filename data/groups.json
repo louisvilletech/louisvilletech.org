@@ -285,7 +285,7 @@
 	"louisville-golang": {
 		"name": "Louisville Golang",
 		"frequency": "Meets 2nd and 4th Thursday of the month",
-		"web": "http://www.meetup.com/Louisville-Golang",
+		"web": "http://www.meetup.com/Louisville-Golang/",
 		"calendar": "http://www.meetup.com/Louisville-Golang/events/ical/"
 	},
 	"louisville-scala-meetup": {
@@ -297,5 +297,11 @@
 		"name": "Food4Nerds",
 		"frequency": "Meets monthly",
 		"calendar": "https://www.google.com/calendar/ical/jghri0j8rdpn7svv4tgecb7kl0%40group.calendar.google.com/public/basic.ics"
+	},
+	"codecademy-louisville": {
+		"name": "Codecademy Louisville",
+		"frequency": "Meets weekly",
+		"web": "http://www.meetup.com/Codecademy-Louisville/",
+		"calendar": "http://www.meetup.com/Codecademy-Louisville/events/ical/"
 	}
 }
