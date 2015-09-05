@@ -5,7 +5,7 @@
 
 		<div class="batch-g batch-g--gutter batch-g--padding">
 				
-			{{#each groups}}
+			{{#each-sorted-by-name groups}}
 				<div class="batch-c-1-1 batch-c-md-1-2 batch-c-lg-1-4 event">
 
 					<div class="event-table">
@@ -59,7 +59,7 @@
 					{{/if}}
 
 				</div>
-			{{/each}}
+			{{/each-sorted-by-name}}
 
 		</div>
 
