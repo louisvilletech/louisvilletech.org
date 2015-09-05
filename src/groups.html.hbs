@@ -21,8 +21,7 @@
 								</h2>
 					  </div>
 				  </div>
-
-				  {{#if frequency}}
+					{{#if frequency}}
 						<h3 class="io-icon io-group">
 							{{frequency}}
 						</h3>
@@ -57,7 +56,11 @@
 							<a href="{{google-plus}}">Google+</a>
 						</h3>
 					{{/if}}
-
+					{{#if description}}
+						<p class="event-description">
+							{{description}}
+						</p>
+					{{/if}}
 				</div>
 			{{/each-sorted-by-name}}
 
