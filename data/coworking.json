@@ -10,6 +10,16 @@
 		"web": "http://nucleusky.com/ihub",
 		"twitter": "iHubLou"
 	},
+	"lvl1-hackerspace": {
+		"name": "LVL1 Hackerspace",
+		"frequency": "Meets every Tuesday @ 8pm",
+		"web": "http://www.lvl1.org/",
+		"mailing-list": "https://groups.google.com/forum/#!forum/lvl1",
+		"calendar": "https://www.google.com/calendar/ical/1n5qvjga6i4t6lde35vq5dg8ds%40group.calendar.google.com/public/basic.ics",
+		"facebook": "https://www.facebook.com/groups/188587574302/",
+		"twitter": "LVL1HackerSpace",
+		"description": "VL1 is a hackerspace in Louisville. A hackerspace is an open community lab and workshop democratically operated by its membership. We are friendly community of tinkerers, makers, engineers, educators, scientists, artists, hackers and overall geeks. "
+	},
 	"the-park": {
 		"name": "The Park",
 		"web": "http://www.workatthepark.com/",
