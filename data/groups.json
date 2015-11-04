@@ -14,7 +14,7 @@
 		"calendar": "https://www.google.com/calendar/ical/1c9b3d9b0t31btdtqu3ntb8krs%40group.calendar.google.com/public/basic.ics",
 		"facebook": "https://www.facebook.com/groups/129014403813898/",
 		"twitter": "bg_louisville",
-		"description": "BUILD GUILD is a monthly gathering for web folks that enjoy chatting over drinks. High-fives encouraged. Mustaches optional."
+		"description": "Build Guild is a monthly gathering for web folks that enjoy chatting over drinks. High-fives encouraged. Mustaches optional."
 	},
 	"codecademy-louisville": {
 		"name": "Codecademy Louisville",
@@ -165,6 +165,12 @@
 		"web": "http://www.meetup.com/Louisville-Agile-Forum/",
 		"calendar": "http://www.meetup.com/Louisville-Agile-Forum/events/ical/",
 		"description": "The Louisville Agile Forum consists of Agile practitioners in the greater Louisville area.  We like to share our Agile experiences, network and help others with challenges related to Agile adoption."
+	},
+	"louisville-android-developers": {
+		"name": "Louisville Android Developers",
+		"web": "http://www.meetup.com/Android-Software-Development/",
+		"calendar": "http://www.meetup.com/Android-Software-Development/events/ical/",
+		"description": "If you're new to Android Development, or a seasoned professional please join. We will discuss our Android project, help each other with hacking and just hang out and be friendly to everyone."
 	},
 	"louisville-bi-and-big-data-analytics-meetup": {
 		"name": "Louisville BI & Big Data Analytics Meetup",
