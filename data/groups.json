@@ -327,13 +327,6 @@
 		"web": "http://www.talklou.com/",
 		"description": "The Technology Association of Louisville Kentucky (TALK) is the open membership association for the technology community in and around Louisville, Kentucky. Its mission is to facilitate exchanges through networks that promote meaningful outcomes for technologists."
 	},
-	"treehouse-web-development-training-for-beginners": {
-		"name": "Treehouse Web Development Training for Beginners",
-		"frequency": "Meets sporadically",
-		"web": "http://www.meetup.com/Treehouse-web-development-training-for-beginners",
-		"calendar": "http://www.meetup.com/Treehouse-web-development-training-for-beginners/events/ical/",
-		"description": "It's a group for aspiring web programmers that are utilizing the online treehouse training through the louisville public library site. A chance to allow people in the beginning stage of learning web programming to get together and support each other while progressing through the training on Treehouse."
-	},
 	"wordpress-louisville": {
 		"name": "WordPress Louisville",
 		"frequency": "Meets the 2nd Tuesday every month @ 6:15 pm",
