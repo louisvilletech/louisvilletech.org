@@ -11,7 +11,7 @@
 		"name": "Build Guild Louisville",
 		"frequency": "Meets the 3rd Tuesday every month @ 7pm",
 		"web": "http://louisville.buildguild.org/",
-		"calendar": "https://www.google.com/calendar/ical/1c9b3d9b0t31btdtqu3ntb8krs%40group.calendar.google.com/public/basic.ics",
+		"calendar": "https://calendar.google.com/calendar/ical/1c9b3d9b0t31btdtqu3ntb8krs%40group.calendar.google.com/public/basic.ics",
 		"facebook": "https://www.facebook.com/groups/129014403813898/",
 		"twitter": "bg_louisville",
 		"description": "Build Guild is a monthly gathering for web folks that enjoy chatting over drinks. High-fives encouraged. Mustaches optional."
@@ -89,7 +89,7 @@
 		"name": "IT Happy Hour",
 		"frequency": "Meets the 2nd Tuesday every month @ 6pm",
 		"web": "https://www.facebook.com/groups/118582591623817/",
-		"calendar": "https://www.google.com/calendar/ical/hdvc0bifplib8s70at26j4ho08%40group.calendar.google.com/public/basic.ics",
+		"calendar": "https://calendar.google.com/calendar/ical/hdvc0bifplib8s70at26j4ho08%40group.calendar.google.com/public/basic.ics",
 		"facebook": "https://www.facebook.com/groups/118582591623817/",
 		"twitter": "ITHHLouKY",
 		"description": "The IT Happy Hour is a monthly event where IT People in the Louisville area can get together to discuss ideas and projects, fails and wins."
@@ -200,7 +200,7 @@
 		"name": "Louisville Geek Dinner",
 		"frequency": "Meets sporadically",
 		"web": "http://louisvillegeekdinner.com/",
-		"calendar": "https://www.google.com/calendar/ical/louisvillegeekdinner%40gmail.com/public/basic.ics",
+		"calendar": "https://calendar.google.com/calendar/ical/louisvillegeekdinner%40gmail.com/public/basic.ics",
 		"twitter": "geekdinner",
 		"description": "A social networking event for those passionate about technology."
 	},
@@ -243,7 +243,7 @@
 	},
 	"louisville-salesforce-user-goup": {
 		"name": "Louisville Salesforce User Group",
-		"calendar": "https://www.google.com/calendar/ical/g1e42sm7o556djcai8h1rceibg%40group.calendar.google.com/public/basic.ics"
+		"calendar": "https://calendar.google.com/calendar/ical/g1e42sm7o556djcai8h1rceibg%40group.calendar.google.com/public/basic.ics"
 	},
 	"louisville-scala-meetup": {
 		"name": "Louisville Scala Meetup",
@@ -291,7 +291,7 @@
 		"name": "Louisville VMWare Users Group",
 		"frequency": "Meets every three months",
 		"web": "http://www.louisvillevmug.info/",
-		"calendar": "https://www.google.com/calendar/ical/csilouisville.net_g3l1qnciiu5g0cdbbm36gs8omg%40group.calendar.google.com/public/basic.ics",
+		"calendar": "https://calendar.google.com/calendar/ical/csilouisville.net_g3l1qnciiu5g0cdbbm36gs8omg%40group.calendar.google.com/public/basic.ics",
 		"twitter": "louisvillevmug",
 		"description": "Louisville VMUG is an independent, customer-led organization created to maximize our members’ use of VMware and Partner solutions through knowledge sharing, training, collaboration, and quarterly events.  Louisville VMUG focuses on providing presentations from local users across many different industries to share their experiences, solutions, and obstacles to solve real-world business requirements."
 	},
@@ -308,7 +308,7 @@
 		"name": "OpenHack Louisville",
 		"frequency": "Meets the 1st Tuesday every month @ 6pm",
 		"web": "https://openhack.github.io/louisville/",
-		"calendar": "https://www.google.com/calendar/ical/pi7ffck72n9a5n9es3f2ce090k%40group.calendar.google.com/public/basic.ics",
+		"calendar": "https://calendar.google.com/calendar/ical/pi7ffck72n9a5n9es3f2ce090k%40group.calendar.google.com/public/basic.ics",
 		"twitter": "OpenHackLVL",
 		"description": "Code together on anything, learn from, and teach each other. Together we can have fun while becoming better at our craft."
 	},
