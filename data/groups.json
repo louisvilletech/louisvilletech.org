@@ -68,6 +68,11 @@
 		"twitter": "GameDevLouKY",
 		"description": "Louisville's game development community. We support game developers of all skill levels and backgrounds. We want to create a safe environment where everyone can learn and participate."
 	},
+	"gdg-louisville": {
+		"name": "Google Developer Group Louisville",
+		"web": "http://www.meetup.com/GDGLouisville/",
+		"description": "We are a Google Developer Group! We will discuss mainly Android Development, but also incorporate most Google Development Products."
+	},
 	"girl-develop-it-louisville": {
 		"name": "Girl Develop It Louisville",
 		"frequency": "Meets sprodically",
@@ -156,12 +161,6 @@
 		"web": "http://www.meetup.com/Louisville-Agile-Forum/",
 		"calendar": "http://www.meetup.com/Louisville-Agile-Forum/events/ical/",
 		"description": "The Louisville Agile Forum consists of Agile practitioners in the greater Louisville area.  We like to share our Agile experiences, network and help others with challenges related to Agile adoption."
-	},
-	"louisville-android-developers": {
-		"name": "Louisville Android Developers",
-		"web": "http://www.meetup.com/Android-Software-Development/",
-		"calendar": "http://www.meetup.com/Android-Software-Development/events/ical/",
-		"description": "If you're new to Android Development, or a seasoned professional please join. We will discuss our Android project, help each other with hacking and just hang out and be friendly to everyone."
 	},
 	"louisville-bi-and-big-data-analytics-meetup": {
 		"name": "Louisville BI & Big Data Analytics Meetup",
