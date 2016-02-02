@@ -317,13 +317,6 @@
 		"calendar": "http://www.meetup.com/WordPress-Meetup-Louisville/events/ical/",
 		"facebook": "https://www.facebook.com/groups/141305872747362/"
 	},
-	"louisville-gnu-linux-and-foss-meetup": {
-		"name": "Louisville GNU/Linux and Free Software Meetup",
-		"frequency": "Meets once per week",
-		"web": "http://www.meetup.com/LG-L-Meetup/",
-		"calendar": "http://www.meetup.com/LG-L-Meetup/events/ical/",
-		"description": "For people interested in learning about GNU/Linux and Free Software to experts."
-	},
 	"ypal": {
 		"name": "Young Professionals Association of Louisville (YPAL)",
 		"frequency": "Meets sporadically",
