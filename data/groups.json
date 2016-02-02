@@ -331,5 +331,14 @@
 		"web": "http://www.meetup.com/LG-L-Meetup/",
 		"calendar": "http://www.meetup.com/LG-L-Meetup/events/ical/",
 		"description": "For people interested in learning about GNU/Linux and Free Software to experts."
+	},
+	"ypal": {
+		"name": "Young Professionals Association of Louisville",
+		"frequency": "Meets sporadically",
+		"web": "http://www.ypal.org",
+		"calendar": "https://calendar.google.com/calendar/ical/ypal.org_7op76vu5bnac22d600iqir6m1o%40group.calendar.google.com/public/basic.ics",
+		"twitter": "YpalLouisville",
+		"facebook": "https://www.facebook.com/YPALouisville/",
+		"description": "The Young Professionals Association of Louisville (YPAL) provides leadership development, educational opportunities and philanthropic support to Louisville’s Young Professionals for the benefit of the local community."
 	}
 }
