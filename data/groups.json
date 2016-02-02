@@ -264,13 +264,6 @@
 		"calendar": "http://www.meetup.com/Louisville-Software-Engineering/events/ical/",
 		"description": "ormerly LouPUG, the Louisville PHP User Group, we have shifted our focus on Software Engineering. While code samples may still include PHP, we didn't want to limit our members to a single technology. If you are strictly interested in PHP, check out the KYOSS Meetup."
 	},
-	"louisville-summer-of-nativescript-meetup": {
-		"name": "Louisville Summer of NativeScript Meetup",
-		"frequency": "Meets monthly",
-		"web": "http://www.meetup.com/Louisville-Summer-of-NativeScript-Meetup/",
-		"calendar": "http://www.meetup.com/Louisville-Summer-of-NativeScript-Meetup/events/ical/",
-		"description": "Summer is a great time to get excited about building apps with NativeScript. Come join us and learn about the latest offering in the mobile development arena."
-	},
 	"louisville-sql-server-users-group": {
 		"name": "Louisville SQL Server Users Group",
 		"frequency": "Meets sporadically",
