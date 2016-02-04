@@ -218,6 +218,12 @@
 		"calendar": "http://www.meetup.com/LouisvilleHardwareStartups/events/ical/",
 		"description": "Louisville is a city with a rich manufacturing history, and is a hub for medicine, logistics, and so many other fields. Lots of places to go for Software Startups, but where are the hardware folks supposed to go? We're a group for folks interested in making real stuff, from makers to marketers, seasoned manufacturers to Kickstarting newbies."
 	},
+	"louisville-haskell-meetup": {
+		"name": "Louisville Haskell Meetup",
+		"web": "http://www.meetup.com/Louisville-Haskell-Meetup/",
+		"calendar": "http://www.meetup.com/Louisville-Haskell-Meetup/events/ical/",
+		"description": "Meetup for Haskell enthusiasts. Haskell is an elegant and powerful language with a reputation for stretching your brain."
+	},
 	"loumug": {
 		"name": "Louisville Microsoft Users Group",
 		"frequency": "Meets the last Friday every month @ 11:30 am",
