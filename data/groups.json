@@ -257,6 +257,12 @@
 		"calendar": "http://www.meetup.com/Louisville-Scala-Meetup/events/ical/",
 		"description": "Meetup for Scala developers, enthusiasts, and interested."
 	},
+	"lousmug": {
+        	"name": "Louisville Systems Management User Group",
+        	"web": "http://www.lousmug.org/",
+        	"twitter": "louisvillesmug",
+        	"description": "Covering MS System Center and other products. We meet once a month, and attendance is free."
+	},
 	"louspu": {
 		"name": "Louisville SharePoint Users",
 		"web": "http://www.louspu.com/",
@@ -269,7 +275,7 @@
 		"frequency": "Meets the 1st Wednesday every month @ 6pm",
 		"web": "http://www.meetup.com/Louisville-Software-Engineering/",
 		"calendar": "http://www.meetup.com/Louisville-Software-Engineering/events/ical/",
-		"description": "ormerly LouPUG, the Louisville PHP User Group, we have shifted our focus on Software Engineering. While code samples may still include PHP, we didn't want to limit our members to a single technology. If you are strictly interested in PHP, check out the KYOSS Meetup."
+		"description": "Formerly LouPUG, the Louisville PHP User Group, we have shifted our focus on Software Engineering. While code samples may still include PHP, we didn't want to limit our members to a single technology. If you are strictly interested in PHP, check out the KYOSS Meetup."
 	},
 	"louisville-sql-server-users-group": {
 		"name": "Louisville SQL Server Users Group",
