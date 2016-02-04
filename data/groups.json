@@ -257,6 +257,12 @@
 		"calendar": "http://www.meetup.com/Louisville-Scala-Meetup/events/ical/",
 		"description": "Meetup for Scala developers, enthusiasts, and interested."
 	},
+	"lousmug": {
+        	"name": "Louisville Systems Management User Group",
+        	"web": "http://www.lousmug.org/",
+        	"twitter": "louisvillesmug",
+        	"description": "Covering MS System Center and other products. We meet once a month, and attendance is free."
+	},
 	"louspu": {
 		"name": "Louisville SharePoint Users",
 		"web": "http://www.louspu.com/",
