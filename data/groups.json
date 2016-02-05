@@ -287,8 +287,8 @@
 	},
 	"louisville-ux-meetup": {
 		"name": "Louisville UX Meetup",
-		"frequency": "Meets the 1st Thursday every month @ 5pm",
-		"web": "http://www.meetup.com/Louisville-UX/",
+	    "frequency": "Meets the 1st Thursday every month @ 5pm",
+	    "web": "http://www.meetup.com/Louisville-UX/",
 		"calendar": "http://www.meetup.com/Louisville-UX/events/ical/",
 		"description": "A group for anyone interested in creating great experiences for the users of their products, websites, apps, robots, whatever. Join us to meet new people and chat about user centered design, lean UX, UI design, IA, usability, research, new tools and the importance of getting your ideas out of the building. "
 	},
@@ -299,6 +299,14 @@
 		"calendar": "https://calendar.google.com/calendar/ical/csilouisville.net_g3l1qnciiu5g0cdbbm36gs8omg%40group.calendar.google.com/public/basic.ics",
 		"twitter": "louisvillevmug",
 		"description": "Louisville VMUG is an independent, customer-led organization created to maximize our members’ use of VMware and Partner solutions through knowledge sharing, training, collaboration, and quarterly events.  Louisville VMUG focuses on providing presentations from local users across many different industries to share their experiences, solutions, and obstacles to solve real-world business requirements."
+	},
+	"lvl1-hackerspace": {
+		"name": "LVL1 Hackerspace",
+		"frequency": "Open meetings every Tues at 8pm and assorted workshops",
+		"web": "http://www.lvl1.org",
+		"calendar": "https://calendar.google.com/calendar/ical/ml7vfq8dhpc81c4qpimqptcgek%40group.calendar.google.com/public/basic.ics",
+		"twitter": "LVL1HackerSpace",
+		"description": "LVL1 is Louisville's premier original hackerspace. We are friendly community of tinkerers, makers, engineers, educators, scientists, artists, hackers and overall geeks. Anyone who is, aspires to be, or just wants to hang around smart, creative, friendly mad scientist maker/hacker Louisvillians is welcome at LVL1! We’ve got lots of cool tools and equipment. We like to work on (and show off) fun and challenging technical projects."
 	},
 	"mymobileville": {
 		"name": "My Mobile Ville",
