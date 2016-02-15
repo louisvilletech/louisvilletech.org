@@ -73,9 +73,9 @@
 		"web": "http://www.meetup.com/GDGLouisville/",
 		"facebook": "https://www.facebook.com/GDG-Louisville-1536561503322044/",
 		"twitter": "GDGLouisville",
-	        "calendar": "www.meetup.com/GDGLouisville/events/ical/",
+	     "calendar": "www.meetup.com/GDGLouisville/events/ical/",
 		"frequency": "Meets Monthly",
-		"description": "We are a Google Developer Group! We will discuss mainly Android Development, but also incorporate most Google Development Products."
+		"description": "We are a Google Developer Group! We will be discussing Android Development, but also incorporate most Google Development Products."
 	},
 	"girl-develop-it-louisville": {
 		"name": "Girl Develop It Louisville",
