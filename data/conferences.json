@@ -24,5 +24,10 @@
 		"name": "TechFest Lou",
 		"web": "http://www.techfestlou.com/",
 		"twitter": "TechFestLou"
+	},
+	"midwest-ux-conference": {
+		"name": "Midwest UX Conference 2016",
+		"web": "http://2016.midwestuxconference.com/",
+		"twitter": "midwestUX"
 	}
 }
