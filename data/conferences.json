@@ -16,6 +16,11 @@
 		"facebook": "https://www.facebook.com/MakerFaireLou",
 		"twitter": "MakerFaireLou"
 	},
+	"midwest-ux-conference": {
+		"name": "Midwest UX Conference 2016",
+		"web": "http://2016.midwestuxconference.com/",
+		"twitter": "midwestUX"
+	},
 	"sqlsaturday": {
 		"name": "SQLSaturday",
 		"web": "http://www.sqlsaturday.com/403/eventhome.aspx"
@@ -24,10 +29,5 @@
 		"name": "TechFest Lou",
 		"web": "http://www.techfestlou.com/",
 		"twitter": "TechFestLou"
-	},
-	"midwest-ux-conference": {
-		"name": "Midwest UX Conference 2016",
-		"web": "http://2016.midwestuxconference.com/",
-		"twitter": "midwestUX"
 	}
 }
