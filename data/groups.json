@@ -207,14 +207,6 @@
 		"twitter": "geekdinner",
 		"description": "A social networking event for those passionate about technology."
 	},
-	"louisville-golang": {
-		"name": "Louisville Golang",
-		"frequency": "Meets 2nd and 4th Thursday of the month",
-		"web": "http://www.meetup.com/Louisville-Golang/",
-		"calendar": "http://www.meetup.com/Louisville-Golang/events/ical/",
-		"twitter": "LVL_Go",
-		"description": "Meet up focusing on learning and exploring the Go programming language."
-	},
 	"louisville-hardware-startup": {
 		"name": "Louisville Hardware Startup Meetup",
 		"frequency": "Meets the last Monday every month @ 6:30pm",
