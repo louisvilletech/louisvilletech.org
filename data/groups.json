@@ -103,6 +103,14 @@
 		"twitter": "ITHHLouKY",
 		"description": "The IT Happy Hour is a monthly event where IT People in the Louisville area can get together to discuss ideas and projects, fails and wins."
 	},
+	"Java of Louisville": {
+		"name": "Java-of-Louisville",
+		"web": "http://www.meetup.com/Java-of-Louisville/",
+		"calendar": "http://www.meetup.com/Java-of-Louisville/events/ical/",
+		"mailing-list": "Java-of-Louisville-list@meetup.com",
+		"frequency": "Meets Monthly",
+		"description": "We are a Java Developer Group! Our focus is on newbies, and Students interested in the Java language."
+	},
 	"jslou": {
 		"name": "JSLou",
 		"frequency": "Meets the 1st and 3rd Wednesday every month @ 7pm",
