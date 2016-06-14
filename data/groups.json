@@ -176,8 +176,10 @@
 	},
 	"louisville-aws-user-group": {
 		"name": "Louisville AWS User Group",
+		"frequency": "Meets Monthly",
 		"web": "http://www.meetup.com/Louisville-AWS-Users-Group/",
-		"calendar": "http://www.meetup.com/Louisville-AWS-Users-Group/events/ical/",
+		"mailing-list": "http://www.meetup.com/Louisville-AWS-Users-Group/members/",
+		"calendar": "http://www.meetup.com/Louisville-AWS-Users-Group/events/ical",
 		"twitter": "Louisville_AWS",
 		"description": "Come check us out to learn and share how you're using the AWS platform."
 	},
@@ -304,11 +306,12 @@
 		"description": "A group for anyone interested in creating great experiences for the users of their products, websites, apps, robots, whatever. Join us to meet new people and chat about user centered design, lean UX, UI design, IA, usability, research, new tools and the importance of getting your ideas out of the building. "
 	},
 	"louisville-vmware-users-group": {
-		"name": "Louisville VMWare Users Group",
-		"frequency": "Meets every three months",
+		"name": "Louisville VMware Users Group",
+		"frequency": "Meets Quarterly",
+		"freenode": "#LouisvilleVMUG",
 		"web": "http://www.louisvillevmug.info/",
 		"calendar": "https://calendar.google.com/calendar/ical/csilouisville.net_g3l1qnciiu5g0cdbbm36gs8omg%40group.calendar.google.com/public/basic.ics",
-		"twitter": "louisvillevmug",
+		"twitter": "LouisvilleVMUG",
 		"description": "Louisville VMUG is an independent, customer-led organization created to maximize our members’ use of VMware and Partner solutions through knowledge sharing, training, collaboration, and quarterly events.  Louisville VMUG focuses on providing presentations from local users across many different industries to share their experiences, solutions, and obstacles to solve real-world business requirements."
 	},
 	"lvl1-hackerspace": {
