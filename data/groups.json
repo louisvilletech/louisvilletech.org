@@ -314,6 +314,13 @@
 		"twitter": "LouisvilleVMUG",
 		"description": "Louisville VMUG is an independent, customer-led organization created to maximize our members’ use of VMware and Partner solutions through knowledge sharing, training, collaboration, and quarterly events.  Louisville VMUG focuses on providing presentations from local users across many different industries to share their experiences, solutions, and obstacles to solve real-world business requirements."
 	},
+        "louisville-predictive-analytics":{
+            "name": "Louisville Predictive Analytics Meetup",
+            "frequency": "Meets Monthly",
+            "web" : "www.meetup.com/Louisville-Predictive-Analytics-Meetup",
+            "facebook": "https://www.facebook.com/groups/1071400462922901/",
+            "description": "We discuss how we can solve problems using Data Science"
+        },
 	"lvl1-hackerspace": {
 		"name": "LVL1 Hackerspace",
 		"frequency": "Open meetings every Tues at 8pm and assorted workshops",
