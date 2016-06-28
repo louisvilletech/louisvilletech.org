@@ -21,8 +21,6 @@
     "bourbon": "^4.2.7",
     "bourbon-neat": "^1.7.4",
     "ical": "ericlathrop/ical.js#fix-rrule-dtstart",
-    "node-bourbon": "^4.2.3",
-    "node-neat": "^1.7.2",
     "normalize.scss": "^0.1.0",
     "ramda": "^0.15.1",
     "unfold": "^0.3.2"
