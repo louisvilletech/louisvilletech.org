@@ -36,7 +36,7 @@
 		"web": "http://www.meetup.com/derbypy/",
 		"calendar": "http://www.meetup.com/derbypy/events/ical/",
 		"twitter": "DerbyPy",
-		"description": "A meetup for anyone interested in the Python programming language.  All skill levels are welcome.  :)"
+		"description": "A meetup for anyone interested in the Python programming language.	All skill levels are welcome.	:)"
 	},
 	"elixir-louisville": {
 		"name": "Elixir Louisville",
@@ -92,7 +92,7 @@
 		"web": "http://issa-kentuckiana.org/",
 		"twitter": "issakentuckiana",
 		"facebook": "https://www.facebook.com/issakentuckiana",
-		"description": "If you are interested in Information Security and live in the Kentuckiana region, then you’ve come to the right place.  Our chapter offers many benefits for seasoned security-minded professionals and relative newcomers to the field such as monthly meetings that provide opportunities for experiential learning and professional networking."
+		"description": "If you are interested in Information Security and live in the Kentuckiana region, then you’ve come to the right place.	Our chapter offers many benefits for seasoned security-minded professionals and relative newcomers to the field such as monthly meetings that provide opportunities for experiential learning and professional networking."
 	},
 	"it-happy-hour": {
 		"name": "IT Happy Hour",
@@ -172,7 +172,7 @@
 		"frequency": "Meets the 3rd Wednesday every month @ 6pm",
 		"web": "http://www.meetup.com/Louisville-Agile-Forum/",
 		"calendar": "http://www.meetup.com/Louisville-Agile-Forum/events/ical/",
-		"description": "The Louisville Agile Forum consists of Agile practitioners in the greater Louisville area.  We like to share our Agile experiences, network and help others with challenges related to Agile adoption."
+		"description": "The Louisville Agile Forum consists of Agile practitioners in the greater Louisville area.	We like to share our Agile experiences, network and help others with challenges related to Agile adoption."
 	},
 	"louisville-aws-user-group": {
 		"name": "Louisville AWS User Group",
@@ -271,10 +271,10 @@
 		"description": "Meetup for Scala developers, enthusiasts, and interested."
 	},
 	"lousmug": {
-        	"name": "Louisville Systems Management User Group",
-        	"web": "http://www.lousmug.org/",
-        	"twitter": "louisvillesmug",
-        	"description": "Covering MS System Center and other products. We meet once a month, and attendance is free."
+		"name": "Louisville Systems Management User Group",
+		"web": "http://www.lousmug.org/",
+		"twitter": "louisvillesmug",
+		"description": "Covering MS System Center and other products. We meet once a month, and attendance is free."
 	},
 	"louspu": {
 		"name": "Louisville SharePoint Users",
@@ -300,8 +300,8 @@
 	},
 	"louisville-ux-meetup": {
 		"name": "Louisville UX Meetup",
-	    "frequency": "Meets the 1st Thursday every month @ 5pm",
-	    "web": "http://www.meetup.com/Louisville-UX/",
+		"frequency": "Meets the 1st Thursday every month @ 5pm",
+		"web": "http://www.meetup.com/Louisville-UX/",
 		"calendar": "http://www.meetup.com/Louisville-UX/events/ical/",
 		"description": "A group for anyone interested in creating great experiences for the users of their products, websites, apps, robots, whatever. Join us to meet new people and chat about user centered design, lean UX, UI design, IA, usability, research, new tools and the importance of getting your ideas out of the building. "
 	},
@@ -312,7 +312,15 @@
 		"web": "http://www.louisvillevmug.info/",
 		"calendar": "https://calendar.google.com/calendar/ical/csilouisville.net_g3l1qnciiu5g0cdbbm36gs8omg%40group.calendar.google.com/public/basic.ics",
 		"twitter": "LouisvilleVMUG",
-		"description": "Louisville VMUG is an independent, customer-led organization created to maximize our members’ use of VMware and Partner solutions through knowledge sharing, training, collaboration, and quarterly events.  Louisville VMUG focuses on providing presentations from local users across many different industries to share their experiences, solutions, and obstacles to solve real-world business requirements."
+		"description": "Louisville VMUG is an independent, customer-led organization created to maximize our members’ use of VMware and Partner solutions through knowledge sharing, training, collaboration, and quarterly events.	Louisville VMUG focuses on providing presentations from local users across many different industries to share their experiences, solutions, and obstacles to solve real-world business requirements."
+	},
+	"louisville-predictive-analytics": {
+		"name": "Louisville Predictive Analytics Meetup",
+		"frequency": "Meets Monthly",
+		"web" : "http://www.meetup.com/Louisville-Predictive-Analytics-Meetup/",
+		"calendar" : "http://www.meetup.com/Louisville-Predictive-Analytics-Meetup/events/ical/",
+		"facebook": "https://www.facebook.com/groups/1071400462922901/",
+		"description": "We discuss how we can solve problems using Data Science"
 	},
 	"lvl1-hackerspace": {
 		"name": "LVL1 Hackerspace",
