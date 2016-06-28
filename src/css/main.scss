@@ -12,9 +12,9 @@
 // Bourbon, Bitters, Neat, Batch
 //----------------------------------*/
 
-@import "./node_modules/node-bourbon/node_modules/bourbon/app/assets/stylesheets/bourbon";
+@import "./node_modules/bourbon/app/assets/stylesheets/bourbon";
 @import "base/base";
-@import "./node_modules/node-neat/node_modules/bourbon-neat/app/assets/stylesheets/neat";
+@import "./node_modules/bourbon-neat/app/assets/stylesheets/neat";
 @import "components/batch";
 
 //----------------------------------*\
