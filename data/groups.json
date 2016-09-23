@@ -264,12 +264,6 @@
 		"name": "Louisville Salesforce User Group",
 		"calendar": "https://calendar.google.com/calendar/ical/g1e42sm7o556djcai8h1rceibg%40group.calendar.google.com/public/basic.ics"
 	},
-	"louisville-scala-meetup": {
-		"name": "Louisville Scala Meetup",
-		"web": "http://www.meetup.com/Louisville-Scala-Meetup/",
-		"calendar": "http://www.meetup.com/Louisville-Scala-Meetup/events/ical/",
-		"description": "Meetup for Scala developers, enthusiasts, and interested."
-	},
 	"lousmug": {
 		"name": "Louisville Systems Management User Group",
 		"web": "http://www.lousmug.org/",
