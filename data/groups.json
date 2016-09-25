@@ -19,8 +19,8 @@
 	"codecademy-louisville": {
 		"name": "Codecademy Louisville",
 		"frequency": "Meets weekly",
-		"web": "http://www.meetup.com/Codecademy-Louisville/",
-		"calendar": "http://www.meetup.com/Codecademy-Louisville/events/ical/",
+		"web": "https://www.meetup.com/Codecademy-Louisville/",
+		"calendar": "https://www.meetup.com/Codecademy-Louisville/events/ical/",
 		"description": "This Meetup is dedicated to helping beginners learn HTML, CSS and Web Design. Outlining the fundamentals, this Meetup's course works through all common elements of front-end design and development."
 	},
 	"creative-mornings-louisville": {
@@ -33,22 +33,22 @@
 	"derbypy": {
 		"name": "DerbyPy",
 		"frquency": "Meets the 4th Tuesday every month at 6:30pm",
-		"web": "http://www.meetup.com/derbypy/",
-		"calendar": "http://www.meetup.com/derbypy/events/ical/",
+		"web": "https://www.meetup.com/derbypy/",
+		"calendar": "https://www.meetup.com/derbypy/events/ical/",
 		"twitter": "DerbyPy",
 		"description": "A meetup for anyone interested in the Python programming language. All skill levels are welcome. :)"
 	},
 	"elixir-louisville": {
 		"name": "Elixir Louisville",
-		"web": "http://www.meetup.com/Elixir-Louisville/",
-		"calendar": "http://www.meetup.com/Elixir-Louisville/events/ical/",
+		"web": "https://www.meetup.com/Elixir-Louisville/",
+		"calendar": "https://www.meetup.com/Elixir-Louisville/events/ical/",
 		"twitter": "elixir_lou",
 		"description": "We are group of programmers, students, and technology enthusiasts who are excited about the Elixir programming language. We meet on the second Tuesday of every month to discuss topics related to the Elixir ecosystem, distributed systems, and functional programming. All skill levels are welcome!"
 	},
 	"ember-js-louisville": {
 		"name": "Ember.js Louisville",
-		"web": "http://www.meetup.com/Ember-js-Louisville/",
-		"calendar": "http://www.meetup.com/Ember-js-Louisville/events/ical/",
+		"web": "https://www.meetup.com/Ember-js-Louisville/",
+		"calendar": "https://www.meetup.com/Ember-js-Louisville/events/ical/",
 		"twitter": "emberjslou",
 		"description": "Learning and meeting with Ember.js enthusiasts in Louisville, Kentucky. Ember.js Louisville is open to developers of any skill level. Our goal is to come together, share our stories, and learn to build ambitious web applications."
 	},
@@ -64,14 +64,14 @@
 		"web": "http://gamedevlou.org/",
 		"freenode": "#gamedevlou",
 		"mailing-list": "https://groups.google.com/forum/#!forum/gamedevlou",
-		"calendar": "http://www.meetup.com/GameDevLou/events/ical/",
+		"calendar": "https://www.meetup.com/GameDevLou/events/ical/",
 		"twitter": "GameDevLouKY",
 		"description": "Louisville's game development community. We support game developers of all skill levels and backgrounds. We want to create a safe environment where everyone can learn and participate."
 	},
 	"gdg-louisville": {
 		"name": "Google Developer Group Louisville",
-		"web": "http://www.meetup.com/GDGLouisville/",
-		"calendar": "http://www.meetup.com/GDGLouisville/events/ical/",
+		"web": "https://www.meetup.com/GDGLouisville/",
+		"calendar": "https://www.meetup.com/GDGLouisville/events/ical/",
 		"facebook": "https://www.facebook.com/GDG-Louisville-1536561503322044/",
 		"twitter": "GDGLouisville",
 		"frequency": "Meets Monthly",
@@ -80,8 +80,8 @@
 	"girl-develop-it-louisville": {
 		"name": "Girl Develop It Louisville",
 		"frequency": "Meets sprodically",
-		"web": "http://www.meetup.com/Girl-Develop-It-Louisville/",
-		"calendar": "http://www.meetup.com/Girl-Develop-It-Louisville/events/ical/",
+		"web": "https://www.meetup.com/Girl-Develop-It-Louisville/",
+		"calendar": "https://www.meetup.com/Girl-Develop-It-Louisville/events/ical/",
 		"facebook": "https://www.facebook.com/gdilouisville?fref=ts",
 		"twitter": "gdilouisville",
 		"description": "Women Developers and Programmers! Want to learn how to code? Have a great idea? Don't be shy. Develop it."
@@ -105,8 +105,8 @@
 	},
 	"java-of-louisville": {
 		"name": "Java of Louisville",
-		"web": "http://www.meetup.com/Java-of-Louisville/",
-		"calendar": "http://www.meetup.com/Java-of-Louisville/events/ical/",
+		"web": "https://www.meetup.com/Java-of-Louisville/",
+		"calendar": "https://www.meetup.com/Java-of-Louisville/events/ical/",
 		"mailing-list": "Java-of-Louisville-list@meetup.com",
 		"frequency": "Meets Monthly",
 		"description": "We are a Java Developer Group! Our focus is on newbies, and Students interested in the Java language."
@@ -116,7 +116,7 @@
 		"frequency": "Meets the 1st and 3rd Wednesday every month @ 7pm",
 		"web": "http://jslou.org",
 		"mailing-list": "http://kyoss.org/mailman/listinfo/jslou",
-		"calendar": "http://www.meetup.com/JSLouKY/events/ical/",
+		"calendar": "https://www.meetup.com/JSLouKY/events/ical/",
 		"google-plus": "https://plus.google.com/u/1/116976108778413543403/posts",
 		"twitter": "JsLouKY",
 		"description": "JSLou is a gathering where people of any experience level, and all types of JavaScript can feel right at home."
@@ -125,7 +125,7 @@
 		"name": "Java Users Group of Greater Louisville",
 		"frequency": "Meets the 3rd Tuesday every month @6pm",
 		"web": "http://www.juggl.us",
-		"calendar": "http://www.meetup.com/JUGGLou/events/ical/",
+		"calendar": "https://www.meetup.com/JUGGLou/events/ical/",
 		"facebook": "https://www.facebook.com/JUGGLou",
 		"google-plus": "https://plus.google.com/+JugglUs/posts",
 		"twitter": "JUGGLou",
@@ -143,7 +143,7 @@
 		"name": "Kentucky Open Source Society (KYOSS)",
 		"frequency": "Meets the 2nd Wednesday every month @ 6:30pm",
 		"web": "http://kyoss.org/",
-		"calendar": "http://www.meetup.com/LouisvilleOpenSourceProgramming/events/ical/",
+		"calendar": "https://www.meetup.com/LouisvilleOpenSourceProgramming/events/ical/",
 		"mailing-list": "http://kyoss.org/mailman/listinfo/kyoss-discuss",
 		"freenode": "#kyoss",
 		"google-plus": "https://plus.google.com/+KyossOrg/posts",
@@ -154,7 +154,7 @@
 		"name": "Laravel Louisville",
 		"frequency": "Meets the 3rd Thursday every moth @ 6:30pm",
 		"web": "https://laravel-louisville.github.io/meetup/",
-		"calendar": "http://www.meetup.com/Laravel-Louisville/events/ical/",
+		"calendar": "https://www.meetup.com/Laravel-Louisville/events/ical/",
 		"google-plus": "https://plus.google.com/u/1/106953969152154021836/posts",
 		"twitter": "lurvul",
 		"description": "We’re a group of web developers and PHP programmers who enjoy building software with the Laravel framework. The goal of Laravel Louisville is to help build the software engineering community in Louisville by teaching each other how to write quality software in PHP."
@@ -170,31 +170,31 @@
 	"louisville-agile-forum": {
 		"name": "Louisville Agile Forum",
 		"frequency": "Meets the 3rd Wednesday every month @ 6pm",
-		"web": "http://www.meetup.com/Louisville-Agile-Forum/",
-		"calendar": "http://www.meetup.com/Louisville-Agile-Forum/events/ical/",
+		"web": "https://www.meetup.com/Louisville-Agile-Forum/",
+		"calendar": "https://www.meetup.com/Louisville-Agile-Forum/events/ical/",
 		"description": "The Louisville Agile Forum consists of Agile practitioners in the greater Louisville area. We like to share our Agile experiences, network and help others with challenges related to Agile adoption."
 	},
 	"louisville-aws-user-group": {
 		"name": "Louisville AWS User Group",
 		"frequency": "Meets Monthly",
-		"web": "http://www.meetup.com/Louisville-AWS-Users-Group/",
-		"mailing-list": "http://www.meetup.com/Louisville-AWS-Users-Group/messages/boards/",
-		"calendar": "http://www.meetup.com/Louisville-AWS-Users-Group/events/ical/",
+		"web": "https://www.meetup.com/Louisville-AWS-Users-Group/",
+		"mailing-list": "https://www.meetup.com/Louisville-AWS-Users-Group/messages/boards/",
+		"calendar": "https://www.meetup.com/Louisville-AWS-Users-Group/events/ical/",
 		"twitter": "Louisville_AWS",
 		"description": "Come check us out to learn and share how you're using the AWS platform."
 	},
 	"louisville-bi-and-big-data-analytics-meetup": {
 		"name": "Louisville BI & Big Data Analytics Meetup",
 		"frequency": "Meets monthly on a Thursday at 6pm",
-		"web": "http://www.meetup.com/Louisville-BI-Big-Data-Analytics-Meetup/",
-		"calendar": "http://www.meetup.com/Louisville-BI-Big-Data-Analytics-Meetup/events/ical/",
+		"web": "https://www.meetup.com/Louisville-BI-Big-Data-Analytics-Meetup/",
+		"calendar": "https://www.meetup.com/Louisville-BI-Big-Data-Analytics-Meetup/events/ical/",
 		"description": "If you are modernizing your business with Big Data and want your entire organization to benefit through compelling data visualizations, need to engage your audience with intuitive and interactive reports and dashboards on any device, or are new to BI and are interested to learn more about the use of BI in applications – then this group is for YOU!"
 	},
 	"louisville-cocoaheads": {
 		"name": "Louisville Cocoaheads",
 		"frequency": "Meets on sporadic Thursdays @ 6:30 pm",
-		"web": "http://www.meetup.com/Louisville-Cocoaheads/",
-		"calendar": "http://www.meetup.com/Louisville-Cocoaheads/events/ical/",
+		"web": "https://www.meetup.com/Louisville-Cocoaheads/",
+		"calendar": "https://www.meetup.com/Louisville-Cocoaheads/events/ical/",
 		"facebook": "https://www.facebook.com/groups/166763420060216/",
 		"twitter": "LouCocoaheads",
 		"description": "Let's get together and discuss all things Objective-C and cocoa. Want to develop for the iPhone, iPad or the Mac? This is the group. We want to create a community to share ideas and knowledge, build developer technical skills and cultivate new developers."
@@ -202,8 +202,8 @@
 	"louisville-civic-data-alliance": {
 		"name": "Louisville Civic Data Alliance",
 		"frequency": "Meets sporadically",
-		"web": "http://www.meetup.com/Louisville-Civic-Data-Alliance",
-		"calendar": "http://www.meetup.com/Louisville-Civic-Data-Alliance/events/ical/",
+		"web": "https://www.meetup.com/Louisville-Civic-Data-Alliance",
+		"calendar": "https://www.meetup.com/Louisville-Civic-Data-Alliance/events/ical/",
 		"google-plus": "https://plus.google.com/u/1/105717792509345258567/about",
 		"twitter": "CivicDataAlly",
 		"description": "We are Louisville's Code for America Brigade, called the Civic Data Alliance (CDA). Our mission is: Making Public Data Truly Public."
@@ -211,8 +211,8 @@
 	"louisville-dot-net": {
 		"name": "Louisville .NET Meetup",
 		"frequency": "Meets the 3rd Thursday every month @ 6:30pm",
-		"web": "http://www.meetup.com/Louisville-DotNet/",
-		"calendar": "http://www.meetup.com/Louisville-DotNet/events/ical/",
+		"web": "https://www.meetup.com/Louisville-DotNet/",
+		"calendar": "https://www.meetup.com/Louisville-DotNet/events/ical/",
 		"twitter": "LouDotNet",
 		"description": "The Louisville .NET Meetup group is dedicated to helping developers around Louisville to become better developers with an emphasis on the Microsoft .NET technology stack. "
 	},
@@ -227,14 +227,14 @@
 	"louisville-hardware-startup": {
 		"name": "Louisville Hardware Startup Meetup",
 		"frequency": "Meets the last Monday every month @ 6:30pm",
-		"web": "http://www.meetup.com/LouisvilleHardwareStartups/",
-		"calendar": "http://www.meetup.com/LouisvilleHardwareStartups/events/ical/",
+		"web": "https://www.meetup.com/LouisvilleHardwareStartups/",
+		"calendar": "https://www.meetup.com/LouisvilleHardwareStartups/events/ical/",
 		"description": "Louisville is a city with a rich manufacturing history, and is a hub for medicine, logistics, and so many other fields. Lots of places to go for Software Startups, but where are the hardware folks supposed to go? We're a group for folks interested in making real stuff, from makers to marketers, seasoned manufacturers to Kickstarting newbies."
 	},
 	"louisville-haskell-meetup": {
 		"name": "Louisville Haskell Meetup",
-		"web": "http://www.meetup.com/Louisville-Haskell-Meetup/",
-		"calendar": "http://www.meetup.com/Louisville-Haskell-Meetup/events/ical/",
+		"web": "https://www.meetup.com/Louisville-Haskell-Meetup/",
+		"calendar": "https://www.meetup.com/Louisville-Haskell-Meetup/events/ical/",
 		"description": "Meetup for Haskell enthusiasts. Haskell is an elegant and powerful language with a reputation for stretching your brain."
 	},
 	"loumug": {
@@ -255,8 +255,8 @@
 	"louisville-ruby-brigade": {
 		"name": "Louisville Ruby Brigade",
 		"frequency": "Meets the third Thursday every month @ 5:30 pm",
-		"web": "http://www.meetup.com/Louisville-Ruby-Brigade/",
-		"calendar": "http://www.meetup.com/Louisville-Ruby-Brigade/events/ical/",
+		"web": "https://www.meetup.com/Louisville-Ruby-Brigade/",
+		"calendar": "https://www.meetup.com/Louisville-Ruby-Brigade/events/ical/",
 		"twitter": "lvlrb",
 		"description": "Meetup for Ruby developers and the Ruby-curious."
 	},
@@ -273,15 +273,15 @@
 	"louspu": {
 		"name": "Louisville SharePoint Users",
 		"web": "http://www.louspu.com/",
-		"calendar": "http://www.meetup.com/Lou-SPU-Louisville-SharePoint-Users-Meetup/events/ical/",
+		"calendar": "https://www.meetup.com/Lou-SPU-Louisville-SharePoint-Users-Meetup/events/ical/",
 		"twitter": "LouSPU",
 		"description": "Lou SPU plans to meet every other month to have some fun and talk SharePoint."
 	},
 	"louisville-software-engineering-meetup": {
 		"name": "Louisville Software Engineering Meetup",
 		"frequency": "Meets the 1st Wednesday every month @ 6pm",
-		"web": "http://www.meetup.com/Louisville-Software-Engineering/",
-		"calendar": "http://www.meetup.com/Louisville-Software-Engineering/events/ical/",
+		"web": "https://www.meetup.com/Louisville-Software-Engineering/",
+		"calendar": "https://www.meetup.com/Louisville-Software-Engineering/events/ical/",
 		"description": "Formerly LouPUG, the Louisville PHP User Group, we have shifted our focus on Software Engineering. While code samples may still include PHP, we didn't want to limit our members to a single technology. If you are strictly interested in PHP, check out the KYOSS Meetup."
 	},
 	"louisville-sql-server-users-group": {
@@ -302,8 +302,8 @@
 	"louisville-ux-meetup": {
 		"name": "Louisville UX Meetup",
 		"frequency": "Meets the 1st Thursday every month @ 5pm",
-		"web": "http://www.meetup.com/Louisville-UX/",
-		"calendar": "http://www.meetup.com/Louisville-UX/events/ical/",
+		"web": "https://www.meetup.com/Louisville-UX/",
+		"calendar": "https://www.meetup.com/Louisville-UX/events/ical/",
 		"description": "A group for anyone interested in creating great experiences for the users of their products, websites, apps, robots, whatever. Join us to meet new people and chat about user centered design, lean UX, UI design, IA, usability, research, new tools and the importance of getting your ideas out of the building. "
 	},
 	"louisville-vmware-users-group": {
@@ -318,8 +318,8 @@
 	"louisville-predictive-analytics": {
 		"name": "Louisville Predictive Analytics Meetup",
 		"frequency": "Meets Monthly",
-		"web" : "http://www.meetup.com/Louisville-Predictive-Analytics-Meetup/",
-		"calendar" : "http://www.meetup.com/Louisville-Predictive-Analytics-Meetup/events/ical/",
+		"web" : "https://www.meetup.com/Louisville-Predictive-Analytics-Meetup/",
+		"calendar" : "https://www.meetup.com/Louisville-Predictive-Analytics-Meetup/events/ical/",
 		"facebook": "https://www.facebook.com/groups/1071400462922901/",
 		"description": "We discuss how we can solve problems using Data Science"
 	},
@@ -335,7 +335,7 @@
 		"name": "My Mobile Ville",
 		"frequency": "Meets online the 4th Tuesday every month @ 6:30pm",
 		"web": "http://mymobileville.com/",
-		"calendar": "http://www.meetup.com/MyMobileVille-Meetup/events/ical/",
+		"calendar": "https://www.meetup.com/MyMobileVille-Meetup/events/ical/",
 		"facebook": "https://www.facebook.com/MyMobileVille/timeline",
 		"twitter": "mymobileville",
 		"description": "A meetup to discuss all things mobile! We meet on the 4th Tuesday if every month to discuss Android, iOS, and anything else that resembles mobile tech!"
@@ -357,8 +357,8 @@
 	"wordpress-louisville": {
 		"name": "WordPress Louisville",
 		"frequency": "Meets the 2nd Tuesday every month @ 6:15 pm",
-		"web": "http://www.meetup.com/WordPress-Meetup-Louisville/",
-		"calendar": "http://www.meetup.com/WordPress-Meetup-Louisville/events/ical/",
+		"web": "https://www.meetup.com/WordPress-Meetup-Louisville/",
+		"calendar": "https://www.meetup.com/WordPress-Meetup-Louisville/events/ical/",
 		"facebook": "https://www.facebook.com/groups/141305872747362/"
 	},
 	"ypal": {
