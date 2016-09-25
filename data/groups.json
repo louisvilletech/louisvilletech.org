@@ -30,6 +30,14 @@
 		"twitter": "cm_louisville",
 		"description": "CreativeMornings is a breakfast lecture series for the creative community. Our free, monthly events feature a short talk and breakfast!"
 	},
+	"dev-book-club": {
+		"name": "Dev Book Club",
+		"frequency": "Meets every two weeks",
+		"web": "http://devbookclub.io/",
+		"mailing-list": "https://www.meetup.com/devbookclub/messages/boards/",
+		"calendar": "https://www.meetup.com/devbookclub/events/ical/",
+		"description": "Developers are always striving to learn more. Unfortunately development books can be dry and boring. Fortunately friends are fun. This group attempts to tackle boring development books in a social learning atmosphere with code challenges that correspond with the chapters."
+	},
 	"derbypy": {
 		"name": "DerbyPy",
 		"frquency": "Meets the 4th Tuesday every month at 6:30pm",
