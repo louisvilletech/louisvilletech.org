@@ -29,5 +29,10 @@
 		"name": "TechFest Lou",
 		"web": "http://www.techfestlou.com/",
 		"twitter": "TechFestLou"
+	},
+	"wordcamp-louisville": {
+		"name": "WordCamp Louisville",
+		"web": "https://2016.louisville.wordcamp.org/",
+		"twitter": "WordCampLou"
 	}
 }
