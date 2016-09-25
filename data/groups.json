@@ -300,13 +300,13 @@
 		"facebook": "https://www.facebook.com/groups/louisvillesqlpass/",
 		"description": " We represent the SQL Server community in Louisville, the surrounding metropolitan area, and throughout most of Kentucky. As a technical users group, we focus on monthly meetings, but also provide networking, learning opportunities, speaking opportunities, training, and collaboration for SQL Server professionals throughout the Ohio Valley area."
 	},
-  "louisville-tech-ladies": {
+	"louisville-tech-ladies": {
 		"name": "Louisville Tech Ladies",
 		"frequency": "Meets sporadically",
 		"web": "https://www.meetup.com/Louisville-Tech-Ladies/",
 		"calendar": "https://www.meetup.com/Louisville-Tech-Ladies/events/ical/",
 		"description": "If you're a woman in any STEM field looking to meet & hang out with other amazing women, we'd love to meet you, too! We will get together monthly to network, learn from each other, and offer support."
-  },
+	},
 	"louisville-ux-meetup": {
 		"name": "Louisville UX Meetup",
 		"frequency": "Meets the 1st Thursday every month @ 5pm",
