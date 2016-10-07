@@ -158,15 +158,6 @@
 		"google-plus-community": "https://plus.google.com/communities/116631799593310550964",
 		"description": "The Kentucky Open Source Society (KYOSS) is a group of Programmers, Sysadmins, Devops, Linux enthusiasts, Web Developers, Mobile Developers, and just about anyone else who is interested in technology."
 	},
-	"laravel-louisville": {
-		"name": "Laravel Louisville",
-		"frequency": "Meets the 3rd Thursday every moth @ 6:30pm",
-		"web": "https://laravel-louisville.github.io/meetup/",
-		"calendar": "https://www.meetup.com/Laravel-Louisville/events/ical/",
-		"google-plus": "https://plus.google.com/u/1/106953969152154021836/posts",
-		"twitter": "lurvul",
-		"description": "We’re a group of web developers and PHP programmers who enjoy building software with the Laravel framework. The goal of Laravel Louisville is to help build the software engineering community in Louisville by teaching each other how to write quality software in PHP."
-	},
 	"let-them-tweet-cake": {
 		"name": "Let Them Tweet Cake",
 		"frequency": "Meets sporadically",
