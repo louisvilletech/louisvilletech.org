@@ -23,6 +23,13 @@
 		"calendar": "https://www.meetup.com/Codecademy-Louisville/events/ical/",
 		"description": "This Meetup is dedicated to helping beginners learn HTML, CSS and Web Design. Outlining the fundamentals, this Meetup's course works through all common elements of front-end design and development."
 	},
+	"code-louisville": {
+		"name": "Code Louisville",
+		"frequency": "Meets monthly on changing dates",
+		"web": "https://www.facebook.com/groups/597842787091041/",
+		"calendar": "https://calendar.google.com/calendar/ical/codelouisvillemeetup%40gmail.com/public/basic.ics",
+		"description": "A social event for Code Louisville students, graduates, mentors, staff, and friends to hang out, have a drink, talk, or play a game."
+	},
 	"creative-mornings-louisville": {
 		"name": "Creative Mornings Louisville",
 		"frequency": "Meets monthly",
@@ -66,7 +73,7 @@
 		"twitter": "Food4Nerds",
 		"calendar": "https://calendar.google.com/calendar/ical/jghri0j8rdpn7svv4tgecb7kl0%40group.calendar.google.com/public/basic.ics"
 	},
-	"game-dev-lou": {	
+	"game-dev-lou": {
 		"name": "Game Dev Lou",
 		"frequency": "Meets every other Sunday @ 2pm",
 		"web": "http://gamedevlou.org/",
