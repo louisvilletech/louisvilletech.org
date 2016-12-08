@@ -264,6 +264,7 @@
 		"web": "https://www.meetup.com/Louisville-Ruby-Brigade/",
 		"calendar": "https://www.meetup.com/Louisville-Ruby-Brigade/events/ical/",
 		"twitter": "lvlrb",
+        "slack_url": "https://louisvillerb.slack.com/",
 		"description": "Meetup for Ruby developers and the Ruby-curious."
 	},
 	"louisville-salesforce-user-goup": {
