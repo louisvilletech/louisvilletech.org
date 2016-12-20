@@ -278,6 +278,12 @@
 		"facebook": "https://www.facebook.com/Louisville-SharePoint-Users-Group-1820033454945586/",
 		"description": "LouSPUG, formerly LouSPU, plans to meet every month to have some fun and talk SharePoint."
 	},
+	"louisville-software-development-leadership-meetup": {
+		"name": "Louisville Software Development Leadership Meetup",
+		"web": "https://www.meetup.com/Louisville-Software-Development-Leadership-Meetup/",
+		"calendar": "https://www.meetup.com/Louisville-Software-Development-Leadership-Meetup/events/ical/",
+		"description": "This meetup is for lead developers, managers, and directors of software teams to get together a few times a year to learn, share, and have some fun. Sign up, let’s meet up, and we’ll find ways to help each other become better leaders. Look for morning and evening meetups, as well as special events a few times each year."
+	},
 	"louisville-software-engineering-meetup": {
 		"name": "Louisville Software Engineering Meetup",
 		"frequency": "Meets the 1st Wednesday every month @ 6pm",
