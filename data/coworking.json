@@ -25,6 +25,10 @@
 		"web": "http://www.workatthepark.com/",
 		"twitter": "WorkAtThePark"
 	},
+	"story-louisville": {
+		"name": "Story Louisville",
+		"web": "http://www.storylouisville.com/"
+	},
 	"sypher-technology": {
 		"name": "Sypher Technology",
 		"web": "https://www.sypher.com/#location",
