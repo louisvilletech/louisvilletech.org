@@ -190,12 +190,10 @@
 	},
 	"louisville-cocoaheads": {
 		"name": "Louisville Cocoaheads",
-		"frequency": "Meets on sporadic Thursdays @ 6:30 pm",
+		"frequency": "Meets monthly on sporadic weeknights",
 		"web": "https://www.meetup.com/Louisville-Cocoaheads/",
 		"calendar": "https://www.meetup.com/Louisville-Cocoaheads/events/ical/",
-		"facebook": "https://www.facebook.com/groups/166763420060216/",
-		"twitter": "LouCocoaheads",
-		"description": "Let's get together and discuss all things Objective-C and cocoa. Want to develop for the iPhone, iPad or the Mac? This is the group. We want to create a community to share ideas and knowledge, build developer technical skills and cultivate new developers."
+		"description": "We discuss all things Swift, Objective-C and Cocoa. We want to create a community to share ideas and knowledge, build developer technical skills and cultivate new developers."
 	},
 	"louisville-civic-data-alliance": {
 		"name": "Louisville Civic Data Alliance",
