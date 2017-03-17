@@ -382,8 +382,8 @@
 		"facebook": "https://www.facebook.com/techtalksky/",
 		"twitter": "techtalksky",
 		"description": "Tech Talks KY (formerly LEX>>FWD) is a meetup group with talks in both Louisville and Lexington. We focus on software, programming and IT technologies. Our aim is to be platform agnostic and to focus on overall concepts and practices. We are open to everyone."
-	}
-		"ixda-louisville": {
+	},
+	"ixda-louisville": {
 		"name": "IxDA Louisville",
 		"frequency": "Meets one Thursday each month @ 6:00pm",
 		"calendar": "https://www.meetup.com/ixdalouisville/events/ical/",
