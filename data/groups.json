@@ -233,6 +233,12 @@
 		"calendar": "https://www.meetup.com/Louisville-Haskell-Meetup/events/ical/",
 		"description": "Meetup for Haskell enthusiasts. Haskell is an elegant and powerful language with a reputation for stretching your brain."
 	},
+	"louisville-mograph": {
+		"name": "Louisville MOGRAPH",
+		"web": "https://www.meetup.com/Louisville-MOGRAPH/",
+		"calendar": "https://www.meetup.com/Louisville-MOGRAPH/events/ical/",
+		"description": "Calling all designers, animators and engineers of motion. This is a group for anyone interested in animation and motion design - motion graphics artists, 2D & 3D animators, VFX artists, and creative coders. The plan is to create a regular meetup where we can share our work, learn from each other, listen guest speakers, and collaborate on projects together."
+	},
 	"loumug": {
 		"name": "Louisville Microsoft Users Group",
 		"frequency": "Meets the last Friday every month @ 11:30 am",
