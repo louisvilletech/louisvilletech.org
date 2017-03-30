@@ -80,16 +80,6 @@
 		"twitter": "Food4Nerds",
 		"calendar": "https://calendar.google.com/calendar/ical/jghri0j8rdpn7svv4tgecb7kl0%40group.calendar.google.com/public/basic.ics"
 	},
-	"game-dev-lou": {
-		"name": "Game Dev Lou",
-		"frequency": "Meets every other Sunday @ 2pm",
-		"web": "http://gamedevlou.org/",
-		"freenode": "#gamedevlou",
-		"mailing-list": "https://groups.google.com/forum/#!forum/gamedevlou",
-		"calendar": "https://www.meetup.com/GameDevLou/events/ical/",
-		"twitter": "GameDevLouKY",
-		"description": "Louisville's game development community. We support game developers of all skill levels and backgrounds. We want to create a safe environment where everyone can learn and participate."
-	},
 	"gdg-louisville": {
 		"name": "Google Developer Group Louisville",
 		"web": "https://www.meetup.com/GDGLouisville/",
@@ -232,6 +222,15 @@
 		"web": "https://www.meetup.com/Louisville-Haskell-Meetup/",
 		"calendar": "https://www.meetup.com/Louisville-Haskell-Meetup/events/ical/",
 		"description": "Meetup for Haskell enthusiasts. Haskell is an elegant and powerful language with a reputation for stretching your brain."
+	},
+	"louisville-makes-games": {
+		"name": "Louisville Makes Games",
+		"frequency": "Meets every other Sunday @ 2pm",
+		"web": "https://www.meetup.com/LouisvilleMakesGames/",
+		"mailing-list": "https://groups.google.com/forum/#!forum/gamedevlou",
+		"calendar": "https://www.meetup.com/LouisvilleMakesGames/events/ical/",
+		"twitter": "LouMakesGames",
+		"description": "Louisville's game development community. We support game developers of all skill levels and backgrounds. We want to create a safe environment where everyone can learn and participate."
 	},
 	"louisville-mograph": {
 		"name": "Louisville MOGRAPH",
