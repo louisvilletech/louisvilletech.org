@@ -220,13 +220,6 @@
 		"twitter": "geekdinner",
 		"description": "A social networking event for those passionate about technology."
 	},
-	"louisville-hardware-startup": {
-		"name": "Louisville Hardware Startup Meetup",
-		"frequency": "Meets the last Monday every month @ 6:30pm",
-		"web": "https://www.meetup.com/LouisvilleHardwareStartups/",
-		"calendar": "https://www.meetup.com/LouisvilleHardwareStartups/events/ical/",
-		"description": "Louisville is a city with a rich manufacturing history, and is a hub for medicine, logistics, and so many other fields. Lots of places to go for Software Startups, but where are the hardware folks supposed to go? We're a group for folks interested in making real stuff, from makers to marketers, seasoned manufacturers to Kickstarting newbies."
-	},
 	"louisville-haskell-meetup": {
 		"name": "Louisville Haskell Meetup",
 		"web": "https://www.meetup.com/Louisville-Haskell-Meetup/",
