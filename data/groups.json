@@ -53,6 +53,13 @@
 		"calendar": "https://www.meetup.com/devbookclub/events/ical/",
 		"description": "Developers are always striving to learn more. Unfortunately development books can be dry and boring. Fortunately friends are fun. This group attempts to tackle boring development books in a social learning atmosphere with code challenges that correspond with the chapters."
 	},
+	"devops-louisville": {
+		"name": "DevOps Louisville",
+		"frequency": "Meets monthly",
+		"web": "https://www.meetup.com/DevOps-Louisville/",
+		"calendar": "https://www.meetup.com/DevOps-Louisville/events/ical/",
+		"description": "For anyone interested in: Cloud / Containers, Infrastructure / Ops Automation, Continuous Integration / Delivery / Deployment, Monitoring / Metrics, Lean/Agile for Development or Operations"
+	},
 	"elixir-louisville": {
 		"name": "Elixir Louisville",
 		"web": "https://www.meetup.com/Elixir-Louisville/",
