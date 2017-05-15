@@ -98,6 +98,14 @@
 		"twitter": "gdilouisville",
 		"description": "Women Developers and Programmers! Want to learn how to code? Have a great idea? Don't be shy. Develop it."
 	},
+	"ionic-louisville": {
+		"name": "Ionic Louisville",
+		"frequency": "Meets sprodically",
+		"web": "https://www.meetup.com/ionic-louisville/",
+		"calendar": "https://www.meetup.com/ionic-louisville/events/ical/",
+		"twitter": "ioniclouisville",
+		"description": "This meetup will talk about ionic and the future of application development. Ionic will be pushed to the limits and used in new ways. Anyone who is interested in hybrid development and or who has experience in native/hybrid development should join."
+	},
 	"issa-kentuckiana": {
 		"name": "ISSA Kentuckiana",
 		"frequency": "Meets one Friday a month @ 11am",
