@@ -192,6 +192,13 @@
 		"calendar": "https://www.meetup.com/Louisville-Cocoaheads/events/ical/",
 		"description": "We discuss all things Swift, Objective-C and Cocoa. We want to create a community to share ideas and knowledge, build developer technical skills and cultivate new developers."
 	},
+	"louisville-code-and-coffee": {
+		"name": "Louisville Code & Coffee",
+		"frequency": "Meets a few times monthly",
+		"web": "https://www.meetup.com/louisville-code-and-coffee/",
+		"calendar": "https://www.meetup.com/louisville-code-and-coffee/events/ical/",
+		"description": "Do you like coffee or tea? Are you interested in programming? This is the group for you!"
+	},
 	"louisville-civic-data-alliance": {
 		"name": "Louisville Civic Data Alliance",
 		"frequency": "Meets sporadically",
