@@ -92,7 +92,7 @@ async.map(groups, statForGroup, function(err, stats) {
 
 	console.log("Downloading", downloads.length, "files...");
 	async.eachLimit(downloads, ConcurrentDownloads, function(item, callback) {
-		downloadCalendar(item[0], item[1], callback);
+		downloadCalendar(item[0], item[1], swallowError(callback));
 	}, function(downloadErr) {
 		if (downloadErr) {
 			console.error(downloadErr);
