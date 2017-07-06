@@ -230,6 +230,12 @@
 		"calendar": "https://www.meetup.com/Louisville-Haskell-Meetup/events/ical/",
 		"description": "Meetup for Haskell enthusiasts. Haskell is an elegant and powerful language with a reputation for stretching your brain."
 	},
+	"louisville-keyboard-club": {
+		"name": "Louisville Keyboard Club",
+		"web": "https://www.eventbrite.com/e/louisville-keyboard-club-2017-with-special-guest-don-bowman-of-unicomp-tickets-35757573866",
+		"calendar": "https://calendar.google.com/calendar/ical/eqqmthv970qfu3o5gsdqkuuplo%40group.calendar.google.com/public/basic.ics",
+		"description": "Are you keyboard-curious? Have been hearing about mechanical keyboard or gaming keyboards, and wanting to try them? There will be plenty of keyboards to try out and help you decide if they are for you."
+	},
 	"louisville-makes-games": {
 		"name": "Louisville Makes Games",
 		"frequency": "Meets every other Sunday @ 2pm",
