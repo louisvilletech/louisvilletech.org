@@ -185,12 +185,12 @@
 		"calendar": "https://www.meetup.com/Louisville-BI-Big-Data-Analytics-Meetup/events/ical/",
 		"description": "If you are modernizing your business with Big Data and want your entire organization to benefit through compelling data visualizations, need to engage your audience with intuitive and interactive reports and dashboards on any device, or are new to BI and are interested to learn more about the use of BI in applications – then this group is for YOU!"
 	},
-	"louisville-cocoaheads": {
-		"name": "Louisville Cocoaheads",
-		"frequency": "Meets monthly on sporadic weeknights",
-		"web": "https://www.meetup.com/Louisville-Cocoaheads/",
-		"calendar": "https://www.meetup.com/Louisville-Cocoaheads/events/ical/",
-		"description": "We discuss all things Swift, Objective-C and Cocoa. We want to create a community to share ideas and knowledge, build developer technical skills and cultivate new developers."
+	"learn-swift-louisville": {
+		"name": "Learn Swift Louisville",
+		"frequency": "Meets monthly on Wednesdays at 6pm",
+		"web": "https://www.meetup.com/learn-swift-louisville/",
+		"calendar": "https://www.meetup.com/learn-swift-louisville/events/ical/",
+		"description": "We want to create a community for everyone interested in learning Swift. We help each other solve problems and become better developers every month. All experience-levels are welcome."
 	},
 	"louisville-code-and-coffee": {
 		"name": "Louisville Code & Coffee",
