@@ -281,6 +281,13 @@
 		"slack": "https://louisvillerb.slack.com/",
 		"description": "Meetup for Ruby developers and the Ruby-curious."
 	},
+	"louisville-r-user-group": {
+		"name": "Louisville R User Group",
+		"frequency": "Meets monthly",
+		"web": "https://github.com/louisville-rstats",
+		"calendar": "https://calendar.google.com/calendar/ical/fbja3a7h8l04juq2onmniugcl0%40group.calendar.google.com/public/basic.ics",
+		"description": "The Louisville R User Group serves as a resource for folks in Louisville as they learn how to use the R language as a tool to build cool stuff and get work done."
+	},
 	"louisville-salesforce-user-goup": {
 		"name": "Louisville Salesforce User Group",
 		"calendar": "https://calendar.google.com/calendar/ical/g1e42sm7o556djcai8h1rceibg%40group.calendar.google.com/public/basic.ics"
