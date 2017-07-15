@@ -84,6 +84,9 @@ code {
 	@include media($medium-screen) {
 		display:inline-block;
 	}
+	&:focus {
+        color: $orange;
+    }
 	&:hover {
 		color:$orange;
 		background:$white;
@@ -102,11 +105,24 @@ code {
 		}
 	}
 }
+.btn-sign-up {
+    float: right;
+    border: 1px solid #77F700;
+    background: #08A53C;
+}
+.btn-sign-up:focus {
+    color: #000;
+}
+.btn-sign-up:hover {
+    background-color: #d1f6d1;
+    color: #087B2E;
+    border: 1px solid #fff;
+}
 
 .l-page {
-	padding-top:50px;
+	padding-top: 50px;
 	@include media($medium-screen) {
-		padding-top:55px;
+		padding-top: 36px;
 	}
 }
 
@@ -133,9 +149,10 @@ code {
 }
 
 .nav-container {
+    font-size: 14px;
 	background:$white;
-	border-bottom: 1px solid $light-gray;
 	position:fixed;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
 	left:0;
 	right:0;
 	z-index: 1000;
@@ -192,11 +209,10 @@ code {
 
 .nav-link {
 	color:$medium-gray;
-	padding:19px $large-padding;
+	padding: 11px $large-padding;
 	display:block;
 	line-height: 1em;
 	@include media($medium-screen) {
-		margin-right: $large-padding;
 	}
 	&:visited {
 		color:$medium-gray;
@@ -214,6 +230,14 @@ code {
 		}
 	}
 }
+a.nav-jobs-board {
+    background-color: #d1f6d1;
+    color: #159250 !important;
+}
+a.nav-jobs-board:hover {
+    color: #fff !important;
+}
+
 
 .utility-table {
 	display: table;
@@ -229,11 +253,11 @@ code {
 .utility-cell {
 	display: table-cell;
 	vertical-align: middle;
-	padding:$base-padding $large-padding;
+	padding: 0 6px;
 	width:40px;
 	@include media($medium-screen) {
 		text-align: right;
-		padding:$base-padding;
+		padding: 0 6px;
 	}
 	&.utility-cell_toggle {
 		width: auto;
@@ -242,6 +266,30 @@ code {
 			display: none;
 		}
 	}
+}
+.show-mobile {
+    display: table-cell;
+    @include media($medium-screen) {
+        display: none;
+    }
+}
+.hide-mobile {
+    display: none;
+    @include media($medium-screen) {
+        display: table-cell;
+    }
+}
+
+.mobile-hero-wrapper {
+    width: auto;
+    text-align: right;
+}
+.mobile-hero-link {
+    display: inline-block;
+}
+.mobile-hero-logo {
+    max-height: 38px;
+    margin-top: 4px;
 }
 
 .utility-link {
@@ -270,7 +318,11 @@ code {
 }
 
 .hero-logo {
-	margin:$large-padding 0 $xlarge-padding -4px;
+    display: none;
+	margin: $large-padding 0 $xlarge-padding -4px;
+	@include media($medium-screen) {
+        display: inline-block;
+	}
 }
 
 .hero-title {
@@ -286,7 +338,7 @@ code {
   letter-spacing: 0.05em;
   @include media($medium-screen) {
   	font-size: 1.5em;
-	  line-height: 1em;
+	  line-height: 1.38em;
 	  padding-right:$large-padding;
   }
 }
@@ -455,4 +507,8 @@ code {
 	  -webkit-font-smoothing: antialiased;
 	  -moz-osx-font-smoothing: grayscale;
   }
+}
+
+.slack-wrapper {
+    margin-top: 6px;
 }

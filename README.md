@@ -11,3 +11,8 @@ To generate the site:
 3. Run `npm install`
 4. Run `npm run build`
 5. After the site is built, you can run it in your browser by opening `index.html` located in `/dest/` 
+
+Removing a group and meetup
+1. Edit the `data/groups.json` file to remove the group.
+2. Remove the stale ical file in the `./ics` directory.
+3. Rebuild the site.

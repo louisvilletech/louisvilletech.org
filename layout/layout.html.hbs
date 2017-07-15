@@ -14,7 +14,7 @@
 		<meta property="og:url"                content="http://louisville.io/" />
     <meta property="og:type"               content="website" />
     <meta property="og:title"              content="Louisville.io" />
-    <meta property="og:description"        content="A consolidated directory and calendar of technology user groups and meetups in Louisville, Kentucky." />
+    <meta property="og:description"        content="A community and calendar of technology user groups and meetups in Louisville, Kentucky." />
     <meta property="og:image"              content="http://louisville.io/images/louisville-io-social-image2x.jpg" />
 
 		<link rel="stylesheet" href="css/main.css">
@@ -38,25 +38,35 @@
 				<div class="nav-cell">
 					<nav role="navigation" class="nav-table nav-table_navigation">
 						<div class="nav-cell">
-							<a class="nav-link" data-object="nav-id-1" href="index.html" title="Technology Event Calendar">Tech Event Calendar</a>
+							<a class="nav-link" data-object="nav-id-1" href="index.html" title="Louisville Technology Event Calendar">Event Calendar</a>
 						</div>
 						<div class="nav-cell">
 							<a class="nav-link" data-object="nav-id-2" href="groups.html" title="Technology Groups">Tech Groups</a>
 						</div>
 						<div class="nav-cell">
-							<a class="nav-link" data-object="nav-id-3" href="conferences.html" title="Technology Conferences">Tech Conferences</a>
+							<a class="nav-link" data-object="nav-id-3" href="conferences.html" title="Technology Conferences">Conferences</a>
 						</div>
 						<div class="nav-cell">
 							<a class="nav-link" data-object="nav-id-4" href="coworking.html" title="Coworking Spaces">Coworking Spaces</a>
 						</div>
+						<div class="nav-cell">
+							<a class="nav-link nav-jobs-board" data-object="nav-id-5" href="https://community.louisville.io/c/jobs" title="Louisville Jobs">Jobs Board</a>
+						</div>
 					</nav>
 				</div>
 
-				<div class="nav-cell nav-cell_utility">
+				<div class="nav-cell nav-cell_utility show-mobile">
 					<div class="utility-table">
 						<div class="utility-cell utility-cell_toggle">
 							<a class="utility-link" href="#toggle-menu" title="Toggle Menu" data-behavior="toggle-menu"><i class="fa fa-bars"></i></a>
 						</div>
+                        <div class="utility-cell mobile-hero-wrapper">
+                            <a href="/" class="mobile-hero-link"><img class="mobile-hero-logo" title="Louisville.io" src="images/louisville-io-logo.svg"></a>
+                        </div>
+                    </div>
+                </div>
+				<div class="nav-cell nav-cell_utility hide-mobile">
+					<div class="utility-table">
 						<div class="utility-cell">
 							<a class="utility-link" href="https://twitter.com/LouisvilleIO" title="Follow @LouisvilleIO on Twitter"><i class="fa fa-twitter"></i></a>
 						</div>
@@ -64,7 +74,7 @@
 							<a class="utility-link" href="https://github.com/louisvilleio/louisville.io" title="Louisville GitHub Users"><i class="fa fa-github"></i></a>
 						</div>
 						<div class="utility-cell">
-							<script async defer src="http://slackin.louisville.io/slackin.js"></script>
+                            <div class="slack-wrapper"><script async defer src="http://slackin.louisville.io/slackin.js"></script></div>
 						</div>
 					</div>
 				</div>
