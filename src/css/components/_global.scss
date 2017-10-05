@@ -52,7 +52,7 @@ pre {
 
 code {
 	line-height:1.25em;
-	font-family: $code-font-family; 
+	font-family: $code-font-family;
 	&.pre-indent-cheat {
 		position: relative;
 	  left: -170px;
@@ -189,7 +189,7 @@ code {
 		@include media($medium-screen) {
 			border:none;
 			position:static;
-			width: 200px;	
+			width: 200px;
 		}
 	}
 }
@@ -306,6 +306,7 @@ a.nav-jobs-board:hover {
 
 .hero-logo {
     display: none;
+	max-width: 444px;
 	margin: $large-padding 0 $xlarge-padding -4px;
 	@include media($medium-screen) {
         display: inline-block;
