@@ -1,9 +1,9 @@
 <header rol="banner" class="hero">
-	<div class="l-container">
+  <div class="l-container">
 
-		<img class="hero-logo" title="Louisville.io" src="images/louisville-io-logo-light.svg"/>
+    <img class="hero-logo" title="Louisville.io" src="images/louisville-io-logo-light.svg"/>
 
-		<div class="batch-g batch-g--gutter">
+    <div class="batch-g batch-g--gutter">
       <div class="batch-c-1-1 batch-c-md-3-4">
         <p class="hero-callout">A consolidated directory and calendar of technology user groups and meetups in Louisville, Kentucky.</p>
         <p>
@@ -16,28 +16,28 @@
         <p class="hero-p">Request an invitation on our Slack team to join the conversation:</p>
         <script async defer src="http://slackin.louisvilletech.org/slackin.js?large"></script>
       </div>
-		</div>
+    </div>
 
 
-	</div>
+  </div>
 </header>
 
 <main role="main" class="l-content">
-	<div class="l-container">
+<div class="l-container">
 
-		<h1>Louisville Tech Event Calendar</h1>
+  <h1>Louisville Tech Event Calendar</h1>
 
-		<div class="batch-g batch-g--gutter batch-g--padding">
-			{{#each events}}
-				{{> event}}
-			{{/each}}
-		</div>
+  <div class="batch-g batch-g--gutter batch-g--padding">
+    {{#each events}}
+      {{> event}}
+    {{/each}}
+  </div>
 
-		</div>
+</div>
 </main>
 
 <script type="text/javascript">
-window.onload = function () {
-	setMenuState(1);
-}
+  window.onload = function () {
+    setMenuState(1);
+  }
 </script>

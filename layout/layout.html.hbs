@@ -4,31 +4,31 @@
 <!--[if gt IE 9]>  <html> <![endif]-->
 <!--[if !IE]><!--> <html>             <!--<![endif]-->
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" href="images/favicon.png">
-		<title>{{title}}</title>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.png">
+    <title>{{title}}</title>
 
-		<meta property="og:url"                content="http://louisvilletech.org/" />
+    <meta property="og:url"                content="http://louisvilletech.org/" />
     <meta property="og:type"               content="website" />
     <meta property="og:title"              content="LouisvilleTech.org" />
     <meta property="og:description"        content="A community and calendar of technology user groups and meetups in Louisville, Kentucky." />
     <meta property="og:image"              content="http://louisvilletech.org/images/louisville-io-social-image2x.jpg" />
 
-		<link rel="stylesheet" href="css/main.css">
-		<script type="text/javascript">
-			function clearTimes(){
-				var items = document.getElementsByTagName("time");
-				for (var i = 0; i < items.length; i++) {
-					items[i].removeAttribute("data-localized");
-					//console.log("time: ", i);
-				}
-				LocalTime.run();
-			}
-			var intervalId = setInterval(clearTimes, 6000);
-		</script>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript">
+      function clearTimes(){
+        var items = document.getElementsByTagName("time");
+        for (var i = 0; i < items.length; i++) {
+          items[i].removeAttribute("data-localized");
+          //console.log("time: ", i);
+        }
+        LocalTime.run();
+      }
+      var intervalId = setInterval(clearTimes, 6000);
+    </script>
 
 
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
@@ -40,73 +40,73 @@
 
       gtag('config', 'UA-107590089-1');
     </script>
-	</head>
-	<body>
+  </head>
+  <body>
 
-		<div class="nav-container" data-object="menu-object">
-			<div class="nav-table nav-table_container">
+    <div class="nav-container" data-object="menu-object">
+      <div class="nav-table nav-table_container">
 
-				<div class="nav-cell">
-					<nav role="navigation" class="nav-table nav-table_navigation">
-						<div class="nav-cell">
-							<a class="nav-link" data-object="nav-id-1" href="index.html" title="Louisville Technology Event Calendar">Event Calendar</a>
-						</div>
-						<div class="nav-cell">
-							<a class="nav-link" data-object="nav-id-2" href="groups.html" title="Technology Groups">Tech Groups</a>
-						</div>
-						<div class="nav-cell">
-							<a class="nav-link" data-object="nav-id-3" href="conferences.html" title="Technology Conferences">Conferences</a>
-						</div>
-						<div class="nav-cell">
-							<a class="nav-link" data-object="nav-id-4" href="coworking.html" title="Coworking Spaces">Coworking Spaces</a>
-						</div>
-					</nav>
-				</div>
+        <div class="nav-cell">
+          <nav role="navigation" class="nav-table nav-table_navigation">
+            <div class="nav-cell">
+              <a class="nav-link" data-object="nav-id-1" href="index.html" title="Louisville Technology Event Calendar">Event Calendar</a>
+            </div>
+            <div class="nav-cell">
+              <a class="nav-link" data-object="nav-id-2" href="groups.html" title="Technology Groups">Tech Groups</a>
+            </div>
+            <div class="nav-cell">
+              <a class="nav-link" data-object="nav-id-3" href="conferences.html" title="Technology Conferences">Conferences</a>
+            </div>
+            <div class="nav-cell">
+              <a class="nav-link" data-object="nav-id-4" href="coworking.html" title="Coworking Spaces">Coworking Spaces</a>
+            </div>
+          </nav>
+        </div>
 
-				<div class="nav-cell nav-cell_utility show-mobile">
-					<div class="utility-table">
-						<div class="utility-cell utility-cell_toggle">
-							<a class="utility-link" href="#toggle-menu" title="Toggle Menu" data-behavior="toggle-menu"><i class="fa fa-bars"></i></a>
-						</div>
-                        <div class="utility-cell mobile-hero-wrapper">
-                            <a href="/" class="mobile-hero-link"><img class="mobile-hero-logo" title="Louisville.io" src="images/louisville-io-logo.svg"></a>
-                        </div>
-                    </div>
-                </div>
-				<div class="nav-cell nav-cell_utility hide-mobile">
-					<div class="utility-table">
-						<div class="utility-cell">
-							<a class="utility-link" href="https://github.com/louisvilletech/louisvilletech.org" title="Louisville GitHub Users"><i class="fa fa-github"></i></a>
-						</div>
-						<div class="utility-cell">
-                            <div class="slack-wrapper"><script async defer src="http://slackin.louisvilletech.org/slackin.js"></script></div>
-						</div>
-					</div>
-				</div>
+        <div class="nav-cell nav-cell_utility show-mobile">
+          <div class="utility-table">
+            <div class="utility-cell utility-cell_toggle">
+              <a class="utility-link" href="#toggle-menu" title="Toggle Menu" data-behavior="toggle-menu"><i class="fa fa-bars"></i></a>
+            </div>
+            <div class="utility-cell mobile-hero-wrapper">
+              <a href="/" class="mobile-hero-link"><img class="mobile-hero-logo" title="Louisville.io" src="images/louisville-io-logo.svg"></a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-cell nav-cell_utility hide-mobile">
+          <div class="utility-table">
+            <div class="utility-cell">
+              <a class="utility-link" href="https://github.com/louisvilletech/louisvilletech.org" title="Louisville GitHub Users"><i class="fa fa-github"></i></a>
+            </div>
+            <div class="utility-cell">
+              <div class="slack-wrapper"><script async defer src="http://slackin.louisvilletech.org/slackin.js"></script></div>
+            </div>
+          </div>
+        </div>
 
-			</div>
-		</div>
+      </div>
+    </div>
 
-		<div class="l-page">
-			{{> body}}
-		</div>
+    <div class="l-page">
+      {{> body}}
+    </div>
 
-		<footer class="l-footer" role="contentinfo">
-			<div class="l-container">
-				<ul class="footer-nav">
-					<li class="footer-nav-item">
-						<a class="footer-nav-link" href="index.html">LouisvilleTech.org Home</a>
-					</li>
-					<li class="footer-nav-item">
-						<a class="footer-nav-link" href="code-of-conduct.html">Code of Conduct</a>
-					</li>
-					<li class="footer-nav-item">
-						<a class="footer-nav-link" href="how-to-submit-changes.html">How to Submit Changes</a>
-					</li>
-				</ul>
-			</div>
-		</footer>
+    <footer class="l-footer" role="contentinfo">
+      <div class="l-container">
+        <ul class="footer-nav">
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="index.html">LouisvilleTech.org Home</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="code-of-conduct.html">Code of Conduct</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-nav-link" href="how-to-submit-changes.html">How to Submit Changes</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
 
-		<script type="text/javascript" src="js/louisvilleio.js"></script>
-	</body>
+    <script type="text/javascript" src="js/louisvilleio.js"></script>
+  </body>
 </html>
