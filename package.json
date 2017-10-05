@@ -1,5 +1,5 @@
 {
-  "name": "louisville.io",
+  "name": "louisvilletech.org",
   "version": "0.0.0",
   "description": "Louisville Tech Calendar",
   "main": "index.js",
@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/louisvilleio/loutechcal.git"
+    "url": "https://github.com/louisvilletech.org/louisvilletech.org.git"
   },
   "dependencies": {
     "async": "^1.2.1",
