@@ -6,6 +6,7 @@ var http = require("http");
 var https = require("https");
 var path = require("path");
 var R = require("ramda");
+var urlModule = require("url");
 
 var groups = require("./data/groups");
 var IcsDir = "ics";
@@ -44,10 +45,19 @@ function msToMin(ms) {
   return Math.floor(ms / 1000 / 60);
 }
 
-function httpGet(url, callback) {
+function httpGet(url, callback, nesting) {
+  if (nesting > 3) {
+    callback("Too many redirects");
+    return;
+  }
   var proto = url.indexOf("https://") === 0 ? https : http;
-  proto.get(url, function(res) {
-    callback(undefined, res);
+  proto.get(url, function(response) {
+    if (response.statusCode == 302) {
+      var newUrl = urlModule.resolve(url, response.headers.location);
+      console.log("  REDIRECT", url, "=>", newUrl);
+      return httpGet(newUrl, callback, (nesting || 0) + 1);
+    }
+    callback(undefined, response);
   }).on("error", function(err) {
     callback(err);
   });
