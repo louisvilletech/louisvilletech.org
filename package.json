@@ -17,13 +17,13 @@
     "url": "https://github.com/louisvilletech.org/louisvilletech.org.git"
   },
   "dependencies": {
-    "async": "^1.2.1",
+    "async": "^2.5.0",
     "bourbon": "^4.2.7",
     "bourbon-neat": "^1.7.4",
     "ical": "^0.5.0",
     "normalize.scss": "^0.1.0",
     "ramda": "^0.15.1",
-    "unfold": "^0.3.2"
+    "unfold": "^0.4.0"
   },
   "devDependencies": {
     "eslint": "^0.24.0"
