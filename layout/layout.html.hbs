@@ -18,18 +18,6 @@
     <meta property="og:image"              content="http://louisvilletech.org/images/louisville-io-social-image2x.jpg" />
 
     <link rel="stylesheet" href="css/main.css">
-    <script type="text/javascript">
-      function clearTimes(){
-        var items = document.getElementsByTagName("time");
-        for (var i = 0; i < items.length; i++) {
-          items[i].removeAttribute("data-localized");
-          //console.log("time: ", i);
-        }
-        LocalTime.run();
-      }
-      var intervalId = setInterval(clearTimes, 6000);
-    </script>
-
 
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107590089-1"></script>
@@ -107,6 +95,7 @@
       </div>
     </footer>
 
+    <script type="text/javascript" src="js/moment.min.js"></script>
     <script type="text/javascript" src="js/louisvilletech.org.js"></script>
   </body>
 </html>
