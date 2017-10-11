@@ -1,37 +1,37 @@
 <div class="batch-c-1-1 batch-c-md-1-2 batch-c-lg-1-4 event event-calendar {{#if expired}}expired{{/if}}">
 
-	<div class="event-time">
-		<i class="fa fa-calendar"></i>
-		<time data-format="ddd, MMMM Do, YYYY @ h:mma" datetime="{{startDateJson}}">{{startDate}}</time>
-	</div>
+  <div class="event-time">
+    <i class="fa fa-calendar"></i>
+    <time data-format="ddd, MMMM Do, YYYY @ h:mma" datetime="{{startDateJson}}">{{startDate}}</time>
+  </div>
 
-	<div class="event-table">
-		<div class="event-cell event-cell_image">
-			{{#if groupUrl}}<a href="{{groupUrl}}">{{/if}}
-				<img class="event-image" src="group-icons/{{group}}.png" alt="{{groupName}}" />
-			{{#if groupUrl}}</a>{{/if}}
-		</div>
+  <div class="event-table">
+    <div class="event-cell event-cell_image">
+      {{#if groupUrl}}<a href="{{groupUrl}}">{{/if}}
+        <img class="event-image" src="group-icons/{{group}}.png" alt="{{groupName}}" />
+      {{#if groupUrl}}</a>{{/if}}
+    </div>
 
-		<div class="event-cell">
-			<h2 class="event-title">
-				{{#if url}}<a href="{{url}}">{{/if}}
-					{{summary}}
-				{{#if url}}</a>{{/if}}
-			</h2>
-		</div>
-	</div>
+    <div class="event-cell">
+      <h2 class="event-title">
+        {{#if url}}<a href="{{url}}">{{/if}}
+          {{summary}}
+        {{#if url}}</a>{{/if}}
+      </h2>
+    </div>
+  </div>
 
-	<h3 class="io-icon io-group">
-		{{#if groupUrl}}<a href="{{groupUrl}}">{{/if}}
-			{{groupName}}
-		{{#if groupUrl}}</a>{{/if}}
-	</h3>
+  <h3 class="io-icon io-group">
+    {{#if groupUrl}}<a href="{{groupUrl}}">{{/if}}
+      {{groupName}}
+    {{#if groupUrl}}</a>{{/if}}
+  </h3>
 
-	{{#if location}}
-	<div class="event-location">
-		<a href="http://maps.google.com/?q={{mapQuery}}">{{location}}</a>
-	</div>
-	{{/if}}
+  {{#if location}}
+  <div class="event-location">
+    <a href="http://maps.google.com/?q={{mapQuery}}">{{location}}</a>
+  </div>
+  {{/if}}
 
-	<p class="event-description">{{{description}}}</p>
+  <p class="event-description">{{{description}}}</p>
 </div>

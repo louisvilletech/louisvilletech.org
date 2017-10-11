@@ -1,67 +1,67 @@
 <main role="main" class="l-content">
-	<div class="l-container">
+  <div class="l-container">
 
-		<h1>Louisville Coworking Spaces</h1>
+    <h1>Louisville Coworking Spaces</h1>
 
-		<div class="batch-g batch-g--gutter batch-g--padding">
-				
-			{{#each coworking}}
-				<div class="batch-c-1-1 batch-c-md-1-2 batch-c-lg-1-4 event">
+    <div class="batch-g batch-g--gutter batch-g--padding">
 
-					<div class="event-table">
-						<div class="event-cell event-cell_image">
-						  <a href="{{web}}">
-						    <img class="event-image" src="group-icons/{{@key}}.png" alt="{{name}}" />
-						  </a>
-					  </div>
+      {{#each coworking}}
+        <div class="batch-c-1-1 batch-c-md-1-2 batch-c-lg-1-4 event">
 
-					  <div class="event-cell">
-					    <h2 class="event-title">
-									<a href="{{web}}">{{name}}</a>
-								</h2>
-					  </div>
-				  </div>
+          <div class="event-table">
+            <div class="event-cell event-cell_image">
+              <a href="{{web}}">
+                <img class="event-image" src="group-icons/{{@key}}.png" alt="{{name}}" />
+              </a>
+            </div>
 
-					{{#if mailing-list}}
-						<h3 class="io-icon io-mail">
-							<a href="{{mailing-list}}">Mailing List</a>
-						</h3>
-					{{/if}}
+            <div class="event-cell">
+              <h2 class="event-title">
+                  <a href="{{web}}">{{name}}</a>
+                </h2>
+            </div>
+          </div>
 
-					{{#if freenode}}
-						<h3 class="io-icon io-freenode">
-							<a href="https://webchat.freenode.net/?channels={{freenode}}">{{freenode}} on Freenode</a>
-						</h3>
-					{{/if}}
+          {{#if mailing-list}}
+            <h3 class="io-icon io-mail">
+              <a href="{{mailing-list}}">Mailing List</a>
+            </h3>
+          {{/if}}
 
-					{{#if twitter}}
-						<h3 class="io-icon io-twitter">
-							<a href="https://twitter.com/{{twitter}}">@{{twitter}}</a>
-						</h3>
-					{{/if}}
+          {{#if freenode}}
+            <h3 class="io-icon io-freenode">
+              <a href="https://webchat.freenode.net/?channels={{freenode}}">{{freenode}} on Freenode</a>
+            </h3>
+          {{/if}}
 
-					{{#if facebook}}
-						<h3 class="io-icon io-facebook">
-							<a href="{{facebook}}">Facebook</a>
-						</h3>
-					{{/if}}
+          {{#if twitter}}
+            <h3 class="io-icon io-twitter">
+              <a href="https://twitter.com/{{twitter}}">@{{twitter}}</a>
+            </h3>
+          {{/if}}
 
-					{{#if google-plus}}
-						<h3 class="io-icon io-google-plus">
-							<a href="{{google-plus}}">Google+</a>
-						</h3>
-					{{/if}}
+          {{#if facebook}}
+            <h3 class="io-icon io-facebook">
+              <a href="{{facebook}}">Facebook</a>
+            </h3>
+          {{/if}}
 
-				</div>
-			{{/each}}
+          {{#if google-plus}}
+            <h3 class="io-icon io-google-plus">
+              <a href="{{google-plus}}">Google+</a>
+            </h3>
+          {{/if}}
 
-		</div>
+        </div>
+      {{/each}}
 
-	</div>
+    </div>
+
+  </div>
 </main>
 
 <script type="text/javascript">
-window.onload = function () {
-	setMenuState(4);
+window.onload = function() {
+  setMenuState(4);
 }
 </script>

@@ -18,26 +18,25 @@
       </div>
     </div>
 
-
   </div>
 </header>
 
 <main role="main" class="l-content">
-<div class="l-container">
+  <div class="l-container">
 
-  <h1>Louisville Tech Event Calendar</h1>
+    <h1>Louisville Tech Event Calendar</h1>
 
-  <div class="batch-g batch-g--gutter batch-g--padding">
-    {{#each events}}
-      {{> event}}
-    {{/each}}
+    <div class="batch-g batch-g--gutter batch-g--padding">
+      {{#each events}}
+        {{> event}}
+      {{/each}}
+    </div>
+
   </div>
-
-</div>
 </main>
 
 <script type="text/javascript">
-  window.onload = function () {
+  window.onload = function() {
     setMenuState(1);
   }
 </script>
