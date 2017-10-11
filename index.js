@@ -23,7 +23,7 @@ function expandRecurrences(event) {
     var duration = copy.end - copy.start;
     copy.start = date;
     copy.end = new Date(date);
-    copy.end.setMilliseconds(copy.end.getMilliseconds() + duration);
+    copy.end.setUTCMilliseconds(copy.end.getUTCMilliseconds() + duration);
     return copy;
   });
 }

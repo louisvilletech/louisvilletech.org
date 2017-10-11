@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var datetime = element.getAttribute("datetime");
     var format = element.getAttribute("data-format");
 
-    element[textProperty] = moment.utc(datetime).format(format);
+    element[textProperty] = moment(datetime).local().format(format);
   }
 });
 
