@@ -20,7 +20,7 @@
     "async": "^1.2.1",
     "bourbon": "^4.2.7",
     "bourbon-neat": "^1.7.4",
-    "ical": "ericlathrop/ical.js#fix-rrule-dtstart",
+    "ical": "^0.5.0",
     "normalize.scss": "^0.1.0",
     "ramda": "^0.15.1",
     "unfold": "^0.3.2"
