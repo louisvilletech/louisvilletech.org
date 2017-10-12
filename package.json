@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint download.js index.js",
     "download": "node download.js",
-    "process": "node index.js",
+    "process": "node ical-to-json.js",
     "unfold": "unfold site.json",
     "build": "npm run download && npm run process && npm run unfold"
   },
@@ -20,7 +20,7 @@
     "async": "^2.5.0",
     "bourbon": "^4.2.7",
     "bourbon-neat": "^1.7.4",
-    "ical": "^0.5.0",
+    "ical.js": "^1.2.2",
     "normalize.scss": "^0.1.0",
     "ramda": "^0.15.1",
     "unfold": "^0.4.0"
