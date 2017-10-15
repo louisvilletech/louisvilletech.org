@@ -80,7 +80,7 @@ code {
 	display:block;
 	text-align:center;
 	margin:0 $base-padding $large-padding 0;
-	@include transition(all 0.2s);
+	transition: all 0.2s;
 	@include media($medium-screen) {
 		display:inline-block;
 	}
@@ -160,7 +160,7 @@ code {
 		max-height: 0;
 		padding-top:50px;
 		overflow: hidden;
-		@include transition(max-height 0.3s ease-in);
+		transition: max-height 0.3s ease-in;
 		@include media($medium-screen) {
 			padding-top:0;
 			display: table;

@@ -52,7 +52,7 @@ $cell-sizes : (
 		@for $i from 1 to (length($cell-size)+1) {
 			$cell-size-percentage: (percentage($key/nth($cell-size, $i)));
 			.batch-c#{$breakpoint}-#{$key}-#{nth($cell-size, $i)} {
-				@include flex(0 0 auto);
+				flex: 0 0 auto;
 				width:$cell-size-percentage;
 				.batch-g--gutter > & {
 					width:calc(#{$cell-size-percentage} - #{$batch-gutter});
@@ -65,11 +65,11 @@ $cell-sizes : (
 
 /* Batch grid wrapper */
 .batch-g {
-	@include align-items(stretch);
-	@include display(flex);
-	@include justify-content(flex-start);
-	@include flex-direction(row);
-	@include flex-wrap(wrap);
+	align-items: stretch;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 /* Batch grid modifiers */
@@ -90,27 +90,27 @@ $cell-sizes : (
 }
 
 .batch-g--reverse {
-	@include flex-direction(row-reverse);
+	flex-direction: row-reverse;
 }
 
 .batch-g--valign-top {
-	@include align-items(flex-start);
+	align-items: flex-start;
 }
 
 .batch-g--valign-center {
-	@include align-items(center);
+	align-items: center;
 }
 
 .batch-g--valign-bottom {
-	@include align-items(flex-end);
+	align-items: flex-end;
 }
 
 .batch-g--align-center {
-	@include justify-content(center);
+	justify-content: center;
 }
 
 .batch-g--align-right {
-	@include justify-content(flex-end);
+	justify-content: flex-end;
 }
 
 /* Base cells */
@@ -125,4 +125,3 @@ $cell-sizes : (
 @media screen and (min-width: $large-screen) {
 	@include small-batch('-lg');
 }
-
