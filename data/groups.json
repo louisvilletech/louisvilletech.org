@@ -126,12 +126,8 @@
 	},
 	"juggl": {
 		"name": "Java Users Group of Greater Louisville",
-		"frequency": "Meets the 3rd Tuesday every month @6pm",
-		"web": "http://www.juggl.us",
+		"frequency": "Meets the 2nd Monday every month @6pm",
 		"calendar": "https://www.meetup.com/JUGGLou/events/ical/",
-		"facebook": "https://www.facebook.com/JUGGLou",
-		"google-plus": "https://plus.google.com/+JugglUs/posts",
-		"twitter": "JUGGLou",
 		"description": "We are a group of developers and enthusiasts who are interested in learning about Java, the Java Virtual Machine, and all of the things you can do on top of the JVM."
 	},
 	"kyoss": {
