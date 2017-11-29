@@ -503,5 +503,17 @@ a.nav-jobs-board:hover {
 }
 
 .survey-banner {
+  color: $white;
   background-color:$orange;
+  .btn {
+    color: $white;
+    border-color: $white;
+    margin: 8px;
+    &:hover {
+      color:$orange;
+    }
+  }
+  h2, p {
+    margin: 8px 0;
+  }
 }
