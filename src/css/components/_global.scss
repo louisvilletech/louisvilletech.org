@@ -508,7 +508,12 @@ a.nav-jobs-board:hover {
   .take-survey-button {
     display: flex;
     align-items: center;
-    margin-left: 20px;
+    @include media($medium-screen) {
+      margin-left: 20px;
+    }
+  }
+  .banner-text {
+    padding: 0 8px;
   }
   .btn {
     margin: 8px;
