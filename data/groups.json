@@ -295,12 +295,6 @@
 		"facebook": "https://www.facebook.com/Louisville-SharePoint-Users-Group-1820033454945586/",
 		"description": "LouSPUG, formerly LouSPU, plans to meet every month to have some fun and talk SharePoint."
 	},
-	"louisville-software-development-leadership-meetup": {
-		"name": "Louisville Software Development Leadership Meetup",
-		"web": "https://www.meetup.com/Louisville-Software-Development-Leadership-Meetup/",
-		"calendar": "https://www.meetup.com/Louisville-Software-Development-Leadership-Meetup/events/ical/",
-		"description": "This meetup is for lead developers, managers, and directors of software teams to get together a few times a year to learn, share, and have some fun. Sign up, let’s meet up, and we’ll find ways to help each other become better leaders. Look for morning and evening meetups, as well as special events a few times each year."
-	},
 	"louisville-software-engineering-meetup": {
 		"name": "Louisville Software Engineering Meetup",
 		"frequency": "Meets the 1st Wednesday every month @ 6pm",
@@ -322,6 +316,12 @@
 		"web": "https://www.meetup.com/Louisville-Tech-Ladies/",
 		"calendar": "https://www.meetup.com/Louisville-Tech-Ladies/events/ical/",
 		"description": "If you're a woman in any STEM field looking to meet & hang out with other amazing women, we'd love to meet you, too! We will get together monthly to network, learn from each other, and offer support."
+	},
+	"louisville-tech-leaders-meetup": {
+		"name": "Louisville Tech Leaders Meetup",
+		"web": "https://www.meetup.com/louisville-tech-leaders/",
+		"calendar": "https://www.meetup.com/louisville-tech-leaders/events/ical/",
+		"description": "Many tech leaders get the job by default. They’re the best or most senior technologist and suddenly find themselves leading meetings, negotiating for resources, making strategic decisions their bosses don’t understand and can’t help with, participating in hiring, and a whole range of other mission-critical activities that fall outside of the technical toolbox. This meetup is for tech leads, managers, and directors of technical teams to get together a few times a year to learn, share, and have some fun. Sign up, let’s meet up, and we’ll find ways to help each other become better leaders. Look for morning and evening meetups, as well as special events a few times each year."
 	},
 	"louisville-ux-meetup": {
 		"name": "Louisville UX Meetup",
