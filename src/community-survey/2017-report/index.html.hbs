@@ -1,0 +1,576 @@
+<main role="main" class="l-content">
+  <div class="l-container" style="max-width:30em; font-size: 150%;">
+    <style>
+      ul {
+        list-style-position: outside;
+        margin-left: 20px;
+      }
+
+      figcaption {
+        font-size: 80%;
+        font-style: italic;
+      }
+
+      p + p {
+        margin-top: 40px;
+      }
+    </style>
+
+    <h1>2017 Louisville Tech Community Salary and Benefits Survey Report</h1>
+
+    <p>Released February 2018</p>
+
+    <p>Louisville Tech Community Survey Committee</p>
+
+    <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+
+    <p><a href="2017 Louisville Tech Community Salary and Benefits Survey Report.pdf" class="btn">Download a printable version of the 2017 Louisville Tech Community Salary and Benefits Survey Report (PDF)</a></p>
+
+    <h2><a href="#toc" name="toc">Table of Contents</a></h2>
+
+    <ul style="list-style-type:none;">
+      <li><a href="#section-1">1. Introduction</a></li>
+      <li><a href="#section-2">2. Confidentiality and Protection of Sensitive Data</a></li>
+      <li><a href="#section-3">3. Sample</a></li>
+      <li><a href="#section-4">4. Salary</a></li>
+      <li><a href="#section-4.1">4.1. Salary Modeling</a></li>
+      <li><a href="#section-5">5. Benefits</a></li>
+      <li><a href="#section-6">6. Languages We Use</a></li>
+      <li><a href="#section-7">7. Job Satisfaction</a></li>
+      <li><a href="#section-8">8. Open Comments</a></li>
+      <li><a href="#section-9">9. Limitations</a></li>
+      <li><a href="#section-10">10. Footnotes</a></li>
+    </ul>
+
+    <h2><a href="#section-1" name="section-1">1. Introduction</a></h2>
+
+    <p>
+      The purpose of this report is to present and discuss the results of a survey distributed by <a href="https://slackin.louisvilletech.org/">the Louisville
+      Tech Slack</a> community. The survey grew out of a discussion on our Slack channel regarding local salaries
+      and the common perceptions that technology jobs in Louisville are not as well-paying as in other areas
+      and that the national tech salary surveys do not accurately represent the Louisville area.
+      The survey was created by a small group within the Louisville Tech community and made available for
+      public response during the month of December 2017. Anyone in the tech community who lives and/or
+      works in the Louisville area was invited to respond. If you have any questions about the information in
+      this report, please contact the organizers via <a href="mailto:LouisvilleTechSurvey@gmail.com">LouisvilleTechSurvey@gmail.com</a>.
+    </p>
+
+    <h2><a href="#section-2" name="section-2">2. Confidentiality and Protection of Sensitive Data</a></h2>
+
+    <p>
+      We recognize that salary and other compensation can be a very personal topic of discussion, so no
+      question in the survey was required; any participant could skip any question they did not feel
+      comfortable answering. To that end, some of the statistics and analyses in this report may be based on
+      different numbers of responses and is noted where appropriate. Additionally, certain statistics may be
+      listed as having been redacted. In these instances there was data available but we did not feel confident
+      that we could protect against the potential of data being associated with a specific individual. Finally,
+      while individuals were asked for the name of their employer as part of the survey, only one company
+      had enough responses to do any kind of by-company salary analysis. As such, company data was
+      removed from the dataset and not used in this report.
+    </p>
+
+    <h2><a href="#section-3" name="section-3">3. Sample</a></h2>
+
+    <p>
+      We received 207 responses to the survey, representing employees of 90 different companies. After case
+      removals (see <a href="#figure-1">Figure 1</a>), 193 responses remained for analysis.
+    </p>
+
+    <figure id="figure-1">
+      <img src="images/png/Figure 1.png" alt="Figure 1" />
+      <figcaption>Figure 1. Sample size flow diagram.</figcaption>
+    </figure>
+
+    <figure id="table-1">
+      <img src="images/png/Table 1.png" alt="Table 1" />
+      <figcaption>Table 1. Sample Demographics</figcaption>
+    </figure>
+
+    <p>
+      The ethnic and gender makeup of the sample is given in Table 1. The vast majority of the people
+      who responded to the survey were cis male (78.24%), white (90.16%), and not Hispanic (94.22%), which
+      makes some of the subgroup analyses that were of interest more difficult or not possible to do. This also
+      makes it harder to draw conclusions about the data, since a single response can have a
+      disproportionately large effect on a statistic when the group size is small.
+    </p>
+
+    <figure id="table-2">
+      <img src="images/png/Table 2.png" alt="Table 2" />
+      <figcaption>Table 2. Summary Statistics for Age and Career Length</figcaption>
+    </figure>
+
+    <p>
+      Of those who were willing to report their age, the median age was 34; half of those who
+      responded to the survey were between the ages of 21 to 34 (<a href="#table-2">Table 2</a>). Combined with the length of time
+      reported for working in tech (Mdn = 9 years), we can infer that the majority of people working in tech in
+      Louisville have been working in tech for most, if not all, of their careers. These data also show that
+      people in tech do tend to change jobs relatively frequently; 75% of the sample have worked at their
+      company for 5 years or fewer, and half of the sample have worked there for 2 or fewer, although there
+      are a number of outliers who have worked at their company for over a decade (<a href="#figure-2">Figure 2</a>).
+    </p>
+
+    <figure id="figure-2">
+      <img src="images/svg/Figure 2.svg" alt="Figure 2" />
+      <figcaption>Figure 2<sup><a name="footnote-1-src" href="#footnote-1-dest">1</a></sup>. Distributions of years worked in technology, years in current role, and years at company.</figcaption>
+    </figure>
+
+    <h2><a href="#section-4" name="section-4">4. Salary</a></h2>
+
+    <p>
+      Within the full sample, 183 full-time employees provided income data. Since these data reflect a mix of
+      salaried and hourly income, we converted the hourly wages to an annual salary equivalent (hourly wage
+      x 40 hours per week x 52 weeks per year). Only salaries from full-time employees in order to keep hours
+      of work for the amount of money relatively consistent. The mean salary for across this group was
+      $88,011 (SD = 38,054) and the median was $82,000.
+    </p>
+
+    <p>
+      Discussing salary for the entire sample doesn’t really give the most useful information given the
+      breadth of job types within technology. The survey asked individuals to give their job title, which we
+      then sorted (via group consensus) in to one of 12 job categories. <a href="#figure-3">Figure 3</a> and <a href="#table-3">Table 3</a> confirm that there
+      is a good deal of variability in salary between the job categories; for example, architects have almost no
+      overlap in salary with data scientists. Because of this, it made more sense to do examine salary data
+      within job category and not across the full sample. Three categories (business, database developer, and
+      instructor) had 3 or fewer individuals who both work full-time and reported an income, so only mean
+      and median are reported in <a href="#table-3">Table 3</a> instead of the full range of values to help prevent identifying any
+      one individual’s salary.
+    </p>
+
+    <p>
+      Over half of the people who reported their income data were categorized as software
+      developers (n = 97), while the remaining 86 responses were spread across the other 11 categories. Since
+      none of those other categories had very many responses, the remaining salary data is reported only for
+      software developers. Similar to the small numbers in the demographic subgroups, it is hard to draw
+      conclusions when there is only a small amount of data to work with.
+    </p>
+
+    <p>
+      One final concern is that most statistical comparisons assume that the data are normally
+      distributed (that is, fall along a bell-shaped curve). Since many of the subgroups have a very small
+      number of people in them, a single value can have an outsized effect on the mean. To avoid this,
+      comparisons were performed using the median, so that any outliers will have much less of an effect
+      than on the mean. The test we used to compare pairs of medians is the Wilcoxon-Mann-Whitney U test.
+      This test is similar to the more familiar t test, but does not assume normal distributions and is
+      appropriate for imbalanced group sizes (i.e. one of the groups being compared is much smaller than the
+      other). When the groups are normally distributed, the U statistic has slightly less power to show a
+      significant effect/difference than does a t statistic, but is a safer and more statistically conservative
+      choice in a situation like this.
+    </p>
+
+    <figure id="figure-3">
+      <img src="images/svg/Figure 3.svg" alt="Figure 3" />
+      <figcaption>Figure 3. Distributions of annual salaries by job categories.</figcaption>
+    </figure>
+
+    <figure id="table-3">
+      <img src="images/png/Table 3.png" alt="Table 3" />
+      <figcaption>Table 3. Salary by Job Category</figcaption>
+    </figure>
+
+    <p>
+      Note: categories do not sum to 183 because not all who reported a salary gave a job title.
+    </p>
+
+    <figure id="table-4">
+      <img src="images/png/Table 4.png" alt="Table 4" />
+      <figcaption>Table 4. Salary By Experience, Job Location, and Company Type</figcaption>
+    </figure>
+
+    <p>
+      One area of particular interest to the community was the perception that individuals who live in
+      the Louisville area but work elsewhere remotely get paid more than those who work in Louisville. Via
+      <a href="#table-4">Table 4</a>, individuals who work in Louisville have a median salary of $79,500, while those who work
+      remotely have a median salary of $100,000, which is a significant difference (U = 254, p &lt; .001).
+      Interestingly, software developers who work remotely for a job based in Louisville were paid more than
+      those who work on-site in Louisville (Mdn = $91.650 vs Mdn = $79,343), although this difference was not
+      significant.
+    </p>
+
+    <p>
+      We want to remind readers to be cautious in interpreting these values. These results do not
+      necessarily mean that all remote jobs pay better than local ones, or that the only way to make the
+      extreme upper ends of the pay scale are to work remote jobs. It is possible that developers who wanted
+      a higher salary than they could find locally looked for remote/national jobs, which means they would
+      naturally exclude jobs from their search that paid the same as local jobs. That is, it is possible that the
+      jobs do not pay more because they are outside of Louisville, but that these individuals sought out jobs
+      that pay more, regardless of the job location. It is also possible that since remote jobs have a national
+      talent base from which to select, those employers have to pay more to get the individuals they want,
+      but that would in turn make such jobs harder to get because of increased competition; that is, the job
+      doesn’t pay more because it is remote, but because of the talent/skills of the person in the job. While it
+      may be that remote jobs do just pay better in general, or that the Louisville tech market is undervalued
+      compared to other locations, the nature of a self-selected survey sample and relatively small subgroup
+      sizes reinforce that these are relational observations only, not causal conclusions.
+    </p>
+
+    <p>
+      Other data in <a href="table-4">Table 4</a> shows how median salary grows with years of experience working in tech.
+      Salaries for software developers rise quickly in the first 10 years, with a rise in median pay of almost
+      $30,000, but level off after that point. Potential explanations include that most developers have reached
+      senior developer level by that point and so have pay parity with anyone else at that rank or because
+      those seeking higher salaries have shifted to other tracks (management, architecture, etc.) after gaining
+      experience as software developers.
+    </p>
+
+    <p>
+      <a href="#table-4">Table 4</a> also compared salaries for those working at tech companies (as self-defined by
+      respondents) to those working at other company types. While developers working at tech companies
+      did have a slightly higher median salary ($88,000 vs $81,700), the difference was not significant. There
+      was also a greater amount of variability in tech company salaries.
+    </p>
+
+    <figure id="table-5">
+      <img src="images/png/Table 5.png" alt="Table 5" />
+      <figcaption>Table 5. Salary by Demographic Categories and Programming Education Type</figcaption>
+    </figure>
+
+    <p>
+      In <a href="#table-5">Table 5</a>, we compared median salaries across demographic groups and education types, both
+      overall and across levels of years of experience. To make the data clearer, we only used median salaries
+      and not the full range as was used in <a href="#table-3">Tables 3</a> and <a href="#table-4">4</a>. Additionally, there were few enough individuals in
+      some of the subgroups that some of the experience categories were aggregated instead of the exact
+      categories used in <a href="#table-4">Table 4</a>. Even with this change, many of the individual cells in demographic category
+      by years of experience had either no one who fell into that combination of categories, or only a single
+      person. In the latter case, salary data was withheld from the table due to identifiability concerns.
+    </p>
+
+    <p>
+      The salaries for those identifying as female vs those identifying as male show that the males
+      have a higher median salary ($83,200 vs $73,000 for the full software developer subsample). While this
+      difference is not statistically significant, it is persistent across all levels of experience for which we had
+      data. In all cases, software developers who identify as female make approximately $10,000 less than
+      their male counterparts with the same amount of experience.
+    </p>
+
+    <p>
+      The difference in salaries for white vs minority (defined as reporting one’s race as anything but
+      exclusively white) is somewhat harder to interpret. The overall difference in median salary is substantial
+      ($66,000 for minority vs $83,000 for white) but not statistically significant. Looking at the salary by level
+      of experience, median salaries are very nearly comparable for the experience levels for which there is
+      data. The difference in overall median salaries is then possibly driven by the fact that all but one of the
+      developers with more than 10 years experience is white. We would need a larger sample and more
+      responses from minority developers in order to more fully explore this.
+    </p>
+
+    <p>
+      It is similarly difficult to interpret the data for Hispanic/Latinx vs non-Hispanic/Latinx software
+      developers and for the type of programming education. The overall medians are almost identical
+      (Hispanic/Latinx: $85,000, non-Hispanic/Latinx: $82,000) but the median salaries by level of experience
+      have a greater disparity and variability. Likewise, the overall median salaries vary depending on type of
+      programming education, but much of this variability could be driven by a lack of individuals with more
+      experience for some of these categories.
+    </p>
+
+    <figure id="figure-4">
+      <img src="images/svg/Figure 4.svg" alt="Figure 4" />
+      <figcaption>Figure 4. Change from previous annual salary (from raise, promotion, or job change) to current salary.</figcaption>
+    </figure>
+
+    <figure id="table-6">
+      <img src="images/png/Table 6.png" alt="Table 6" />
+      <figcaption>Table 6. Change in Annual Salary By Employer and Job Rank</figcaption>
+    </figure>
+
+    <p>
+      The last topic we looked at with regards to salary was changes in salary, due to factors such as
+      annual raises, changing jobs, or getting a promotion. Within the subsample of software developers, 69
+      people reported both a current and previous salary. As before, hourly wages were converted to an
+      annual salary equivalent at 40 hours per week, 52 weeks per year. Figure 4 shows that the large majority
+      of salary changes are positive, up to a $30,000 annual salary jump. There are a few outliers above that,
+      up to $50,000, and a few who took a pay cut via a change in job title and/or change in employer.
+    </p>
+
+    <p>
+      <a href="#table-6">Table 6</a> splits those salary figures by changes in employer and job rank (e.g. getting a promotion,
+      change in job title). The largest median salary gains were for people who had changed job rank (Mdn =
+      $9,500 for people who stayed at the same employer, Mdn = $9,100 for people who changed employers).
+      These salary changes likely involved a promotion, such as becoming a senior developer. Individuals who
+      stayed in the same job rank received bigger pay jumps by changing employers (Mdn = $5,000 for those
+      at the same employer, Mdn = $7,750 for those who changed employer). As with other findings from this
+      survey, we encourage caution in interpreting these numbers, as this was a relatively small, self-selected
+      sample and not an experiment or large-scale survey with random selection.
+    </p>
+
+    <h2><a href="#section-4.1" name="section-4.1">4.1 Salary Modeling</a></h2>
+
+    <p>
+      We intended to use the data from this survey to build a model to predict salary, but were not
+      able to come up with any strong models, especially given the limitations of the data and the sample. The
+      single largest factor correlating with salary is years of experience in technology (r = .50), followed by
+      whether or not someone’s job is outside of Louisville (r = .42). Taken together, these two factors predict
+      approximately 40% of the variability in salary (adjusted R 2 = .39, df = 94, p &lt; .001)<sup><a name="footnote-2-src" href="#footnote-2-dest">2</a></sup>. Other than these two
+      factors, however, none of the data we collected were significant predictors of salary or improved the
+      overall model fit. Variables that were tried during modeling included gender, race, degree status (both
+      4-year and computer science degree), working at a tech company, and different groupings of languages
+      individuals reported using as a regular part of their job (e.g. front-end languages, JavaScript
+      frameworks).
+    </p>
+
+    <h2><a href="#section-5" name="section-5">5. Benefits</a></h2>
+
+    <p>
+      The second main section of the survey asked individuals about their benefits, both formal company-sponsored
+      benefits (e.g. health insurance, retirement plan) and informal perks and other workplace
+      enhancements, such as a flexible schedule or free food and drinks in the office. Since these benefits are
+      usually the same for everyone at a company and not dependent on job performed, all job categories are
+      included in this section and not just software developers. However, these statistics are restricted to full-time
+      employees only, since most part-time employees are not eligible for benefits.
+    </p>
+
+    <figure id="table-7">
+      <img src="images/png/Table 7.png" alt="Table 7" />
+      <figcaption>Table 7. Benefit Availability for Full-Time Employees</figcaption>
+    </figure>
+
+    <p>
+      In general, tech companies in Louisville offer comprehensive benefits (<a href="#table-7">Table 7</a>). Health, dental,
+      and vision insurance, life insurance, retirement plans, and paid time off are all available to at least 75%
+      of the sample. The two benefits with the lowest availability are stock options (22.80%) and paid parental
+      leave (45.60%). Most of the benefits are comparable for full-time contractors as they are for permanent
+      employees, with the exception of stock options and paid time off.
+    </p>
+
+    <p>
+      The additional benefits have a much greater variability in their ability to employees. The
+      majority of participants have a flexible work schedule (77.72%), are able to work from home (78.76%),
+      and can dress casually at work (67.88%), while fewer work in a pet-friendly office (17.10%) or have on-site
+      childcare (3.11%). It is likely that there is some variability in how each individual defined these
+      benefits and perks; for example, one person’s flexible schedule might be restrictive to someone else.
+    </p>
+
+    <figure id="table-8">
+      <img src="images/png/Table 8.png" alt="Table 8" />
+      <figcaption>Table 8. Satisfaction Ratings for Company-Sponsored Benefits</figcaption>
+    </figure>
+
+    <figure id="table-9">
+      <img src="images/png/Table 9.png" alt="Table 9" />
+      <figcaption>Table 9. Ratings of Importance for Company-Sponsored Benefits</figcaption>
+    </figure>
+
+    <p>
+      In addition to the availability of benefits, we asked how satisfied individuals were with each type
+      of benefit and how important that benefit is to them. For example, someone might be very satisfied
+      with their stock options, but doesn’t really find it important to have that benefit as an offering. (Note:
+      while the survey asked about the availability of life insurance, this option was inadvertently left out of
+      the benefit satisfaction and importance items.) The data, given in <a href="#table-8">Table 8</a>, <a href="#table-9">Table 9</a>, and <a href="#figure-5">Figure 5</a>, show
+      that the benefits people are most satisfied with are their vacation/sick time and paid holidays; in both
+      cases, approximately two-thirds of the sample reported being somewhat to very satisfied with the
+      amount of time off they have. These were also two of the most important benefits to individuals, where
+      in both cases over 75% of the sample said that the benefit was very important to them. The only benefit
+      that had a larger level of dissatisfaction was the availability of stock options, where 33% of the sample
+      were somewhat to very dissatisfied with this benefit.
+    </p>
+
+    <p>
+      Finally, we left an open response area in the survey for people to list benefits provided for their
+      company that we didn’t ask about. The unedited responses:
+    </p>
+
+    <ul>
+      <li>company laptop provided</li>
+      <li>Employee Stock Pricing Plan, Bonuses (15% of base salary)</li>
+      <li>Entertainment options e.g. ping pong, TV, couches</li>
+      <li>Cell phone and plan, paid meals, mentorship</li>
+      <li>tech culture, meetup space, parking, burboun</li>
+      <li>Bonus</li>
+      <li>Paid parking</li>
+      <li>Gym</li>
+      <li>Company offsites, reimbursements for any equipments including desks, chairs, monitors, etc</li>
+      <li>Public Transit, Employer-based discounts</li>
+      <li>On site fitness</li>
+      <li>In-office gym with free trainer</li>
+      <li>Matching charity contributions, paid jury duty</li>
+      <li>Company pays for co-working space</li>
+      <li>Tolerance for my sarcasm</li>
+      <li>"Gadgets for geeks" (electronics reimbursement up to a certain amount), gym membership</li>
+      <li>reimbursement</li>
+      <li>Liquor stipend</li>
+      <li>on-site health clinic</li>
+      <li>In-house training; work clothes</li>
+      <li>50% off any Carry-Out order at Papa John's</li>
+      <li>No restrictions on outside/on-the-side work</li>
+      <li>Paid quarterly team outings</li>
+      <li>Daily open bar starting at 5pm. A slide.</li>
+      <li>Free glasses</li>
+      <li>Tickets to local events.</li>
+      <li>They pay for some college titution and some certifications</li>
+      <li>Massages / haircuts 3 free meals a day</li>
+      <li>Whole company given holiday from Christmas/New Year</li>
+      <li>Unlimited PTO</li>
+      <li>Nonprofit donation matching</li>
+      <li>International Travel</li>
+    </ul>
+
+    <figure id="figure-5">
+      <img src="images/svg/Figure 5.svg" alt="Figure 5" />
+      <figcaption>Figure 5. Satisfaction with and importance of company-sponsored benefits.</figcaption>
+    </figure>
+
+    <h2><a href="#section-6" name="section-6">6. Languages We Use</a></h2>
+
+    <p>
+      While it turned out that an individual’s salary was not strongly influenced by the languages they
+      regularly use at work (see <a href="#section-4.1">Section 4.1</a>), the local tech community was still interested in the languages
+      that are commonly used here. Figure 6 shows that the languages and technologies we use most
+      commonly are for front-end work (HTML, CSS, and JavaScript) and for databases (any variety of SQL).
+      Object oriented languages such as C# (used by 30.98% of programmers in the sample) are also relatively
+      popular. Additionally, while none of the major front end JavaScript frameworks had high individual
+      usage (e.g., 14.13% use AngularJS, 11.41% use React, etc.), aggregating the data showed that 35.33%
+      use at least one of those frameworks (AngularJS, Angular, Elm, React, or Vue.js).
+    </p>
+
+    <figure id="figure-6">
+      <img src="images/svg/Figure 6.svg" alt="Figure 6" />
+      <figcaption>Figure 6. Number of users of each language as a regular part of job, with percentage of language users out of all who reported knowing how to program in parentheses.</figcaption>
+    </figure>
+
+    <h2><a href="#section-7" name="section-7">7. Job Satisfaction</a></h2>
+
+    <figure id="figure-7">
+      <img src="images/svg/Figure 7.svg" alt="Figure 7" />
+      <figcaption>Figure 7. Satisfaction with current job and likelihood of looking for a new job in the coming year.</figcaption>
+    </figure>
+
+    <figure id="figure-8">
+      <img src="images/svg/Figure 8.svg" alt="Figure 8" />
+      <figcaption>Figure 8. Likelihood of looking for a new job in the coming year relative to satisfaction with current job.</figcaption>
+    </figure>
+
+    <p>
+      Our final goal in this survey was to look at how satisfied individuals in the Louisville tech
+      community are with their jobs and how likely they are to look for a new job in the coming year. <a href="#figure-7">Figure 7</a>
+      shows that just over two-thirds of the survey (69.79%) like their jobs, rating that they were either
+      somewhat or very satisfied with their job. However, this does not necessarily mean that they are not still
+      planning on looking for a new job in the coming year; 38.54% of those who responded said it was
+      somewhat to very likely that they would look for a new job in the coming year.
+    </p>
+
+    <p>
+      <a href="#figure-8">Figure 8</a> adds additional insight to this issue by plotting the distribution of likelihood of looking
+      for a new job by level of job satisfaction. Unsurprisingly, the less satisfied an individual is with their job,
+      the more likely they are to say they will be looking for a new job. However, not even people who are
+      very satisfied with their current job (n = 73) are sure they will stay where they are; 13.70% of these
+      individuals responded that they are somewhat or very likely to look for a new job in the coming year.
+    </p>
+
+    <figure id="table-10">
+      <img src="images/png/Table 10.png" alt="Table 10" />
+      <figcaption>Table 10. How Individuals in Sample Found Their Current Job</figcaption>
+    </figure>
+
+    <p>
+      We also wanted some insight into how people in the Louisville tech community find their jobs
+      (<a href="#table-10">Table 10</a>). Almost half (46.84%) reported getting their job via a personal contact of some kind, such as a
+      friend or someone they had met via professional networking. Individual contact in general was very
+      important; for example, only 16.32% of individuals said they got their current job via a general job
+      posting.
+    </p>
+
+    <p>
+      Finally, we wanted to understand what is important to individuals in our community when it
+      comes to looking for and selecting a new job, such as money, time off, or intangibles like company
+      culture. The survey asked respondents to rank eight factors in terms of most to least important to them
+      when looking for a new job. In <a href="#figure-9">Figure 9</a> these factors are grouped by ranking, e.g. the number of people
+      who ranked each factor first, then the number who ranked each second, etc. In Figure 10 they are
+      grouped by factor, showing how many people ranked salary first/second/third, then who ranked
+      benefits first/second, third, and so on.
+    </p>
+
+    <p>
+      There is a lot of information that can be extracted from <a href="#figure-9">Figures 9</a> and <a href="#figure-10">10</a>, so we’ll focus on a few
+      highlights. First, salary is either very important or very not important for job-seekers, as shown by its
+      clear bimodal distribution in <a href="#figure-9">Figure 9</a>. Benefits followed a similar general pattern, although very few
+      people ranked them at the extremes of most or least important. <a href="#figure-10">Figure 10</a> shows that there was no clear
+      pattern for what individuals feel is most important if not salary and benefits; the rankings for first- and
+      second-most important are fairly evenly distributed across the remaining six categories.
+    </p>
+
+    <figure id="figure-9">
+      <img src="images/svg/Figure 9.svg" alt="Figure 9" />
+      <figcaption>Figure 9. Importance of factors in selecting a new job, as organized by importance ranking.</figcaption>
+    </figure>
+
+    <figure id="figure-10">
+      <img src="images/svg/Figure 10.svg" alt="Figure 10" />
+      <figcaption>Figure 10. Importance of factors in selecting a new job, as organized by factor.</figcaption>
+    </figure>
+
+    <h2><a href="#section-8" name="section-8">8. Open Comments</a></h2>
+
+    <p>
+      We left an open comment section at the end of the survey for individuals to volunteer anything else
+      they wanted to say about the Louisville tech community. Here are their words, unedited.
+    </p>
+
+    <ul>
+      <li>A lot of Louisville seems to be stuck in old corporate mindset when it comes to technology.</li>
+      <li>Although I don't get the chance to actively participate in the Louisville tech community asich as I'd like, I love how vibrant it is.</li>
+      <li>I do love the Louisville tech community. It's big enough to invite a wide variety of individuals, but small enough that we're able to connect (it's very Louisville in that regard). I would like to see even more opportunities for the community here, especially UX.</li>
+      <li>Compucom does not give raises</li>
+      <li>Employers need to be frank and honest about hours and expectations</li>
+      <li>I feel like the freedoms to learn a diverse set of skills and being able to contribute to open source projects at work is also a big perk.</li>
+      <li>I was an intern turned contractor and was paid decent amount with 0 benefit. When offered the full time position, the offer made was lower than current wage but I was threatened that my current contractor position would be gone and I would be out of a job if I did not accept. This turns out to be untrue as they back-fill my position with another contractor after I came on board.</li>
+      <li>If your company has national/international clients, you need to be paid a national salary. The salary in Louisville is very less compared to the national average.</li>
+      <li>it is amazing.</li>
+      <li>I've often considered leaving Louisville to find more compelling industries and technical exposure. It's getting better, but the amount of "building CRUD apps with .NET" jobs around town I think might be a limiting factor in the software sector here. I do believe this is changing for the better.</li>
+      <li>Like minded Co workers are nice.</li>
+      <li>Louisville offered no jobs to me. Both my jobs have been remote.</li>
+      <li>More work from home jobs would be great!</li>
+      <li>Not much good tech around.</li>
+      <li>Tech companies are still dumb about work from home.</li>
+      <li>Tech in Louisville seems very underpaid and undervalued and there is a dearth of options.</li>
+      <li>Trying to improve how the company works feels like just as much of a project as any product I've ever built. Being at a small company makes me feel like I can really have an impact.</li>
+      <li>We need a stronger community of Data Scientists in Town!</li>
+      <li>I love my job because of the impact it provides. I am able to directly see a life changing impact on others from my work. I won’t go to another job unless I am able to have a similar experience.</li>
+    </ul>
+
+    <h2><a href="#section-9" name="section-9">9. Limitations</a></h2>
+
+    <p>
+      This was our first attempt at creating a community-wide salary and benefits survey, and as most
+      first attempts, it was not perfect. One main area that we missed was asking about bonuses when
+      discussing compensation. There were a few survey feedback comments regarding how their salary was
+      not a good reflection of their overall compensation due to non-salary additional income like bonuses.
+      We listened, and if we repeat this survey we’ll be sure to expand salary questions to include bonuses.
+      Feedback provided by some survey respondents also showed us that we did not do a good enough job in
+      making a distinction between employer and workplace, such as for individuals who are contractors and
+      are not directly employed by the company at which they work. Again, if this survey is given out again in
+      the future we will revise the questions to be more clear and improve the questions’ intent. Finally, when
+      asking individuals about what is important to them in their workplace, we neglected to ask about the
+      mission or goal of their work. While we did ask people to rank the importance of the type of company in
+      choosing a job, we did not consider the type of work being done at that company, such as work
+      designed to have a positive social impact.
+    </p>
+
+    <h2><a href="#section-10" name="section-10">10. Footnotes</a></h2>
+
+    <p>
+      <sup><a name="footnote-1-dest" href="#footnote-1-src">1</a></sup>
+      <strong>Need help interpreting this?</strong> This is called a boxplot, which is one way of showing a distribution of values. Each
+      “row” shows the salary distribution for a given category. The width of the box indicates the middle 50% of salaries
+      for that category (called the interquartile range, or IQR), and the line in the middle of the box is the median (the
+      salary where 50% are above and 50% below). The lines dotted coming from either side of the box are called
+      “whiskers” and extend to the furthest of the minimum/maximum value for that distribution OR the furthest value
+      that is no more than 1.5 times the IQR. Salaries outside the box and whisker area are considered outliers, and each
+      of those salaries gets its own dot.
+    </p>
+
+    <p>
+      <sup><a name="footnote-2-dest" href="#footnote-2-src">2</a></sup>
+      <strong>Need help interpreting this?</strong> A bivariate correlation is one way of showing the relationship between two
+      continuous variables, like salary and years of experience. A correlation of r = 0 means there was no relationship,
+      while r = ± 1 means the two variables were perfectly related (e.g. by knowing the value of one variable you know
+      the value of the other). Multiple regression is when you use multiple variables at the same time to predict a single
+      dependent (outcome) variable. It is measured by the R 2 statistic, which is the amount of variability in the
+      dependent variable that the predictors account for when taken as a set; basically, how good of a job does this
+      group of variables do in predicting the outcome variable. If the set of variables perfectly predict the outcome
+      variable, R 2 = 1. We used the adjusted R 2 statistic here, which modifies the R 2 value to account for the number of
+      predictors used and encourages a statistical modeling concept called parsimony.
+    </p>
+
+    <p>
+      <strong>Have feedback or questions about the survey or this report? Contact us at <a href="mailto:LouisvilleTechSurvey@gmail.com">LouisvilleTechSurvey@gmail.com</a>.</strong>
+    </p>
+
+  </div>
+</main>
