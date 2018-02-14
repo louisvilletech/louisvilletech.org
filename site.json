@@ -1,11 +1,11 @@
 {
-	"sourceDirectory": "src",
-	"destinationDirectory": "dest",
-	"dataDirectory": "data",
-	"partialsDirectory": "partials",
-	"helpersDirectory": "helpers",
-	"data": {
-		"title": "Louisville Technology Event Calendar",
-		"layout": "layout/layout.html.hbs"
-	}
+  "sourceDirectory": "src",
+  "destinationDirectory": "dest",
+  "dataDirectory": "data",
+  "partialsDirectory": "partials",
+  "helpersDirectory": "helpers",
+  "data": {
+    "title": "Louisville Technology Event Calendar",
+    "layout": "layout/layout.html.hbs"
+  }
 }
