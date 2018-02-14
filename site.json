@@ -6,6 +6,48 @@
   "helpersDirectory": "helpers",
   "data": {
     "title": "Louisville Technology Event Calendar",
-    "layout": "layout/layout.html.hbs"
+    "layout": "layout/layout.html.hbs",
+    "og-description": "A community and calendar of technology user groups and meetups in Louisville, Kentucky.",
+    "og-image": "https://louisvilletech.org/images/louisville-tech-social-image2x.jpg",
+    "og-url": "https://louisvilletech.org/"
+  },
+  "pages": {
+    "src/code-of-conduct.html.hbs": {
+      "title": "LouisvilleTech.org Code of Conduct",
+      "og-description": "The LouisvilleTech.org team are committed to providing a friendly, safe and welcoming environment for all, regardless of age, disability, gender, nationality, race, religion, sexuality, or similar personal characteristic.",
+      "og-url": "https://louisvilletech.org/code-of-conduct.html"
+    },
+    "src/community-survey/index.html.hbs": {
+      "title": "Louisville Tech Community Salary and Benefits Survey",
+      "og-description": "This survey is to determine how compensation for those in IT and related jobs here in Louisville compares to other areas of the country, and to determine if there are any areas of systematic income disparity.",
+      "og-image": "https://louisvilletech.org/community-survey/2017-report/images/png/Front%20and%20Back%20Cover%20Mockup.png",
+      "og-url": "https://louisvilletech.org/community-survey/"
+    },
+    "src/community-survey/2017-report/index.html.hbs": {
+      "title": "2017 Louisville Tech Community Salary and Benefits Survey Report",
+      "og-description": "The report showing the results of the 2017 Louisville Tech Community Salary and Benefits Survey.",
+      "og-image": "https://louisvilletech.org/community-survey/2017-report/images/png/Front%20and%20Back%20Cover%20Mockup.png",
+      "og-url": "https://louisvilletech.org/community-survey/2017-report/"
+    },
+    "src/conferences.html.hbs": {
+      "title": "Louisville Technology Conferences",
+      "og-description": "A list of technology conferences in Louisville, Kentucky.",
+      "og-url": "https://louisvilletech.org/conferences.html"
+    },
+    "src/coworking.html.hbs": {
+      "title": "Louisville Coworking Spaces",
+      "og-description": "A directory of coworking spaces in Louisville, Kentucky.",
+      "og-url": "https://louisvilletech.org/coworking.html"
+    },
+    "src/groups.html.hbs": {
+      "title": "Louisville Technology User Groups and Meetups",
+      "og-description": "A directory of technology-centric user groups and meeetups in Louisville, Kentucky.",
+      "og-url": "https://louisvilletech.org/groups.html"
+    },
+    "src/how-to-submit-changes.html.hbs": {
+      "title": "How to Submit Changes to LouisvilleTech.org",
+      "og-description": "LouisvilleTech.org is open source software, meaning anyone can look at how it works and propose changes. If you see something missing, broken, or just want to help out, you can collaborate through our github project. ",
+      "og-url": "https://louisvilletech.org/how-to-submit-changes.html"
+    }
   }
 }
