@@ -48,6 +48,11 @@
       "title": "How to Submit Changes to LouisvilleTech.org",
       "og-description": "LouisvilleTech.org is open source software, meaning anyone can look at how it works and propose changes. If you see something missing, broken, or just want to help out, you can collaborate through our github project. ",
       "og-url": "https://louisvilletech.org/how-to-submit-changes.html"
+    },
+    "src/volunteer.html.hbs": {
+      "title": "Open LouisvilleTech.org Community Volunteer Positions",
+      "og-description": "LouisvilleTech.org is built, organized, and run by volunteer community members. We need your help to make this place a vibrant and thriving community.",
+      "og-url": "https://louisvilletech.org/volunteer.html"
     }
   }
 }
