@@ -323,13 +323,6 @@
 		"calendar": "https://www.meetup.com/louisville-tech-leaders/events/ical/",
 		"description": "Many tech leaders get the job by default. They’re the best or most senior technologist and suddenly find themselves leading meetings, negotiating for resources, making strategic decisions their bosses don’t understand and can’t help with, participating in hiring, and a whole range of other mission-critical activities that fall outside of the technical toolbox. This meetup is for tech leads, managers, and directors of technical teams to get together a few times a year to learn, share, and have some fun. Sign up, let’s meet up, and we’ll find ways to help each other become better leaders. Look for morning and evening meetups, as well as special events a few times each year."
 	},
-	"louisville-ux-meetup": {
-		"name": "Louisville UX Meetup",
-		"frequency": "Meets the 1st Thursday every month @ 5pm",
-		"web": "https://www.meetup.com/Louisville-UX/",
-		"calendar": "https://www.meetup.com/Louisville-UX/events/ical/",
-		"description": "A group for anyone interested in creating great experiences for the users of their products, websites, apps, robots, whatever. Join us to meet new people and chat about user centered design, lean UX, UI design, IA, usability, research, new tools and the importance of getting your ideas out of the building. "
-	},
 	"louisville-vmware-users-group": {
 		"name": "Louisville VMware Users Group",
 		"frequency": "Meets Quarterly",
