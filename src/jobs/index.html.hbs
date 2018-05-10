@@ -1,0 +1,36 @@
+<main role="main" class="l-content">
+  <div class="l-container">
+    <h1>Job Listings</h1>
+
+    <div id="jobs"></div>
+
+  </div>
+</main>
+
+<script type="text/javascript">
+    function escapeHtml(text) {
+        // From: https://stackoverflow.com/questions/1787322/htmlspecialchars-equivalent-in-javascript
+        var map = {
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            '"': '&quot;',
+            "'": '&#039;'
+        };
+
+        return text.replace(/[&<>"']/g, function(m) { return map[m]; });
+    }
+
+    var request = new XMLHttpRequest();
+
+    request.onload = function(){
+        jobs = JSON.parse(request.response);
+        jobs.forEach(function (job){
+            var created = moment.unix(job.created).format("MM/DD/YYYY");
+            var div = document.getElementById('jobs');
+            div.innerHTML += escapeHtml(job.message.text) + "<br/><a href=\"" + job.message.permalink + "\">[Posted " + created + "]</a><hr/>";
+        });
+    };
+    request.open("get", "https://louisvilletech.aced.cc/messages.json", true);
+    request.send();
+</script>

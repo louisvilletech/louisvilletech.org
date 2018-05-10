@@ -29,6 +29,11 @@
       "og-image": "https://louisvilletech.org/community-survey/2017-report/images/png/Front%20and%20Back%20Cover%20Mockup.png",
       "og-url": "https://louisvilletech.org/community-survey/2017-report/"
     },
+    "src/jobs/index.html.hbs": {
+      "title": "LouisvilleTech.org Job Listings",
+      "og-description": "A place to persist job listings posted in our community #jobs Slack channel.",
+      "og-url": "https://louisvilletech.org/jobs/"
+    },
     "src/conferences.html.hbs": {
       "title": "Louisville Technology Conferences",
       "og-description": "A list of technology conferences in Louisville, Kentucky.",
