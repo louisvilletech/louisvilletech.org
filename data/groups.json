@@ -289,11 +289,11 @@
 	"louspug": {
 		"name": "Louisville SharePoint Users Group",
 		"frequency": "Meets the second Friday of every month @ 11:30am",
-		"web": "http://louspug.wordpress.com/",
-		"calendar": "https://calendar.google.com/calendar/ical/louspug%40gmail.com/public/basic.ics",
+		"web": "https://www.eventbrite.com/o/louisville-sharepoint-user-group-12291598085",
+		"calendar": "https://eb-to-ical.daylightpirates.org/eventbrite-organizer-ical?token=5E4M74CSL7VNW5OQUDAA&organizer=https%3A%2F%2Fwww.eventbrite.com%2Fo%2Flouisville-sharepoint-user-group-12291598085",
 		"twitter": "LouSPUG",
-		"facebook": "https://www.facebook.com/Louisville-SharePoint-Users-Group-1820033454945586/",
-		"description": "LouSPUG, formerly LouSPU, plans to meet every month to have some fun and talk SharePoint."
+		"facebook": "https://www.facebook.com/LouSPUG/",
+		"description": "LouSPUG meets monthly to discuss SharePoint from the perspectives of administrators, developers, and end users."
 	},
 	"louisville-software-engineering-meetup": {
 		"name": "Louisville Software Engineering Meetup",
