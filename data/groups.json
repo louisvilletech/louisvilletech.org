@@ -398,10 +398,9 @@
 	"tech-novice-louisville": {
 		"name": "Tech Novice Louisville",
 		"frequency": "Meets the 3rd Tuesday every month @ 6:30pm",
-		"web": "http://comingsoon/",
 		"calendar": "https://calendar.google.com/calendar/ical/technovicelouisville%40gmail.com/public/basic.ics",
 		"description": "Tech Novice Louisville is a meetup open to anyone interested in introductory-level topics in technology. We hope you'll learn something interesting or meet someone new. We will have a few minutes before to socialize followed by a topic discussion each month."
-	},	
+	},
 	"ixda-louisville": {
 		"name": "IxDA Louisville",
 		"frequency": "Meets one Thursday each month @ 6:00pm",
