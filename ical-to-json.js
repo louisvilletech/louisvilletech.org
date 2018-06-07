@@ -1,6 +1,7 @@
 const ical = require("ical.js");
 const fs = require("fs");
 const groups = require("./data/groups");
+const moment = require("moment-timezone");
 const path = require("path");
 const util = require("util");
 
@@ -87,11 +88,24 @@ function eventToJson(event, file) {
 }
 
 function updateTimes(json, event) {
-  json.end = event.endDate.toJSDate();
+  var start = toUTC(event.startDate);
+  var end = toUTC(event.endDate);
+  var now = moment();
+
+  json.end = end.format();
   json.expired = event.endDate.compare(ical.Time.now()) < 0;
-  json.started = event.startDate.compare(ical.Time.now()) < 0;
-  json.start = event.startDate.toJSDate();
+  json.expired = end.isBefore(now);
+  json.started = start.isBefore(now);
+  json.start = start.format();
   return json;
+}
+
+function toUTC(icalJsTime) {
+  var tz = icalJsTime.timezone;
+  if (tz === "Z" || tz === undefined || tz === null) {
+    tz = "ETC/UTC";
+  }
+  return moment.tz(icalJsTime.toString(), tz).utc();
 }
 
 function flatten(list) {
@@ -107,5 +121,5 @@ readdir(icsDir)
   .then(readAndParseCalendars)
   .then(flatten)
   .then(events => events.filter(event => !event.expired))
-  .then(events => events.sort((a, b) => a.start - b.start))
+  .then(events => events.sort((a, b) => moment(a.start).isBefore(b.start) ? -1 : 1))
   .then(events => writeFile(eventJson, JSON.stringify(events, undefined, 2)));
