@@ -125,6 +125,23 @@ function flatten(list) {
   );
 }
 
+// sometimes recurring events generate 2 copies, so let's skip one
+function dedupeJSON(list) {
+  return list.reduce(
+    (acc, item) => {
+      if (acc.length === 0 || !JSONEquals(acc[acc.length - 1], item)) {
+        acc.push(item);
+      }
+      return acc;
+    },
+    []
+  );
+}
+
+function JSONEquals(a, b) {
+  return JSON.stringify(a) === JSON.stringify(b);
+}
+
 readdir(icsDir)
   .then(keepIcsFiles)
   .then(buildFullPath)
@@ -132,4 +149,5 @@ readdir(icsDir)
   .then(flatten)
   .then(events => events.filter(event => !event.expired))
   .then(events => events.sort((a, b) => moment(a.start).isBefore(b.start) ? -1 : 1))
+  .then(dedupeJSON)
   .then(events => writeFile(eventJson, JSON.stringify(events, undefined, 2)));
