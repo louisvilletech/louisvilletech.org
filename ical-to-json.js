@@ -55,6 +55,16 @@ function expandVeventsAndConvertToJson(vevent, file) {
       if (recurrenceCutoff.compare(occurrence.startDate) < 0) {
         break;
       }
+
+      // sometimes the recurring event loses the timezone info, making the events have the wrong times
+      // if so, copy the timezone from the original event
+      if (occurrence.startDate.timezone === undefined) {
+        occurrence.startDate.timezone = event.startDate.timezone;
+      }
+      if (occurrence.endDate.timezone === undefined) {
+        occurrence.endDate.timezone = event.endDate.timezone;
+      }
+
       var json = updateTimes(eventToJson(event, file), occurrence);
       occurrences.push(json);
     }
