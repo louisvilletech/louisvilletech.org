@@ -2,7 +2,9 @@
   <div class="l-container">
     <h1>Job Listings</h1>
 
-    <div id="jobs"></div>
+    <p>Pinned jobs in our <a href="slack://channel?id=C06N77DRR&team=T06HNFUAG">#jobs</a> channel. For more information about how to get your job listings on this page, see <a href="slack://channel?id=C06N77DRR&team=T06HNFUAG">#jobs</a>.</p>
+
+    <div id="jobs" class="batch-g batch-g--gutter batch-g--padding"></div>
 
   </div>
 </main>
@@ -26,9 +28,20 @@
     request.onload = function(){
         jobs = JSON.parse(request.response);
         jobs.forEach(function (job){
+            console.log(job);
             var created = moment.unix(job.created).format("MM/DD/YYYY");
             var div = document.getElementById('jobs');
-            div.innerHTML += escapeHtml(job.message.text) + "<br/><a href=\"" + job.message.permalink + "\">[Posted " + created + "]</a><hr/>";
+            div.innerHTML += "<div class=\"batch-c-1-1 batch-c-md-1-1 batch-c-lg-1-2 event\">";
+
+            div.innerHTML += "<div class=\"event-table\">";
+            div.innerHTML += "  <div class=\"event-cell event-cell_image\">";
+            div.innerHTML += "      <img class=\"event-image\" src=\"group-icons/code-palousa.png\" alt=\"Code PaLOUsa\">";
+            div.innerHTML += "  </div>";
+            div.innerHTML += "</div>";
+
+            div.innerHTML += escapeHtml(job.message.text) + "<a href=\"" + job.message.permalink + "\" >[Posted " + created + "]</a>";
+
+            div.innerHTML += "</div>";
         });
     };
     request.open("get", "https://louisvilletech.aced.cc/messages.json", true);
