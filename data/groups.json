@@ -395,12 +395,13 @@
 		"twitter": "techtalksky",
 		"description": "Tech Talks KY (formerly LEX>>FWD) is a meetup group with talks in both Louisville and Lexington. We focus on software, programming and IT technologies. Our aim is to be platform agnostic and to focus on overall concepts and practices. We are open to everyone."
 	},
-	"tech-novice-louisville": {
-		"name": "Tech Novice Louisville",
-		"frequency": "Meets the 3rd Tuesday every month @ 6:30pm",
-		"calendar": "https://calendar.google.com/calendar/ical/technovicelouisville%40gmail.com/public/basic.ics",
-		"description": "Tech Novice Louisville is a meetup open to anyone interested in introductory-level topics in technology. We hope you'll learn something interesting or meet someone new. We will have a few minutes before to socialize followed by a topic discussion each month."
-	},
+	"tech-foundations-louisville": {
+		"name": "Tech Foundations Louisville",
+		"frequency": "Meets the 3rd Tuesday every month @ 6:00pm",
+		"web": "https://www.meetup.com/Tech-Foundations-Louisville/",
+		"calendar": "https://www.meetup.com/Tech-Foundations-Louisville/events/ical/",
+		"description": "Tech Foundations Louisville is a meetup open to anyone interested in introductory-level topics in technology. This group is dedicated toward those that have some exposure technology and may be new to the industry or hoping to get into it. Our goal is to have speakers and discussion topics that are relevant to everyone interested in technology, whether they're new or an industry vetera. We will have a few minutes before each event to socialize followed by a topic discussion each month."
+	},	
 	"ixda-louisville": {
 		"name": "IxDA Louisville",
 		"frequency": "Meets one Thursday each month @ 6:00pm",
