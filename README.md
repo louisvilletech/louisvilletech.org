@@ -13,6 +13,6 @@ To generate the site:
 5. After the site is built, you can run it in your browser by opening `index.html` located in `/dest/` 
 
 Removing a group and meetup
-1. Edit the `data/groups.json` file to remove the group.
+1. Edit the [data/groups.json](https://github.com/pranayaryal/louisvilletech.org/blob/master/data/groups.json) file to remove the group.
 2. Remove the stale ical file in the `./ics` directory.
 3. Rebuild the site.
