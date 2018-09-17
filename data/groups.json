@@ -7,6 +7,20 @@
 		"twitter": "aigalou",
 		"description":"AIGA advances design as a professional craft, strategic advantage and vital cultural force. As the largest community of design advocates, we bring together practitioners, enthusiasts, and patrons to amplify the voice of design and create the vision for a collective future."
 	},
+	"bluegrass-dev-guild": {
+		"name": "Bluegrass Developers Guild",
+		"frequency": "Meets monthly",
+		"web": "https://www.bluegrassdevs.org/",
+		"calendar": "https://www.meetup.com/The-Bluegrass-Developers-Guild/events/ical/",
+		"description": "The Bluegrass Developers Guild is a community representing a number of developers and organizations in the state of Kentucky on matters of education, career, and community."
+	},
+	"bluegrass-datascience-group": {
+		"name": "Bluegrass Data Science Group",
+		"frequency": "Meets monthly",
+		"web": "https://www.meetup.com/bluegrass-data-science-group/",
+		"calendar": "https://www.meetup.com/bluegrass-data-science-group/events/ical/",
+		"description": "This is for professional data scientists and analysts in the Kentucky area interested in Analysis, Massive Parallel Computing, Natural Language Processing, Machine Learning, Data Mining, and the supporting technologies and practices."
+	},
 	"codecademy-louisville": {
 		"name": "Codecademy Louisville",
 		"frequency": "Meets weekly",
