@@ -4,15 +4,15 @@ module.exports = function(context) {
   return context.replace(detectLinks, function(match, capture) {
     var label = getLabel(capture);
     if (capture.indexOf("#C") === 0) {
-      return `<a href="https://louisville.slack.com/messages/${capture.substring(1)}/">${label}</a>`;
+      return `<a href="https://louisville.slack.com/messages/${capture.substring(1)}/" rel="nofollow noopener">${label}</a>`;
     } else if (capture.indexOf("@U") === 0) {
-      return `<a href="https://louisville.slack.com/team/${capture.substring(1)}/">${label}</a>`;
+      return `<a href="https://louisville.slack.com/team/${capture.substring(1)}/" rel="nofollow noopener">${label}</a>`;
     } else if (capture.indexOf("@W") === 0) {
-      return `<a href="https://louisville.slack.com/team/${capture.substring(1)}/">${label}</a>`;
+      return `<a href="https://louisville.slack.com/team/${capture.substring(1)}/" rel="nofollow noopener">${label}</a>`;
     } else if (capture.indexOf("!") === 0) {
       return `<i>${capture}</i>`;
     } else {
-      return `<a href="${capture}">${label}</a>`;
+      return `<a href="${capture}" rel="nofollow noopener">${label}</a>`;
     }
   });
 };
