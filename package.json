@@ -6,9 +6,10 @@
   "scripts": {
     "lint": "eslint download.js index.js",
     "download": "node download.js",
+    "download-jobs": "node download-jobs.js",
     "process": "node ical-to-json.js",
     "unfold": "unfold site.json",
-    "build": "npm run download && npm run process && npm run unfold"
+    "build": "npm run download && npm run download-jobs && npm run process && npm run unfold"
   },
   "author": "Eric Lathrop <eric@ericlathrop.com> (http://ericlathrop.com/)",
   "license": "MIT",
@@ -22,6 +23,7 @@
     "bourbon-neat": "^1.7.4",
     "ical.js": "^1.2.2",
     "moment-timezone": "^0.5.17",
+    "node-fetch": "^2.2.1",
     "normalize.scss": "^0.1.0",
     "ramda": "^0.15.1",
     "unfold": "^0.4.0"
