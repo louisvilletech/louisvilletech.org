@@ -1,0 +1,33 @@
+<main role="main" class="l-content">
+  <div class="l-container">
+
+    <h1>Louisville Technology Jobs</h1>
+    <p>Local technology jobs posted in the <a href="https://louisville.slack.com/messages/C06N77DRR/">#jobs-postings</a> channel in the <a href="https://slackin.louisvilletech.org/">Louisville Tech Slack</a></p>
+
+    <div class="batch-g batch-g--gutter batch-g--padding">
+
+      {{#each jobs}}
+        <div class="batch-c-1-1 event">
+
+          <div class="event-table">
+            <div class="event-cell">
+              <h2 class="event-title">
+                <a href="{{message.permalink}}">Posted {{format-timestamp created}}</a>
+              </h2>
+              <p>{{{format-slack-message message.text}}}</p>
+            </div>
+          </div>
+
+        </div>
+      {{/each}}
+
+    </div>
+
+  </div>
+</main>
+
+<script type="text/javascript">
+window.onload = function() {
+  setMenuState(4);
+}
+</script>
