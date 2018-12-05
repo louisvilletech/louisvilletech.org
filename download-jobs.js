@@ -10,7 +10,8 @@ const jobsChannel = "C06N77DRR";
 const trustedUserIds = [
   "U0AH3J467", // Austyn Hill
   "U06HNDF1U", // Eric Lathrop
-  "U6ZLWDMCL" // Tyler Mullins
+  "U6ZLWDMCL", // Tyler Mullins
+  "U0EQV7XV5" // Brian Herbert
 ];
 const outputPath = "data/jobs.json";
 
