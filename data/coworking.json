@@ -25,6 +25,12 @@
     "web": "http://www.workatthepark.com/",
     "twitter": "WorkAtThePark"
   },
+  "the-root": {
+    "name": "The Root",
+    "web": "http://www.therootworkspace.com/",
+    "facebook": "https://www.facebook.com/TheRootCowork/",
+    "twitter": "TheRootCowork"
+  },
   "story-louisville": {
     "name": "Story Louisville",
     "web": "http://www.storylouisville.com/"
