@@ -5,7 +5,7 @@ const writeFile = util.promisify(fs.writeFile);
 const { URLSearchParams } = require("url");
  
 const slackApiUrl = "https://slack.com/api";
-const token = process.env.SLACK_TOKEN;
+const token = process.env.SLACK_API_TOKEN;
 const jobsChannel = "C06N77DRR";
 const trustedUserIds = [
   "U0AH3J467", // Austyn Hill
