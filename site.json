@@ -39,6 +39,11 @@
       "og-description": "A directory of coworking spaces in Louisville, Kentucky.",
       "og-url": "https://louisvilletech.org/coworking.html"
     },
+    "src/jobs.html.hbs": {
+      "title": "Louisville Technology Jobs",
+      "og-description": "Local technology posted in the #jobs-postings channel in the Louisville Tech Slack",
+      "og-url": "https://louisvilletech.org/jobs.html"
+    },
     "src/groups.html.hbs": {
       "title": "Louisville Technology User Groups and Meetups",
       "og-description": "A directory of technology-centric user groups and meeetups in Louisville, Kentucky.",
