@@ -32,7 +32,7 @@
 	"dev-book-club": {
 		"name": "Dev Book Club",
 		"frequency": "Meets every two weeks",
-		"web": "http://devbookclub.io/",
+		"web": "https://www.meetup.com/devbookclub/",
 		"mailing-list": "https://www.meetup.com/devbookclub/messages/boards/",
 		"calendar": "https://www.meetup.com/devbookclub/events/ical/",
 		"description": "Developers are always striving to learn more. Unfortunately development books can be dry and boring. Fortunately friends are fun. This group attempts to tackle boring development books in a social learning atmosphere with code challenges that correspond with the chapters."
