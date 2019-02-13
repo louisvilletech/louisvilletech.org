@@ -7,6 +7,15 @@
     "twitter": "aigalou",
     "description":"AIGA advances design as a professional craft, strategic advantage and vital cultural force. As the largest community of design advocates, we bring together practitioners, enthusiasts, and patrons to amplify the voice of design and create the vision for a collective future."
   },
+  "code-for-kentuckiana": {
+    "name": "Code for Kentuckiana",
+    "frequency": "Meets sporadically",
+    "web": "https://codeforkentuckiana.org/",
+    "calendar": "https://www.meetup.com/codeforkyana/events/ical/",
+    "facebook": "https://www.facebook.com/CodeForKYana/",
+    "twitter": "codeforkyana",
+    "description": "We bring together community organizers, developers, and designers to use technology to improve the lives of citizens."
+  },
   "code-louisville": {
     "name": "Code Louisville",
     "frequency": "Meets monthly on changing dates",
@@ -183,11 +192,11 @@
   "louisville-civic-data-alliance": {
     "name": "Louisville Civic Data Alliance",
     "frequency": "Meets sporadically",
-    "web": "https://www.meetup.com/Louisville-Civic-Data-Alliance",
-    "calendar": "https://www.meetup.com/Louisville-Civic-Data-Alliance/events/ical/",
+    "web": "http://www.civicdataalliance.org/",
+    "calendar": "https://calendar.google.com/calendar/ical/esusujgda5ff6proul0t8js3ibp84brm%40import.calendar.google.com/public/basic.ics",
     "google-plus": "https://plus.google.com/u/1/105717792509345258567/about",
     "twitter": "CivicDataAlly",
-    "description": "We are Louisville's Code for America Brigade, called the Civic Data Alliance (CDA). Our mission is: Making Public Data Truly Public."
+    "description": "Civic Data Alliance is interested in ethically liberating, improving, gathering, defining, and reporting on public data and the state of civic tech, while fostering an inclusive and diverse civic tech community."
   },
   "louisville-dot-net": {
     "name": "Louisville .NET Meetup",
