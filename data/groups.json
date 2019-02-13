@@ -1,406 +1,406 @@
 {
-	"aiga-louisville": {
-		"name": "AIGA Louisville",
-		"frequency": "Meets sporadically",
-		"web": "http://louisville.aiga.org",
-		"facebook": "https://www.facebook.com/aigalou",
-		"twitter": "aigalou",
-		"description":"AIGA advances design as a professional craft, strategic advantage and vital cultural force. As the largest community of design advocates, we bring together practitioners, enthusiasts, and patrons to amplify the voice of design and create the vision for a collective future."
-	},
-	"code-louisville": {
-		"name": "Code Louisville",
-		"frequency": "Meets monthly on changing dates",
-		"web": "https://www.facebook.com/groups/597842787091041/",
-		"calendar": "https://calendar.google.com/calendar/ical/codelouisvillemeetup%40gmail.com/public/basic.ics",
-		"description": "A social event for Code Louisville students, graduates, mentors, staff, and friends to hang out, have a drink, talk, or play a game."
-	},
-	"creative-mornings-louisville": {
-		"name": "Creative Mornings Louisville",
-		"frequency": "Meets monthly",
-		"web": "http://creativemornings.com/cities/lou",
-		"twitter": "cm_louisville",
-		"description": "CreativeMornings is a breakfast lecture series for the creative community. Our free, monthly events feature a short talk and breakfast!"
-	},
-	"derbypy": {
-		"name": "DerbyPy",
-		"frquency": "Meets the 4th Tuesday every month at 6:30pm",
-		"web": "https://www.meetup.com/derbypy/",
-		"calendar": "https://www.meetup.com/derbypy/events/ical/",
-		"twitter": "DerbyPy",
-		"description": "A meetup for anyone interested in the Python programming language. All skill levels are welcome. :)"
-	},
-	"dev-book-club": {
-		"name": "Dev Book Club",
-		"frequency": "Meets every two weeks",
-		"web": "https://www.meetup.com/devbookclub/",
-		"mailing-list": "https://www.meetup.com/devbookclub/messages/boards/",
-		"calendar": "https://www.meetup.com/devbookclub/events/ical/",
-		"description": "Developers are always striving to learn more. Unfortunately development books can be dry and boring. Fortunately friends are fun. This group attempts to tackle boring development books in a social learning atmosphere with code challenges that correspond with the chapters."
-	},
-	"devops-louisville": {
-		"name": "DevOps Louisville",
-		"frequency": "Meets monthly",
-		"web": "https://www.meetup.com/DevOps-Louisville/",
-		"calendar": "https://www.meetup.com/DevOps-Louisville/events/ical/",
-		"description": "For anyone interested in: Cloud / Containers, Infrastructure / Ops Automation, Continuous Integration / Delivery / Deployment, Monitoring / Metrics, Lean/Agile for Development or Operations"
-	},
-	"elixir-louisville": {
-		"name": "Elixir Louisville",
-		"web": "https://www.meetup.com/Elixir-Louisville/",
-		"calendar": "https://www.meetup.com/Elixir-Louisville/events/ical/",
-		"twitter": "elixir_lou",
-		"description": "We are group of programmers, students, and technology enthusiasts who are excited about the Elixir programming language. We meet on the second Tuesday of every month to discuss topics related to the Elixir ecosystem, distributed systems, and functional programming. All skill levels are welcome!"
-	},
-	"ember-js-louisville": {
-		"name": "Ember.js Louisville",
-		"web": "https://www.meetup.com/Ember-js-Louisville/",
-		"calendar": "https://www.meetup.com/Ember-js-Louisville/events/ical/",
-		"twitter": "emberjslou",
-		"description": "Learning and meeting with Ember.js enthusiasts in Louisville, Kentucky. Ember.js Louisville is open to developers of any skill level. Our goal is to come together, share our stories, and learn to build ambitious web applications."
-	},
-	"food-4-nerds": {
-		"name": "Food4Nerds",
-		"frequency": "Meets monthly",
-		"twitter": "Food4Nerds",
-		"calendar": "https://calendar.google.com/calendar/ical/jghri0j8rdpn7svv4tgecb7kl0%40group.calendar.google.com/public/basic.ics"
-	},
-	"gdg-louisville": {
-		"name": "Google Developer Group Louisville",
-		"web": "https://www.meetup.com/GDGLouisville/",
-		"calendar": "https://www.meetup.com/GDGLouisville/events/ical/",
-		"facebook": "https://www.facebook.com/GDG-Louisville-1536561503322044/",
-		"twitter": "GDGLouisville",
-		"frequency": "Meets Monthly",
-		"description": "We are a Google Developer Group! We will be discussing Android Development, but also incorporate most Google Development Products."
-	},
-	"girl-develop-it-louisville": {
-		"name": "Girl Develop It Louisville",
-		"frequency": "Meets sporadically",
-		"web": "https://www.meetup.com/Girl-Develop-It-Louisville/",
-		"calendar": "https://www.meetup.com/Girl-Develop-It-Louisville/events/ical/",
-		"facebook": "https://www.facebook.com/gdilouisville?fref=ts",
-		"twitter": "gdilouisville",
-		"description": "Women Developers and Programmers! Want to learn how to code? Have a great idea? Don't be shy. Develop it."
-	},
-	"ionic-louisville": {
-		"name": "Ionic Louisville",
-		"frequency": "Meets sporadically",
-		"web": "https://www.meetup.com/ionic-louisville/",
-		"calendar": "https://www.meetup.com/ionic-louisville/events/ical/",
-		"twitter": "ioniclouisville",
-		"description": "This meetup will talk about ionic and the future of application development. Ionic will be pushed to the limits and used in new ways. Anyone who is interested in hybrid development and or who has experience in native/hybrid development should join."
-	},
-	"issa-kentuckiana": {
-		"name": "ISSA Kentuckiana",
-		"frequency": "Meets one Friday a month @ 11am",
-		"web": "http://issa-kentuckiana.org/",
-		"twitter": "issakentuckiana",
-		"facebook": "https://www.facebook.com/issakentuckiana",
-		"description": "If you are interested in Information Security and live in the Kentuckiana region, then you’ve come to the right place. Our chapter offers many benefits for seasoned security-minded professionals and relative newcomers to the field such as monthly meetings that provide opportunities for experiential learning and professional networking."
-	},
-	"it-happy-hour": {
-		"name": "IT Happy Hour",
-		"frequency": "Meets the 2nd Tuesday every month @ 6pm",
-		"web": "https://www.facebook.com/groups/118582591623817/",
-		"calendar": "https://calendar.google.com/calendar/ical/hdvc0bifplib8s70at26j4ho08%40group.calendar.google.com/public/basic.ics",
-		"facebook": "https://www.facebook.com/groups/118582591623817/",
-		"twitter": "ITHHLouKY",
-		"description": "The IT Happy Hour is a monthly event where IT People in the Louisville area can get together to discuss ideas and projects, fails and wins."
-	},
-	"jslou": {
-		"name": "JSLou",
-		"frequency": "Meets the 1st and 3rd Wednesday every month @ 7pm",
-		"web": "http://jslou.org",
-		"mailing-list": "http://kyoss.org/mailman/listinfo/jslou",
-		"calendar": "https://www.meetup.com/JSLouKY/events/ical/",
-		"google-plus": "https://plus.google.com/u/1/116976108778413543403/posts",
-		"twitter": "JsLouKY",
-		"description": "JSLou is a gathering where people of any experience level, and all types of JavaScript can feel right at home."
-	},
-	"juggl": {
-		"name": "Java Users Group of Greater Louisville",
-		"frequency": "Meets the 2nd Monday every month @6pm",
-		"web": "https://www.meetup.com/JUGGLou/",
-		"calendar": "https://www.meetup.com/JUGGLou/events/ical/",
-		"description": "We are a group of developers and enthusiasts who are interested in learning about Java, the Java Virtual Machine, and all of the things you can do on top of the JVM."
-	},
-	"kyoss": {
-		"name": "Kentucky Open Source Society (KYOSS)",
-		"frequency": "Meets the 2nd Wednesday every month @ 6:30pm",
-		"web": "http://kyoss.org/",
-		"calendar": "https://www.meetup.com/LouisvilleOpenSourceProgramming/events/ical/",
-		"mailing-list": "http://kyoss.org/mailman/listinfo/kyoss-discuss",
-		"freenode": "#kyoss",
-		"google-plus": "https://plus.google.com/+KyossOrg/posts",
-		"google-plus-community": "https://plus.google.com/communities/116631799593310550964",
-		"description": "The Kentucky Open Source Society (KYOSS) is a group of Programmers, Sysadmins, Devops, Linux enthusiasts, Web Developers, Mobile Developers, and just about anyone else who is interested in technology."
-	},
-	"let-them-tweet-cake": {
-		"name": "Let Them Tweet Cake",
-		"frequency": "Meets sporadically",
-		"web": "http://www.letthemtweetcake.com/",
-		"facebook": "https://www.facebook.com/letthemtweetcake?fref=ts",
-		"twitter": "tweetcakelou",
-		"description": "Sweet opportunities for women interested in technology and media."
-	},
-	"louisville-agile-forum": {
-		"name": "Louisville Agile Forum",
-		"frequency": "Meets the 3rd Wednesday every month @ 6pm",
-		"web": "https://www.meetup.com/Louisville-Agile-Forum/",
-		"calendar": "https://www.meetup.com/Louisville-Agile-Forum/events/ical/",
-		"description": "The Louisville Agile Forum consists of Agile practitioners in the greater Louisville area. We like to share our Agile experiences, network and help others with challenges related to Agile adoption."
-	},
-	"louisville-aws-user-group": {
-		"name": "Louisville AWS User Group",
-		"frequency": "Meets Monthly",
-		"web": "https://www.meetup.com/Louisville-AWS-Users-Group/",
-		"mailing-list": "https://www.meetup.com/Louisville-AWS-Users-Group/messages/boards/",
-		"calendar": "https://www.meetup.com/Louisville-AWS-Users-Group/events/ical/",
-		"twitter": "Louisville_AWS",
-		"description": "Come check us out to learn and share how you're using the AWS platform."
-	},
-	"louisville-bi-and-big-data-analytics-meetup": {
-		"name": "Louisville BI & Big Data Analytics Meetup",
-		"frequency": "Meets monthly on a Thursday at 6pm",
-		"web": "https://www.meetup.com/Louisville-BI-Big-Data-Analytics-Meetup/",
-		"calendar": "https://www.meetup.com/Louisville-BI-Big-Data-Analytics-Meetup/events/ical/",
-		"description": "If you are modernizing your business with Big Data and want your entire organization to benefit through compelling data visualizations, need to engage your audience with intuitive and interactive reports and dashboards on any device, or are new to BI and are interested to learn more about the use of BI in applications – then this group is for YOU!"
-	},
-	"learn-swift-louisville": {
-		"name": "Learn Swift Louisville",
-		"frequency": "Meets monthly on Wednesdays at 6pm",
-		"web": "https://www.meetup.com/learn-swift-louisville/",
-		"calendar": "https://www.meetup.com/learn-swift-louisville/events/ical/",
-		"description": "We want to create a community for everyone interested in learning Swift. We help each other solve problems and become better developers every month. All experience-levels are welcome."
-	},
-	"louisville-code-and-coffee": {
-		"name": "Louisville Code & Coffee",
-		"frequency": "Meets a few times monthly",
-		"web": "https://www.meetup.com/louisville-code-and-coffee/",
-		"calendar": "https://www.meetup.com/louisville-code-and-coffee/events/ical/",
-		"description": "Do you like coffee or tea? Are you interested in programming? This is the group for you!"
-	},
-	"louisville-civic-data-alliance": {
-		"name": "Louisville Civic Data Alliance",
-		"frequency": "Meets sporadically",
-		"web": "https://www.meetup.com/Louisville-Civic-Data-Alliance",
-		"calendar": "https://www.meetup.com/Louisville-Civic-Data-Alliance/events/ical/",
-		"google-plus": "https://plus.google.com/u/1/105717792509345258567/about",
-		"twitter": "CivicDataAlly",
-		"description": "We are Louisville's Code for America Brigade, called the Civic Data Alliance (CDA). Our mission is: Making Public Data Truly Public."
-	},
-	"louisville-dot-net": {
-		"name": "Louisville .NET Meetup",
-		"frequency": "Meets the 3rd Thursday every month @ 6:30pm",
-		"web": "https://www.meetup.com/Louisville-DotNet/",
-		"calendar": "https://www.meetup.com/Louisville-DotNet/events/ical/",
-		"twitter": "LouDotNet",
-		"description": "The Louisville .NET Meetup group is dedicated to helping developers around Louisville to become better developers with an emphasis on the Microsoft .NET technology stack. "
-	},
-	"louisville-geek-dinner": {
-		"name": "Louisville Geek Dinner",
-		"frequency": "Meets quarterly",
-		"web": "http://louisvillegeekdinner.com/",
-		"calendar": "https://calendar.google.com/calendar/ical/louisvillegeekdinner%40gmail.com/public/basic.ics",
-		"twitter": "geekdinner",
-		"description": "A social networking event for those passionate about technology."
-	},
-	"louisville-haskell-meetup": {
-		"name": "Louisville Haskell Meetup",
-		"web": "https://www.meetup.com/Louisville-Haskell-Meetup/",
-		"calendar": "https://www.meetup.com/Louisville-Haskell-Meetup/events/ical/",
-		"description": "Meetup for Haskell enthusiasts. Haskell is an elegant and powerful language with a reputation for stretching your brain."
-	},
-	"louisville-keyboard-club": {
-		"name": "Louisville Keyboard Club",
-		"web": "https://www.eventbrite.com/e/louisville-keyboard-club-2017-with-special-guest-don-bowman-of-unicomp-tickets-35757573866",
-		"calendar": "https://calendar.google.com/calendar/ical/eqqmthv970qfu3o5gsdqkuuplo%40group.calendar.google.com/public/basic.ics",
-		"description": "Are you keyboard-curious? Have been hearing about mechanical keyboard or gaming keyboards, and wanting to try them? There will be plenty of keyboards to try out and help you decide if they are for you."
-	},
-	"louisville-makes-games": {
-		"name": "Louisville Makes Games",
-		"frequency": "Meets every other Sunday @ 2pm",
-		"web": "https://www.meetup.com/LouisvilleMakesGames/",
-		"mailing-list": "https://groups.google.com/forum/#!forum/gamedevlou",
-		"calendar": "https://www.meetup.com/LouisvilleMakesGames/events/ical/",
-		"twitter": "LouMakesGames",
-		"description": "Louisville's game development community. We support game developers of all skill levels and backgrounds. We want to create a safe environment where everyone can learn and participate."
-	},
-	"louisville-puppet-user-group": {
-		"name": "Louisville Puppet User Group",
-		"web": "https://www.meetup.com/Louisville-Puppet-User-Group/",
-		"calendar": "https://www.meetup.com/Louisville-Puppet-User-Group/events/ical/",
-		"description": "User group for the Puppet configuration management software."
-	},
-	"louisville-mograph": {
-		"name": "Louisville MOGRAPH",
-		"web": "https://www.meetup.com/Louisville-MOGRAPH/",
-		"calendar": "https://www.meetup.com/Louisville-MOGRAPH/events/ical/",
-		"description": "Calling all designers, animators and engineers of motion. This is a group for anyone interested in animation and motion design - motion graphics artists, 2D & 3D animators, VFX artists, and creative coders. The plan is to create a regular meetup where we can share our work, learn from each other, listen guest speakers, and collaborate on projects together."
-	},
-	"loumug": {
-		"name": "Louisville Microsoft Users Group",
-		"frequency": "Meets the last Friday every month @ 11:30 am",
-		"web": "http://www.loumug.org/",
-		"twitter": "LouMUG",
-		"description": "It’s a forum for computer professionals in the Louisville area interested in gaining and sharing knowledge in Microsoft technologies through networking and education."
-	},
-	"louposh": {
-		"name": "Louisville PowerShell Users Group",
-		"frequency": "Meets the 3rd Thursday every month @5:30 pm",
-		"web": "http://www.louposh.org/",
-		"facebook": "https://www.facebook.com/louposh?fref=ts",
-		"twitter": "LouPOSH",
-		"description": "We are a community of IT professionals in and around the Louisville, KY area who share an interest in all things PowerShell."
-	},
-	"louisville-ruby-brigade": {
-		"name": "Louisville Ruby Brigade",
-		"frequency": "Meets every other Thursday @ 7:00pm, check meetup.com for date and location.",
-		"web": "https://www.meetup.com/Louisville-Ruby-Brigade/",
-		"calendar": "https://www.meetup.com/Louisville-Ruby-Brigade/events/ical/",
-		"twitter": "lvlrb",
-		"slack": "https://louisvillerb.slack.com/",
-		"description": "Meetup for Ruby developers and the Ruby-curious."
-	},
-	"louisville-r-user-group": {
-		"name": "Louisville R User Group",
-		"frequency": "Meets monthly",
-		"web": "https://github.com/louisville-rstats",
-		"calendar": "https://calendar.google.com/calendar/ical/fbja3a7h8l04juq2onmniugcl0%40group.calendar.google.com/public/basic.ics",
-		"description": "The Louisville R User Group serves as a resource for folks in Louisville as they learn how to use the R language as a tool to build cool stuff and get work done."
-	},
-	"louisville-salesforce-user-goup": {
-		"name": "Louisville Salesforce User Group",
-		"calendar": "https://calendar.google.com/calendar/ical/g1e42sm7o556djcai8h1rceibg%40group.calendar.google.com/public/basic.ics"
-	},
-	"lousmug": {
-		"name": "Louisville Systems Management User Group",
-		"web": "http://www.lousmug.org/",
-		"twitter": "louisvillesmug",
-		"description": "Covering MS System Center and other products. We meet once a month, and attendance is free."
-	},
-	"louspug": {
-		"name": "Louisville SharePoint Users Group",
-		"frequency": "Meets the second Friday of every month @ 11:30am",
-		"web": "https://www.eventbrite.com/o/louisville-sharepoint-user-group-12291598085",
-		"calendar": "https://eb-to-ical.daylightpirates.org/eventbrite-organizer-ical?token=5E4M74CSL7VNW5OQUDAA&organizer=https%3A%2F%2Fwww.eventbrite.com%2Fo%2Flouisville-sharepoint-user-group-12291598085",
-		"twitter": "LouSPUG",
-		"facebook": "https://www.facebook.com/LouSPUG/",
-		"description": "LouSPUG meets monthly to discuss SharePoint from the perspectives of administrators, developers, and end users."
-	},
-	"louisville-software-engineering-meetup": {
-		"name": "Louisville Software Engineering Meetup",
-		"frequency": "Meets the 1st Wednesday every month @ 6pm",
-		"web": "https://www.meetup.com/Louisville-Software-Engineering/",
-		"calendar": "https://www.meetup.com/Louisville-Software-Engineering/events/ical/",
-		"description": "Formerly LouPUG, the Louisville PHP User Group, we have shifted our focus on Software Engineering. While code samples may still include PHP, we didn't want to limit our members to a single technology. If you are strictly interested in PHP, check out the KYOSS Meetup."
-	},
-	"louisville-sql-server-users-group": {
-		"name": "Louisville SQL Server Users Group",
-		"frequency": "Meets sporadically",
-		"web": "http://louisville.sqlpass.org/",
-		"google-plus": "https://plus.google.com/u/1/103148637022769319331/about",
-		"facebook": "https://www.facebook.com/groups/louisvillesqlpass/",
-		"description": " We represent the SQL Server community in Louisville, the surrounding metropolitan area, and throughout most of Kentucky. As a technical users group, we focus on monthly meetings, but also provide networking, learning opportunities, speaking opportunities, training, and collaboration for SQL Server professionals throughout the Ohio Valley area."
-	},
-	"louisville-tech-ladies": {
-		"name": "Louisville Tech Ladies",
-		"frequency": "Meets the first Thursday every month",
-		"web": "https://www.meetup.com/Louisville-Tech-Ladies/",
-		"calendar": "https://www.meetup.com/Louisville-Tech-Ladies/events/ical/",
-		"description": "If you're a woman in any STEM field looking to meet & hang out with other amazing women, we'd love to meet you, too! We will get together monthly to network, learn from each other, and offer support."
-	},
-	"louisville-tech-leaders-meetup": {
-		"name": "Louisville Tech Leaders Meetup",
-		"web": "https://www.meetup.com/louisville-tech-leaders/",
-		"calendar": "https://www.meetup.com/louisville-tech-leaders/events/ical/",
-		"description": "Many tech leaders get the job by default. They’re the best or most senior technologist and suddenly find themselves leading meetings, negotiating for resources, making strategic decisions their bosses don’t understand and can’t help with, participating in hiring, and a whole range of other mission-critical activities that fall outside of the technical toolbox. This meetup is for tech leads, managers, and directors of technical teams to get together a few times a year to learn, share, and have some fun. Sign up, let’s meet up, and we’ll find ways to help each other become better leaders. Look for morning and evening meetups, as well as special events a few times each year."
-	},
-	"louisville-vmware-users-group": {
-		"name": "Louisville VMware Users Group",
-		"frequency": "Meets Quarterly",
-		"freenode": "#LouisvilleVMUG",
-		"web": "http://www.louisvillevmug.info/",
-		"calendar": "https://calendar.google.com/calendar/ical/csilouisville.net_g3l1qnciiu5g0cdbbm36gs8omg%40group.calendar.google.com/public/basic.ics",
-		"twitter": "LouisvilleVMUG",
-		"description": "Louisville VMUG is an independent, customer-led organization created to maximize our members’ use of VMware and Partner solutions through knowledge sharing, training, collaboration, and quarterly events. Louisville VMUG focuses on providing presentations from local users across many different industries to share their experiences, solutions, and obstacles to solve real-world business requirements."
-	},
-	"louisville-predictive-analytics": {
-		"name": "Louisville Predictive Analytics Meetup",
-		"frequency": "Meets Monthly",
-		"web" : "https://www.meetup.com/Louisville-Predictive-Analytics-Meetup/",
-		"calendar" : "https://www.meetup.com/Louisville-Predictive-Analytics-Meetup/events/ical/",
-		"facebook": "https://www.facebook.com/groups/1071400462922901/",
-		"description": "We discuss how we can solve problems using Data Science"
-	},
-	"lvl1-hackerspace": {
-		"name": "LVL1 Hackerspace",
-		"frequency": "Open meetings every Tues at 8pm and assorted workshops",
-		"web": "http://www.lvl1.org",
-		"calendar": "https://calendar.google.com/calendar/ical/ml7vfq8dhpc81c4qpimqptcgek%40group.calendar.google.com/public/basic.ics",
-		"twitter": "LVL1HackerSpace",
-		"description": "LVL1 is Louisville's premier original hackerspace. We are friendly community of tinkerers, makers, engineers, educators, scientists, artists, hackers and overall geeks. Anyone who is, aspires to be, or just wants to hang around smart, creative, friendly mad scientist maker/hacker Louisvillians is welcome at LVL1! We’ve got lots of cool tools and equipment. We like to work on (and show off) fun and challenging technical projects."
-	},
-	"mymobileville": {
-		"name": "My Mobile Ville",
-		"frequency": "Meets online the 4th Tuesday every month @ 6:30pm",
-		"web": "http://mymobileville.com/",
-		"facebook": "https://www.facebook.com/MyMobileVille/timeline",
-		"twitter": "mymobileville",
-		"description": "A meetup to discuss all things mobile! We meet on the 4th Tuesday if every month to discuss Android, iOS, and anything else that resembles mobile tech!"
-	},
-	"openhack-louisville": {
-		"name": "OpenHack Louisville",
-		"frequency": "Meets the 1st Tuesday every month @ 6pm",
-		"web": "https://openhack.github.io/louisville/",
-		"calendar": "https://calendar.google.com/calendar/ical/pi7ffck72n9a5n9es3f2ce090k%40group.calendar.google.com/public/basic.ics",
-		"twitter": "OpenHackLVL",
-		"description": "Code together on anything, learn from, and teach each other. Together we can have fun while becoming better at our craft."
-	},
-	"technology-association-of-louisville-kentucky": {
-		"name": "Technology Association of Louisville Kentucky",
-		"frequency": "Meets sporadically",
-		"web": "http://www.talklou.com/",
-		"description": "The Technology Association of Louisville Kentucky (TALK) is the open membership association for the technology community in and around Louisville, Kentucky. Its mission is to facilitate exchanges through networks that promote meaningful outcomes for technologists."
-	},
-	"wordpress-louisville": {
-		"name": "WordPress Louisville",
-		"frequency": "Meets the 2nd Tuesday every month @ 6:15 pm",
-		"web": "https://www.meetup.com/WordPress-Meetup-Louisville/",
-		"calendar": "https://www.meetup.com/WordPress-Meetup-Louisville/events/ical/",
-		"facebook": "https://www.facebook.com/groups/141305872747362/"
-	},
-	"ypal": {
-		"name": "Young Professionals Association of Louisville (YPAL)",
-		"frequency": "Meets sporadically",
-		"web": "http://www.ypal.org",
-		"calendar": "https://calendar.google.com/calendar/ical/ypal.org_7op76vu5bnac22d600iqir6m1o%40group.calendar.google.com/public/basic.ics",
-		"twitter": "YpalLouisville",
-		"facebook": "https://www.facebook.com/YPALouisville/",
-		"description": "The Young Professionals Association of Louisville (YPAL) provides leadership development, educational opportunities and philanthropic support to Louisville’s Young Professionals for the benefit of the local community."
-	},
-	"tech-talks-ky": {
-		"name": "Tech Talks KY",
-		"frequency": "Meets the 2nd Tuesday every month @ 6:00pm",
-		"web": "http://techtalks.ky",
-		"calendar": "https://www.meetup.com/Tech-Talks-KY/events/ical/",
-		"facebook": "https://www.facebook.com/techtalksky/",
-		"twitter": "techtalksky",
-		"description": "Tech Talks KY (formerly LEX>>FWD) is a meetup group with talks in both Louisville and Lexington. We focus on software, programming and IT technologies. Our aim is to be platform agnostic and to focus on overall concepts and practices. We are open to everyone."
-	},
-	"tech-foundations-louisville": {
-		"name": "Tech Foundations Louisville",
-		"frequency": "Meets the 3rd Tuesday every month @ 6:00pm",
-		"web": "https://www.meetup.com/Tech-Foundations-Louisville/",
-		"calendar": "https://www.meetup.com/Tech-Foundations-Louisville/events/ical/",
-		"description": "Tech Foundations Louisville is a meetup open to anyone interested in introductory-level topics in technology. This group is dedicated toward those that have some exposure technology and may be new to the industry or hoping to get into it. Our goal is to have speakers and discussion topics that are relevant to everyone interested in technology, whether they're new or an industry vetera. We will have a few minutes before each event to socialize followed by a topic discussion each month."
-	},
-	"ixda-louisville": {
-		"name": "IxDA Louisville",
-		"frequency": "Meets one Thursday each month @ 6:00pm",
-		"web": "https://www.meetup.com/ixdalouisville/",
-		"calendar": "https://www.meetup.com/ixdalouisville/events/ical/",
-		"twitter": "ixdalouisville",
-		"description": "Formerly known as LouisvilleUX! We are a group for anyone interested in creating great experiences for the users of their products, websites, apps, robots, whatever. Join us to meet new people and chat about user centered design, lean UX, UI design, IA, usability, research, new tools and the importance of getting your ideas out of the building. We're everyone who is interested in the field, whether you're a designer, entrepreneur, researcher, or developer. No previous experience necessary."
-	}
+  "aiga-louisville": {
+    "name": "AIGA Louisville",
+    "frequency": "Meets sporadically",
+    "web": "http://louisville.aiga.org",
+    "facebook": "https://www.facebook.com/aigalou",
+    "twitter": "aigalou",
+    "description":"AIGA advances design as a professional craft, strategic advantage and vital cultural force. As the largest community of design advocates, we bring together practitioners, enthusiasts, and patrons to amplify the voice of design and create the vision for a collective future."
+  },
+  "code-louisville": {
+    "name": "Code Louisville",
+    "frequency": "Meets monthly on changing dates",
+    "web": "https://www.facebook.com/groups/597842787091041/",
+    "calendar": "https://calendar.google.com/calendar/ical/codelouisvillemeetup%40gmail.com/public/basic.ics",
+    "description": "A social event for Code Louisville students, graduates, mentors, staff, and friends to hang out, have a drink, talk, or play a game."
+  },
+  "creative-mornings-louisville": {
+    "name": "Creative Mornings Louisville",
+    "frequency": "Meets monthly",
+    "web": "http://creativemornings.com/cities/lou",
+    "twitter": "cm_louisville",
+    "description": "CreativeMornings is a breakfast lecture series for the creative community. Our free, monthly events feature a short talk and breakfast!"
+  },
+  "derbypy": {
+    "name": "DerbyPy",
+    "frquency": "Meets the 4th Tuesday every month at 6:30pm",
+    "web": "https://www.meetup.com/derbypy/",
+    "calendar": "https://www.meetup.com/derbypy/events/ical/",
+    "twitter": "DerbyPy",
+    "description": "A meetup for anyone interested in the Python programming language. All skill levels are welcome. :)"
+  },
+  "dev-book-club": {
+    "name": "Dev Book Club",
+    "frequency": "Meets every two weeks",
+    "web": "https://www.meetup.com/devbookclub/",
+    "mailing-list": "https://www.meetup.com/devbookclub/messages/boards/",
+    "calendar": "https://www.meetup.com/devbookclub/events/ical/",
+    "description": "Developers are always striving to learn more. Unfortunately development books can be dry and boring. Fortunately friends are fun. This group attempts to tackle boring development books in a social learning atmosphere with code challenges that correspond with the chapters."
+  },
+  "devops-louisville": {
+    "name": "DevOps Louisville",
+    "frequency": "Meets monthly",
+    "web": "https://www.meetup.com/DevOps-Louisville/",
+    "calendar": "https://www.meetup.com/DevOps-Louisville/events/ical/",
+    "description": "For anyone interested in: Cloud / Containers, Infrastructure / Ops Automation, Continuous Integration / Delivery / Deployment, Monitoring / Metrics, Lean/Agile for Development or Operations"
+  },
+  "elixir-louisville": {
+    "name": "Elixir Louisville",
+    "web": "https://www.meetup.com/Elixir-Louisville/",
+    "calendar": "https://www.meetup.com/Elixir-Louisville/events/ical/",
+    "twitter": "elixir_lou",
+    "description": "We are group of programmers, students, and technology enthusiasts who are excited about the Elixir programming language. We meet on the second Tuesday of every month to discuss topics related to the Elixir ecosystem, distributed systems, and functional programming. All skill levels are welcome!"
+  },
+  "ember-js-louisville": {
+    "name": "Ember.js Louisville",
+    "web": "https://www.meetup.com/Ember-js-Louisville/",
+    "calendar": "https://www.meetup.com/Ember-js-Louisville/events/ical/",
+    "twitter": "emberjslou",
+    "description": "Learning and meeting with Ember.js enthusiasts in Louisville, Kentucky. Ember.js Louisville is open to developers of any skill level. Our goal is to come together, share our stories, and learn to build ambitious web applications."
+  },
+  "food-4-nerds": {
+    "name": "Food4Nerds",
+    "frequency": "Meets monthly",
+    "twitter": "Food4Nerds",
+    "calendar": "https://calendar.google.com/calendar/ical/jghri0j8rdpn7svv4tgecb7kl0%40group.calendar.google.com/public/basic.ics"
+  },
+  "gdg-louisville": {
+    "name": "Google Developer Group Louisville",
+    "web": "https://www.meetup.com/GDGLouisville/",
+    "calendar": "https://www.meetup.com/GDGLouisville/events/ical/",
+    "facebook": "https://www.facebook.com/GDG-Louisville-1536561503322044/",
+    "twitter": "GDGLouisville",
+    "frequency": "Meets Monthly",
+    "description": "We are a Google Developer Group! We will be discussing Android Development, but also incorporate most Google Development Products."
+  },
+  "girl-develop-it-louisville": {
+    "name": "Girl Develop It Louisville",
+    "frequency": "Meets sporadically",
+    "web": "https://www.meetup.com/Girl-Develop-It-Louisville/",
+    "calendar": "https://www.meetup.com/Girl-Develop-It-Louisville/events/ical/",
+    "facebook": "https://www.facebook.com/gdilouisville?fref=ts",
+    "twitter": "gdilouisville",
+    "description": "Women Developers and Programmers! Want to learn how to code? Have a great idea? Don't be shy. Develop it."
+  },
+  "ionic-louisville": {
+    "name": "Ionic Louisville",
+    "frequency": "Meets sporadically",
+    "web": "https://www.meetup.com/ionic-louisville/",
+    "calendar": "https://www.meetup.com/ionic-louisville/events/ical/",
+    "twitter": "ioniclouisville",
+    "description": "This meetup will talk about ionic and the future of application development. Ionic will be pushed to the limits and used in new ways. Anyone who is interested in hybrid development and or who has experience in native/hybrid development should join."
+  },
+  "issa-kentuckiana": {
+    "name": "ISSA Kentuckiana",
+    "frequency": "Meets one Friday a month @ 11am",
+    "web": "http://issa-kentuckiana.org/",
+    "twitter": "issakentuckiana",
+    "facebook": "https://www.facebook.com/issakentuckiana",
+    "description": "If you are interested in Information Security and live in the Kentuckiana region, then you’ve come to the right place. Our chapter offers many benefits for seasoned security-minded professionals and relative newcomers to the field such as monthly meetings that provide opportunities for experiential learning and professional networking."
+  },
+  "it-happy-hour": {
+    "name": "IT Happy Hour",
+    "frequency": "Meets the 2nd Tuesday every month @ 6pm",
+    "web": "https://www.facebook.com/groups/118582591623817/",
+    "calendar": "https://calendar.google.com/calendar/ical/hdvc0bifplib8s70at26j4ho08%40group.calendar.google.com/public/basic.ics",
+    "facebook": "https://www.facebook.com/groups/118582591623817/",
+    "twitter": "ITHHLouKY",
+    "description": "The IT Happy Hour is a monthly event where IT People in the Louisville area can get together to discuss ideas and projects, fails and wins."
+  },
+  "jslou": {
+    "name": "JSLou",
+    "frequency": "Meets the 1st and 3rd Wednesday every month @ 7pm",
+    "web": "http://jslou.org",
+    "mailing-list": "http://kyoss.org/mailman/listinfo/jslou",
+    "calendar": "https://www.meetup.com/JSLouKY/events/ical/",
+    "google-plus": "https://plus.google.com/u/1/116976108778413543403/posts",
+    "twitter": "JsLouKY",
+    "description": "JSLou is a gathering where people of any experience level, and all types of JavaScript can feel right at home."
+  },
+  "juggl": {
+    "name": "Java Users Group of Greater Louisville",
+    "frequency": "Meets the 2nd Monday every month @6pm",
+    "web": "https://www.meetup.com/JUGGLou/",
+    "calendar": "https://www.meetup.com/JUGGLou/events/ical/",
+    "description": "We are a group of developers and enthusiasts who are interested in learning about Java, the Java Virtual Machine, and all of the things you can do on top of the JVM."
+  },
+  "kyoss": {
+    "name": "Kentucky Open Source Society (KYOSS)",
+    "frequency": "Meets the 2nd Wednesday every month @ 6:30pm",
+    "web": "http://kyoss.org/",
+    "calendar": "https://www.meetup.com/LouisvilleOpenSourceProgramming/events/ical/",
+    "mailing-list": "http://kyoss.org/mailman/listinfo/kyoss-discuss",
+    "freenode": "#kyoss",
+    "google-plus": "https://plus.google.com/+KyossOrg/posts",
+    "google-plus-community": "https://plus.google.com/communities/116631799593310550964",
+    "description": "The Kentucky Open Source Society (KYOSS) is a group of Programmers, Sysadmins, Devops, Linux enthusiasts, Web Developers, Mobile Developers, and just about anyone else who is interested in technology."
+  },
+  "let-them-tweet-cake": {
+    "name": "Let Them Tweet Cake",
+    "frequency": "Meets sporadically",
+    "web": "http://www.letthemtweetcake.com/",
+    "facebook": "https://www.facebook.com/letthemtweetcake?fref=ts",
+    "twitter": "tweetcakelou",
+    "description": "Sweet opportunities for women interested in technology and media."
+  },
+  "louisville-agile-forum": {
+    "name": "Louisville Agile Forum",
+    "frequency": "Meets the 3rd Wednesday every month @ 6pm",
+    "web": "https://www.meetup.com/Louisville-Agile-Forum/",
+    "calendar": "https://www.meetup.com/Louisville-Agile-Forum/events/ical/",
+    "description": "The Louisville Agile Forum consists of Agile practitioners in the greater Louisville area. We like to share our Agile experiences, network and help others with challenges related to Agile adoption."
+  },
+  "louisville-aws-user-group": {
+    "name": "Louisville AWS User Group",
+    "frequency": "Meets Monthly",
+    "web": "https://www.meetup.com/Louisville-AWS-Users-Group/",
+    "mailing-list": "https://www.meetup.com/Louisville-AWS-Users-Group/messages/boards/",
+    "calendar": "https://www.meetup.com/Louisville-AWS-Users-Group/events/ical/",
+    "twitter": "Louisville_AWS",
+    "description": "Come check us out to learn and share how you're using the AWS platform."
+  },
+  "louisville-bi-and-big-data-analytics-meetup": {
+    "name": "Louisville BI & Big Data Analytics Meetup",
+    "frequency": "Meets monthly on a Thursday at 6pm",
+    "web": "https://www.meetup.com/Louisville-BI-Big-Data-Analytics-Meetup/",
+    "calendar": "https://www.meetup.com/Louisville-BI-Big-Data-Analytics-Meetup/events/ical/",
+    "description": "If you are modernizing your business with Big Data and want your entire organization to benefit through compelling data visualizations, need to engage your audience with intuitive and interactive reports and dashboards on any device, or are new to BI and are interested to learn more about the use of BI in applications – then this group is for YOU!"
+  },
+  "learn-swift-louisville": {
+    "name": "Learn Swift Louisville",
+    "frequency": "Meets monthly on Wednesdays at 6pm",
+    "web": "https://www.meetup.com/learn-swift-louisville/",
+    "calendar": "https://www.meetup.com/learn-swift-louisville/events/ical/",
+    "description": "We want to create a community for everyone interested in learning Swift. We help each other solve problems and become better developers every month. All experience-levels are welcome."
+  },
+  "louisville-code-and-coffee": {
+    "name": "Louisville Code & Coffee",
+    "frequency": "Meets a few times monthly",
+    "web": "https://www.meetup.com/louisville-code-and-coffee/",
+    "calendar": "https://www.meetup.com/louisville-code-and-coffee/events/ical/",
+    "description": "Do you like coffee or tea? Are you interested in programming? This is the group for you!"
+  },
+  "louisville-civic-data-alliance": {
+    "name": "Louisville Civic Data Alliance",
+    "frequency": "Meets sporadically",
+    "web": "https://www.meetup.com/Louisville-Civic-Data-Alliance",
+    "calendar": "https://www.meetup.com/Louisville-Civic-Data-Alliance/events/ical/",
+    "google-plus": "https://plus.google.com/u/1/105717792509345258567/about",
+    "twitter": "CivicDataAlly",
+    "description": "We are Louisville's Code for America Brigade, called the Civic Data Alliance (CDA). Our mission is: Making Public Data Truly Public."
+  },
+  "louisville-dot-net": {
+    "name": "Louisville .NET Meetup",
+    "frequency": "Meets the 3rd Thursday every month @ 6:30pm",
+    "web": "https://www.meetup.com/Louisville-DotNet/",
+    "calendar": "https://www.meetup.com/Louisville-DotNet/events/ical/",
+    "twitter": "LouDotNet",
+    "description": "The Louisville .NET Meetup group is dedicated to helping developers around Louisville to become better developers with an emphasis on the Microsoft .NET technology stack. "
+  },
+  "louisville-geek-dinner": {
+    "name": "Louisville Geek Dinner",
+    "frequency": "Meets quarterly",
+    "web": "http://louisvillegeekdinner.com/",
+    "calendar": "https://calendar.google.com/calendar/ical/louisvillegeekdinner%40gmail.com/public/basic.ics",
+    "twitter": "geekdinner",
+    "description": "A social networking event for those passionate about technology."
+  },
+  "louisville-haskell-meetup": {
+    "name": "Louisville Haskell Meetup",
+    "web": "https://www.meetup.com/Louisville-Haskell-Meetup/",
+    "calendar": "https://www.meetup.com/Louisville-Haskell-Meetup/events/ical/",
+    "description": "Meetup for Haskell enthusiasts. Haskell is an elegant and powerful language with a reputation for stretching your brain."
+  },
+  "louisville-keyboard-club": {
+    "name": "Louisville Keyboard Club",
+    "web": "https://www.eventbrite.com/e/louisville-keyboard-club-2017-with-special-guest-don-bowman-of-unicomp-tickets-35757573866",
+    "calendar": "https://calendar.google.com/calendar/ical/eqqmthv970qfu3o5gsdqkuuplo%40group.calendar.google.com/public/basic.ics",
+    "description": "Are you keyboard-curious? Have been hearing about mechanical keyboard or gaming keyboards, and wanting to try them? There will be plenty of keyboards to try out and help you decide if they are for you."
+  },
+  "louisville-makes-games": {
+    "name": "Louisville Makes Games",
+    "frequency": "Meets every other Sunday @ 2pm",
+    "web": "https://www.meetup.com/LouisvilleMakesGames/",
+    "mailing-list": "https://groups.google.com/forum/#!forum/gamedevlou",
+    "calendar": "https://www.meetup.com/LouisvilleMakesGames/events/ical/",
+    "twitter": "LouMakesGames",
+    "description": "Louisville's game development community. We support game developers of all skill levels and backgrounds. We want to create a safe environment where everyone can learn and participate."
+  },
+  "louisville-puppet-user-group": {
+    "name": "Louisville Puppet User Group",
+    "web": "https://www.meetup.com/Louisville-Puppet-User-Group/",
+    "calendar": "https://www.meetup.com/Louisville-Puppet-User-Group/events/ical/",
+    "description": "User group for the Puppet configuration management software."
+  },
+  "louisville-mograph": {
+    "name": "Louisville MOGRAPH",
+    "web": "https://www.meetup.com/Louisville-MOGRAPH/",
+    "calendar": "https://www.meetup.com/Louisville-MOGRAPH/events/ical/",
+    "description": "Calling all designers, animators and engineers of motion. This is a group for anyone interested in animation and motion design - motion graphics artists, 2D & 3D animators, VFX artists, and creative coders. The plan is to create a regular meetup where we can share our work, learn from each other, listen guest speakers, and collaborate on projects together."
+  },
+  "loumug": {
+    "name": "Louisville Microsoft Users Group",
+    "frequency": "Meets the last Friday every month @ 11:30 am",
+    "web": "http://www.loumug.org/",
+    "twitter": "LouMUG",
+    "description": "It’s a forum for computer professionals in the Louisville area interested in gaining and sharing knowledge in Microsoft technologies through networking and education."
+  },
+  "louposh": {
+    "name": "Louisville PowerShell Users Group",
+    "frequency": "Meets the 3rd Thursday every month @5:30 pm",
+    "web": "http://www.louposh.org/",
+    "facebook": "https://www.facebook.com/louposh?fref=ts",
+    "twitter": "LouPOSH",
+    "description": "We are a community of IT professionals in and around the Louisville, KY area who share an interest in all things PowerShell."
+  },
+  "louisville-ruby-brigade": {
+    "name": "Louisville Ruby Brigade",
+    "frequency": "Meets every other Thursday @ 7:00pm, check meetup.com for date and location.",
+    "web": "https://www.meetup.com/Louisville-Ruby-Brigade/",
+    "calendar": "https://www.meetup.com/Louisville-Ruby-Brigade/events/ical/",
+    "twitter": "lvlrb",
+    "slack": "https://louisvillerb.slack.com/",
+    "description": "Meetup for Ruby developers and the Ruby-curious."
+  },
+  "louisville-r-user-group": {
+    "name": "Louisville R User Group",
+    "frequency": "Meets monthly",
+    "web": "https://github.com/louisville-rstats",
+    "calendar": "https://calendar.google.com/calendar/ical/fbja3a7h8l04juq2onmniugcl0%40group.calendar.google.com/public/basic.ics",
+    "description": "The Louisville R User Group serves as a resource for folks in Louisville as they learn how to use the R language as a tool to build cool stuff and get work done."
+  },
+  "louisville-salesforce-user-goup": {
+    "name": "Louisville Salesforce User Group",
+    "calendar": "https://calendar.google.com/calendar/ical/g1e42sm7o556djcai8h1rceibg%40group.calendar.google.com/public/basic.ics"
+  },
+  "lousmug": {
+    "name": "Louisville Systems Management User Group",
+    "web": "http://www.lousmug.org/",
+    "twitter": "louisvillesmug",
+    "description": "Covering MS System Center and other products. We meet once a month, and attendance is free."
+  },
+  "louspug": {
+    "name": "Louisville SharePoint Users Group",
+    "frequency": "Meets the second Friday of every month @ 11:30am",
+    "web": "https://www.eventbrite.com/o/louisville-sharepoint-user-group-12291598085",
+    "calendar": "https://eb-to-ical.daylightpirates.org/eventbrite-organizer-ical?token=5E4M74CSL7VNW5OQUDAA&organizer=https%3A%2F%2Fwww.eventbrite.com%2Fo%2Flouisville-sharepoint-user-group-12291598085",
+    "twitter": "LouSPUG",
+    "facebook": "https://www.facebook.com/LouSPUG/",
+    "description": "LouSPUG meets monthly to discuss SharePoint from the perspectives of administrators, developers, and end users."
+  },
+  "louisville-software-engineering-meetup": {
+    "name": "Louisville Software Engineering Meetup",
+    "frequency": "Meets the 1st Wednesday every month @ 6pm",
+    "web": "https://www.meetup.com/Louisville-Software-Engineering/",
+    "calendar": "https://www.meetup.com/Louisville-Software-Engineering/events/ical/",
+    "description": "Formerly LouPUG, the Louisville PHP User Group, we have shifted our focus on Software Engineering. While code samples may still include PHP, we didn't want to limit our members to a single technology. If you are strictly interested in PHP, check out the KYOSS Meetup."
+  },
+  "louisville-sql-server-users-group": {
+    "name": "Louisville SQL Server Users Group",
+    "frequency": "Meets sporadically",
+    "web": "http://louisville.sqlpass.org/",
+    "google-plus": "https://plus.google.com/u/1/103148637022769319331/about",
+    "facebook": "https://www.facebook.com/groups/louisvillesqlpass/",
+    "description": " We represent the SQL Server community in Louisville, the surrounding metropolitan area, and throughout most of Kentucky. As a technical users group, we focus on monthly meetings, but also provide networking, learning opportunities, speaking opportunities, training, and collaboration for SQL Server professionals throughout the Ohio Valley area."
+  },
+  "louisville-tech-ladies": {
+    "name": "Louisville Tech Ladies",
+    "frequency": "Meets the first Thursday every month",
+    "web": "https://www.meetup.com/Louisville-Tech-Ladies/",
+    "calendar": "https://www.meetup.com/Louisville-Tech-Ladies/events/ical/",
+    "description": "If you're a woman in any STEM field looking to meet & hang out with other amazing women, we'd love to meet you, too! We will get together monthly to network, learn from each other, and offer support."
+  },
+  "louisville-tech-leaders-meetup": {
+    "name": "Louisville Tech Leaders Meetup",
+    "web": "https://www.meetup.com/louisville-tech-leaders/",
+    "calendar": "https://www.meetup.com/louisville-tech-leaders/events/ical/",
+    "description": "Many tech leaders get the job by default. They’re the best or most senior technologist and suddenly find themselves leading meetings, negotiating for resources, making strategic decisions their bosses don’t understand and can’t help with, participating in hiring, and a whole range of other mission-critical activities that fall outside of the technical toolbox. This meetup is for tech leads, managers, and directors of technical teams to get together a few times a year to learn, share, and have some fun. Sign up, let’s meet up, and we’ll find ways to help each other become better leaders. Look for morning and evening meetups, as well as special events a few times each year."
+  },
+  "louisville-vmware-users-group": {
+    "name": "Louisville VMware Users Group",
+    "frequency": "Meets Quarterly",
+    "freenode": "#LouisvilleVMUG",
+    "web": "http://www.louisvillevmug.info/",
+    "calendar": "https://calendar.google.com/calendar/ical/csilouisville.net_g3l1qnciiu5g0cdbbm36gs8omg%40group.calendar.google.com/public/basic.ics",
+    "twitter": "LouisvilleVMUG",
+    "description": "Louisville VMUG is an independent, customer-led organization created to maximize our members’ use of VMware and Partner solutions through knowledge sharing, training, collaboration, and quarterly events. Louisville VMUG focuses on providing presentations from local users across many different industries to share their experiences, solutions, and obstacles to solve real-world business requirements."
+  },
+  "louisville-predictive-analytics": {
+    "name": "Louisville Predictive Analytics Meetup",
+    "frequency": "Meets Monthly",
+    "web" : "https://www.meetup.com/Louisville-Predictive-Analytics-Meetup/",
+    "calendar" : "https://www.meetup.com/Louisville-Predictive-Analytics-Meetup/events/ical/",
+    "facebook": "https://www.facebook.com/groups/1071400462922901/",
+    "description": "We discuss how we can solve problems using Data Science"
+  },
+  "lvl1-hackerspace": {
+    "name": "LVL1 Hackerspace",
+    "frequency": "Open meetings every Tues at 8pm and assorted workshops",
+    "web": "http://www.lvl1.org",
+    "calendar": "https://calendar.google.com/calendar/ical/ml7vfq8dhpc81c4qpimqptcgek%40group.calendar.google.com/public/basic.ics",
+    "twitter": "LVL1HackerSpace",
+    "description": "LVL1 is Louisville's premier original hackerspace. We are friendly community of tinkerers, makers, engineers, educators, scientists, artists, hackers and overall geeks. Anyone who is, aspires to be, or just wants to hang around smart, creative, friendly mad scientist maker/hacker Louisvillians is welcome at LVL1! We’ve got lots of cool tools and equipment. We like to work on (and show off) fun and challenging technical projects."
+  },
+  "mymobileville": {
+    "name": "My Mobile Ville",
+    "frequency": "Meets online the 4th Tuesday every month @ 6:30pm",
+    "web": "http://mymobileville.com/",
+    "facebook": "https://www.facebook.com/MyMobileVille/timeline",
+    "twitter": "mymobileville",
+    "description": "A meetup to discuss all things mobile! We meet on the 4th Tuesday if every month to discuss Android, iOS, and anything else that resembles mobile tech!"
+  },
+  "openhack-louisville": {
+    "name": "OpenHack Louisville",
+    "frequency": "Meets the 1st Tuesday every month @ 6pm",
+    "web": "https://openhack.github.io/louisville/",
+    "calendar": "https://calendar.google.com/calendar/ical/pi7ffck72n9a5n9es3f2ce090k%40group.calendar.google.com/public/basic.ics",
+    "twitter": "OpenHackLVL",
+    "description": "Code together on anything, learn from, and teach each other. Together we can have fun while becoming better at our craft."
+  },
+  "technology-association-of-louisville-kentucky": {
+    "name": "Technology Association of Louisville Kentucky",
+    "frequency": "Meets sporadically",
+    "web": "http://www.talklou.com/",
+    "description": "The Technology Association of Louisville Kentucky (TALK) is the open membership association for the technology community in and around Louisville, Kentucky. Its mission is to facilitate exchanges through networks that promote meaningful outcomes for technologists."
+  },
+  "wordpress-louisville": {
+    "name": "WordPress Louisville",
+    "frequency": "Meets the 2nd Tuesday every month @ 6:15 pm",
+    "web": "https://www.meetup.com/WordPress-Meetup-Louisville/",
+    "calendar": "https://www.meetup.com/WordPress-Meetup-Louisville/events/ical/",
+    "facebook": "https://www.facebook.com/groups/141305872747362/"
+  },
+  "ypal": {
+    "name": "Young Professionals Association of Louisville (YPAL)",
+    "frequency": "Meets sporadically",
+    "web": "http://www.ypal.org",
+    "calendar": "https://calendar.google.com/calendar/ical/ypal.org_7op76vu5bnac22d600iqir6m1o%40group.calendar.google.com/public/basic.ics",
+    "twitter": "YpalLouisville",
+    "facebook": "https://www.facebook.com/YPALouisville/",
+    "description": "The Young Professionals Association of Louisville (YPAL) provides leadership development, educational opportunities and philanthropic support to Louisville’s Young Professionals for the benefit of the local community."
+  },
+  "tech-talks-ky": {
+    "name": "Tech Talks KY",
+    "frequency": "Meets the 2nd Tuesday every month @ 6:00pm",
+    "web": "http://techtalks.ky",
+    "calendar": "https://www.meetup.com/Tech-Talks-KY/events/ical/",
+    "facebook": "https://www.facebook.com/techtalksky/",
+    "twitter": "techtalksky",
+    "description": "Tech Talks KY (formerly LEX>>FWD) is a meetup group with talks in both Louisville and Lexington. We focus on software, programming and IT technologies. Our aim is to be platform agnostic and to focus on overall concepts and practices. We are open to everyone."
+  },
+  "tech-foundations-louisville": {
+    "name": "Tech Foundations Louisville",
+    "frequency": "Meets the 3rd Tuesday every month @ 6:00pm",
+    "web": "https://www.meetup.com/Tech-Foundations-Louisville/",
+    "calendar": "https://www.meetup.com/Tech-Foundations-Louisville/events/ical/",
+    "description": "Tech Foundations Louisville is a meetup open to anyone interested in introductory-level topics in technology. This group is dedicated toward those that have some exposure technology and may be new to the industry or hoping to get into it. Our goal is to have speakers and discussion topics that are relevant to everyone interested in technology, whether they're new or an industry vetera. We will have a few minutes before each event to socialize followed by a topic discussion each month."
+  },
+  "ixda-louisville": {
+    "name": "IxDA Louisville",
+    "frequency": "Meets one Thursday each month @ 6:00pm",
+    "web": "https://www.meetup.com/ixdalouisville/",
+    "calendar": "https://www.meetup.com/ixdalouisville/events/ical/",
+    "twitter": "ixdalouisville",
+    "description": "Formerly known as LouisvilleUX! We are a group for anyone interested in creating great experiences for the users of their products, websites, apps, robots, whatever. Join us to meet new people and chat about user centered design, lean UX, UI design, IA, usability, research, new tools and the importance of getting your ideas out of the building. We're everyone who is interested in the field, whether you're a designer, entrepreneur, researcher, or developer. No previous experience necessary."
+  }
 }
