@@ -182,6 +182,13 @@
     "calendar": "https://www.meetup.com/learn-swift-louisville/events/ical/",
     "description": "We want to create a community for everyone interested in learning Swift. We help each other solve problems and become better developers every month. All experience-levels are welcome."
   },
+  "louisville-crm": {
+    "name": "Louisville CRM",
+    "frequency": "Meets sporadically",
+    "web": "https://www.meetup.com/Louisville-CRM/",
+    "calendar": "https://www.meetup.com/Louisville-CRM/events/ical/",
+    "description": "The Louisville CRM group is for anyone interested in Customer Relationship Management, Salesforce, HubSpot, Zoho, Microsoft Dynamics, etc. All skill levels are welcome. We started this group to meet other CRM users and professionals."
+  },
   "louisville-code-and-coffee": {
     "name": "Louisville Code & Coffee",
     "frequency": "Meets a few times monthly",
