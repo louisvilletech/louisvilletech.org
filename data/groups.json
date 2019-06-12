@@ -36,6 +36,8 @@
     "web": "https://www.meetup.com/derbypy/",
     "calendar": "https://www.meetup.com/derbypy/events/ical/",
     "twitter": "DerbyPy",
+    "youtube": "https://www.youtube.com/channel/UCMMAb9hRDuwDiM9lhRho_Jg",
+    "github": "https://github.com/DerbyPy",
     "description": "A meetup for anyone interested in the Python programming language. All skill levels are welcome. :)"
   },
   "dev-book-club": {
