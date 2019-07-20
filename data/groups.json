@@ -149,6 +149,7 @@
   "kubernetes-louisville": {
     "name": "Kubernetes and Cloud Native Computing Louisville",
     "frequency": "Meets Monthly",
+    "calendar": "https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/ical/",
     "web": "https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/",
     "mailing-list": "https,://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/messages/archive/rss/cncf-louisville-list+Meetup+Mailing+List/",
     "twitter": "CloudLouisville",
