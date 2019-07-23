@@ -6,3 +6,4 @@ data/events.json
 data/jobs.json
 data/group-events/
 .DS_Store
+.idea/
