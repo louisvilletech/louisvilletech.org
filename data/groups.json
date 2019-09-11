@@ -93,6 +93,13 @@
     "twitter": "gdilouisville",
     "description": "Women Developers and Programmers! Want to learn how to code? Have a great idea? Don't be shy. Develop it."
   },
+  "go-lou": {
+    "name": "Go Lou",
+    "frequency": "Meets sporadically",
+    "web": "https://www.meetup.com/go-lou/",
+    "calendar": "https://www.meetup.com/go-lou/events/ical/",
+    "description": "GoLou is Louisville's meetup for all Gophers in the Kentuckiana area interested in learning and sharing about the programming language Golang."
+  },
   "ionic-louisville": {
     "name": "Ionic Louisville",
     "frequency": "Meets sporadically",
