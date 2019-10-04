@@ -224,6 +224,13 @@
     "twitter": "CivicDataAlly",
     "description": "Civic Data Alliance is interested in ethically liberating, improving, gathering, defining, and reporting on public data and the state of civic tech, while fostering an inclusive and diverse civic tech community."
   },
+  "louisville-data-technology-group": {
+    "name": "Louisville Data Technology Group",
+    "frequency": "Meets sporadically",
+    "web": "https://www.meetup.com/Louisville-Data-Technology-Group/",
+    "calendar": "https://www.meetup.com/Louisville-Data-Technology-Group/events/ical/",
+    "description": "Our group is generally made up of folks who all have a passion for Microsoft SQL Server and the technologies that surround it."
+  },
   "louisville-dot-net": {
     "name": "Louisville .NET Meetup",
     "frequency": "Meets the 3rd Thursday every month @ 6:30pm",
