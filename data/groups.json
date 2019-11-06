@@ -49,6 +49,13 @@
     "calendar": "https://www.meetup.com/devbookclub/events/ical/",
     "description": "Developers are always striving to learn more. Unfortunately development books can be dry and boring. Fortunately friends are fun. This group attempts to tackle boring development books in a social learning atmosphere with code challenges that correspond with the chapters."
   },
+  "devsechops-louisville": {
+    "name": "DevSecHops Louisville",
+    "frequency": "Meets monthly",
+    "web": "https://www.meetup.com/DevSecHops-Louisville/",
+    "calendar": "https://www.meetup.com/DevSecHops-Louisville/events/ical/",
+    "description": "DevSecHops Louisville is a casual networking group for IT professionals to engage in fun & interactive events around Louisville. All engineers, IT, and InfoSec enthusiasts at any career stage interested in networking with a local community of like-minded DevOps, Security, Networking, & Cloud engineers - please join us for a few cold ones!"
+  },
   "devops-louisville": {
     "name": "DevOps Louisville",
     "frequency": "Meets monthly",
