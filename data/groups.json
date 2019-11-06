@@ -340,8 +340,8 @@
   "louisville-software-engineering-meetup": {
     "name": "Louisville Software Engineering Meetup",
     "frequency": "Meets the 1st Wednesday every month @ 6pm",
-    "web": "https://www.meetup.com/Louisville-Software-Engineering/",
-    "calendar": "https://www.meetup.com/Louisville-Software-Engineering/events/ical/",
+    "web": "https://civicdataalliance.org/Louisville-Software-Engineering/",
+    "calendar": "https://calendar.google.com/calendar/ical/civicdataalliance.org_q528lks5hklj0faqrglvv1nnmo@group.calendar.google.com/public/basic.ics",
     "description": "Formerly LouPUG, the Louisville PHP User Group, we have shifted our focus on Software Engineering. While code samples may still include PHP, we didn't want to limit our members to a single technology. If you are strictly interested in PHP, check out the KYOSS Meetup."
   },
   "louisville-sql-server-users-group": {
