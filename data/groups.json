@@ -16,6 +16,13 @@
     "facebook": "https://www.facebook.com/events/522434131686596/",
     "description": "Discussing Social Media, Privacy/Sharing & Safety Online for individuals and families, a free event hosted by a Cyber Security Specialist and Private Investigator"
   },
+  "artificial-intelligence-innovation-consortium": {
+    "name": "Artificial Intelligence Innovation Consortium (AIIC)",
+    "frequency": "Meets sporadically",
+    "web": "https://www.meetup.com/Artificial-Intelligence-Innovation-Consortium-AIIC/",
+    "calendar": "https://www.meetup.com/Artificial-Intelligence-Innovation-Consortium-AIIC/events/ical/",
+    "description": "AI is becoming more applied into our everyday and understanding how to effectively implement AI solutions can bring value to businesses and customers. We will cover AI Consortium, Market Insights, and Microsoft Azure AI Use Cases."
+  },
   "code-for-kentuckiana": {
     "name": "Code for Kentuckiana",
     "frequency": "Meets sporadically",
