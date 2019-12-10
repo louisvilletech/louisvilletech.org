@@ -302,6 +302,12 @@
     "calendar": "https://www.meetup.com/Louisville-MOGRAPH/events/ical/",
     "description": "Calling all designers, animators and engineers of motion. This is a group for anyone interested in animation and motion design - motion graphics artists, 2D & 3D animators, VFX artists, and creative coders. The plan is to create a regular meetup where we can share our work, learn from each other, listen guest speakers, and collaborate on projects together."
   },
+  "louisville-remote-workers": {
+    "name": "Louisville Remote Workers",
+    "web": "https://www.meetup.com/Louisville-Remote-Workers/",
+    "calendar": "https://www.meetup.com/Louisville-Remote-Workers/events/ical/",
+    "description": "Remote workers have unique challenges. So, let’s get together and talk about those challenges, help each other, and meet others."
+  },
   "loumug": {
     "name": "Louisville Microsoft Users Group",
     "frequency": "Meets the last Friday every month @ 11:30 am",
