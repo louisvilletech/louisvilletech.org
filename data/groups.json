@@ -123,6 +123,12 @@
     "calendar": "https://www.meetup.com/go-lou/events/ical/",
     "description": "GoLou is Louisville's meetup for all Gophers in the Kentuckiana area interested in learning and sharing about the programming language Golang."
   },
+  "hardware-happy-hour": {
+    "name": "Hardware Happy Hour",
+    "frequency": "Meets sporadically",
+    "calendar": "https://calendar.google.com/calendar/ical/anuj322lectst4j7flolp7rvvc%40group.calendar.google.com/public/basic.ics",
+    "description": "Gathering of hardware, electronics, and embedded makers. We'll be the folks with the blinkys."
+  },
   "ionic-louisville": {
     "name": "Ionic Louisville",
     "frequency": "Meets sporadically",
