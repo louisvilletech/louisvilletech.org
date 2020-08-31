@@ -1,0 +1,7 @@
+node_modules
+npm-debug.log
+ics/*
+dest/*
+data/events.json
+data/jobs.json
+data/group-events/*
