@@ -1,11 +1,9 @@
-FROM nginx:1.19.1-alpine
+FROM node:13.14.0-alpine
 
-RUN apk --no-cache add nodejs-current npm && \
-      mkdir /app
-
+RUN mkdir /app
 COPY . /app
-
 WORKDIR /app
-
-RUN cp generate-site-in-docker.sh /etc/periodic/15min/ && \
+RUN cp generate-site-in-docker /etc/periodic/15min/ && \
       npm ci
+
+CMD ["exec", "crond", "-f"]
