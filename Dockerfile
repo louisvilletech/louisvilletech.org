@@ -6,4 +6,4 @@ WORKDIR /app
 RUN cp generate-site-in-docker /etc/periodic/15min/ && \
       npm ci
 
-CMD ["exec", "crond", "-f"]
+CMD ["crond", "-f"]
