@@ -15,6 +15,12 @@
     "web": "http://nucleusky.com/ihub",
     "twitter": "iHubLou"
   },
+  "launch-louisville": {
+    "name": "Launch Louisville",
+    "web": "https://www.launchlou.com/",
+    "facebook": "https://www.facebook.com/launchlou/",
+    "twitter": "launchlou"
+  },
   "lvl1-hackerspace": {
     "name": "LVL1 Hackerspace",
     "web": "http://www.lvl1.org/",
