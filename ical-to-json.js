@@ -35,7 +35,11 @@ function readAndParseCalendar(file) {
     .then(jcalData => new ical.Component(jcalData))
     .then(component => component.getAllSubcomponents("vevent"))
     .then(vevents => vevents.map(vevent => expandVeventsAndConvertToJson(vevent, file)))
-    .then(flatten);
+    .then(flatten)
+    .catch(e => {
+      console.error(`Error parsing ${file}`, e);
+      return [];
+    });
 }
 
 // only expand one year into the future
