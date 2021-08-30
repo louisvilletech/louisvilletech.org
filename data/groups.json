@@ -150,14 +150,6 @@
     "twitter": "CloudLouisville",
     "description":"CNCF Official meetup for learning and sharing about Kubernetes and other cloud native technologies."
   },
-  "let-them-tweet-cake": {
-    "name": "Let Them Tweet Cake",
-    "frequency": "Meets sporadically",
-    "web": "http://www.letthemtweetcake.com/",
-    "facebook": "https://www.facebook.com/letthemtweetcake?fref=ts",
-    "twitter": "tweetcakelou",
-    "description": "Sweet opportunities for women interested in technology and media."
-  },
   "louisville-agile-forum": {
     "name": "Louisville Agile Forum",
     "frequency": "Meets the 3rd Wednesday every month @ 6pm",
