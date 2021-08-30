@@ -150,13 +150,6 @@
     "twitter": "CloudLouisville",
     "description":"CNCF Official meetup for learning and sharing about Kubernetes and other cloud native technologies."
   },
-  "louisville-agile-forum": {
-    "name": "Louisville Agile Forum",
-    "frequency": "Meets the 3rd Wednesday every month @ 6pm",
-    "web": "https://www.meetup.com/Louisville-Agile-Forum/",
-    "calendar": "https://www.meetup.com/Louisville-Agile-Forum/events/ical/",
-    "description": "The Louisville Agile Forum consists of Agile practitioners in the greater Louisville area. We like to share our Agile experiences, network and help others with challenges related to Agile adoption."
-  },
   "louisville-aws-user-group": {
     "name": "Louisville AWS User Group",
     "frequency": "Meets Monthly",
