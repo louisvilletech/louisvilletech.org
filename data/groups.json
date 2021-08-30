@@ -119,7 +119,6 @@
     "web": "http://jslou.org",
     "mailing-list": "http://kyoss.org/mailman/listinfo/jslou",
     "calendar": "https://www.meetup.com/JSLouKY/events/ical/",
-    "google-plus": "https://plus.google.com/u/1/116976108778413543403/posts",
     "twitter": "JsLouKY",
     "description": "JSLou is a gathering where people of any experience level, and all types of JavaScript can feel right at home."
   },
@@ -137,8 +136,6 @@
     "calendar": "https://www.meetup.com/LouisvilleOpenSourceProgramming/events/ical/",
     "mailing-list": "http://kyoss.org/mailman/listinfo/kyoss-discuss",
     "freenode": "#kyoss",
-    "google-plus": "https://plus.google.com/+KyossOrg/posts",
-    "google-plus-community": "https://plus.google.com/communities/116631799593310550964",
     "description": "The Kentucky Open Source Society (KYOSS) is a group of Programmers, Sysadmins, Devops, Linux enthusiasts, Web Developers, Mobile Developers, and just about anyone else who is interested in technology."
   },
   "kubernetes-louisville": {
@@ -171,7 +168,6 @@
     "frequency": "Meets sporadically",
     "web": "http://www.civicdataalliance.org/",
     "calendar": "https://calendar.google.com/calendar/ical/esusujgda5ff6proul0t8js3ibp84brm%40import.calendar.google.com/public/basic.ics",
-    "google-plus": "https://plus.google.com/u/1/105717792509345258567/about",
     "twitter": "CivicDataAlly",
     "description": "Civic Data Alliance is interested in ethically liberating, improving, gathering, defining, and reporting on public data and the state of civic tech, while fostering an inclusive and diverse civic tech community."
   },
@@ -290,7 +286,6 @@
     "name": "Louisville SQL Server Users Group",
     "frequency": "Meets sporadically",
     "web": "http://louisville.sqlpass.org/",
-    "google-plus": "https://plus.google.com/u/1/103148637022769319331/about",
     "facebook": "https://www.facebook.com/groups/louisvillesqlpass/",
     "description": " We represent the SQL Server community in Louisville, the surrounding metropolitan area, and throughout most of Kentucky. As a technical users group, we focus on monthly meetings, but also provide networking, learning opportunities, speaking opportunities, training, and collaboration for SQL Server professionals throughout the Ohio Valley area."
   },
