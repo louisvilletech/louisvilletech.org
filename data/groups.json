@@ -225,14 +225,6 @@
     "twitter": "LouMUG",
     "description": "It’s a forum for computer professionals in the Louisville area interested in gaining and sharing knowledge in Microsoft technologies through networking and education."
   },
-  "louposh": {
-    "name": "Louisville PowerShell Users Group",
-    "frequency": "Meets the 3rd Thursday every month @5:30 pm",
-    "web": "http://www.louposh.org/",
-    "facebook": "https://www.facebook.com/louposh?fref=ts",
-    "twitter": "LouPOSH",
-    "description": "We are a community of IT professionals in and around the Louisville, KY area who share an interest in all things PowerShell."
-  },
   "louisville-ruby-brigade": {
     "name": "Louisville Ruby Brigade",
     "frequency": "Meets every other Thursday @ 7:00pm, check meetup.com for date and location.",
