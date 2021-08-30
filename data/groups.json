@@ -77,13 +77,6 @@
     "twitter": "elixir_lou",
     "description": "We are group of programmers, students, and technology enthusiasts who are excited about the Elixir programming language. We meet on the second Tuesday of every month to discuss topics related to the Elixir ecosystem, distributed systems, and functional programming. All skill levels are welcome!"
   },
-  "ember-js-louisville": {
-    "name": "Ember.js Louisville",
-    "web": "https://www.meetup.com/Ember-js-Louisville/",
-    "calendar": "https://www.meetup.com/Ember-js-Louisville/events/ical/",
-    "twitter": "emberjslou",
-    "description": "Learning and meeting with Ember.js enthusiasts in Louisville, Kentucky. Ember.js Louisville is open to developers of any skill level. Our goal is to come together, share our stories, and learn to build ambitious web applications."
-  },
   "food-4-nerds": {
     "name": "Food4Nerds",
     "frequency": "Meets monthly",
