@@ -267,14 +267,6 @@
     "twitter": "LouDotNet",
     "description": "The Louisville .NET Meetup group is dedicated to helping developers around Louisville to become better developers with an emphasis on the Microsoft .NET technology stack. "
   },
-  "louisville-geek-dinner": {
-    "name": "Louisville Geek Dinner",
-    "frequency": "Meets quarterly",
-    "web": "http://louisvillegeekdinner.com/",
-    "calendar": "https://calendar.google.com/calendar/ical/louisvillegeekdinner%40gmail.com/public/basic.ics",
-    "twitter": "geekdinner",
-    "description": "A social networking event for those passionate about technology."
-  },
   "louisville-haskell-meetup": {
     "name": "Louisville Haskell Meetup",
     "web": "https://www.meetup.com/Louisville-Haskell-Meetup/",
