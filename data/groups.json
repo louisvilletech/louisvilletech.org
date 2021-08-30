@@ -280,15 +280,6 @@
     "calendar": "https://www.meetup.com/louisville-tech-leaders/events/ical/",
     "description": "Many tech leaders get the job by default. They’re the best or most senior technologist and suddenly find themselves leading meetings, negotiating for resources, making strategic decisions their bosses don’t understand and can’t help with, participating in hiring, and a whole range of other mission-critical activities that fall outside of the technical toolbox. This meetup is for tech leads, managers, and directors of technical teams to get together a few times a year to learn, share, and have some fun. Sign up, let’s meet up, and we’ll find ways to help each other become better leaders. Look for morning and evening meetups, as well as special events a few times each year."
   },
-  "louisville-vmware-users-group": {
-    "name": "Louisville VMware Users Group",
-    "frequency": "Meets Quarterly",
-    "freenode": "#LouisvilleVMUG",
-    "web": "http://www.louisvillevmug.info/",
-    "calendar": "https://calendar.google.com/calendar/ical/csilouisville.net_g3l1qnciiu5g0cdbbm36gs8omg%40group.calendar.google.com/public/basic.ics",
-    "twitter": "LouisvilleVMUG",
-    "description": "Louisville VMUG is an independent, customer-led organization created to maximize our members’ use of VMware and Partner solutions through knowledge sharing, training, collaboration, and quarterly events. Louisville VMUG focuses on providing presentations from local users across many different industries to share their experiences, solutions, and obstacles to solve real-world business requirements."
-  },
   "louisville-predictive-analytics": {
     "name": "Louisville Predictive Analytics Meetup",
     "frequency": "Meets Monthly",
