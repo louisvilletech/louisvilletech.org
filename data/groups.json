@@ -75,12 +75,6 @@
     "twitter": "elixir_lou",
     "description": "We are group of programmers, students, and technology enthusiasts who are excited about the Elixir programming language. We meet on the second Tuesday of every month to discuss topics related to the Elixir ecosystem, distributed systems, and functional programming. All skill levels are welcome!"
   },
-  "food-4-nerds": {
-    "name": "Food4Nerds",
-    "frequency": "Meets monthly",
-    "twitter": "Food4Nerds",
-    "calendar": "https://calendar.google.com/calendar/ical/jghri0j8rdpn7svv4tgecb7kl0%40group.calendar.google.com/public/basic.ics"
-  },
   "gdg-louisville": {
     "name": "Google Developer Group Louisville",
     "web": "https://www.meetup.com/GDGLouisville/",
