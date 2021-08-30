@@ -75,15 +75,6 @@
     "twitter": "elixir_lou",
     "description": "We are group of programmers, students, and technology enthusiasts who are excited about the Elixir programming language. We meet on the second Tuesday of every month to discuss topics related to the Elixir ecosystem, distributed systems, and functional programming. All skill levels are welcome!"
   },
-  "gdg-louisville": {
-    "name": "Google Developer Group Louisville",
-    "web": "https://www.meetup.com/GDGLouisville/",
-    "calendar": "https://www.meetup.com/GDGLouisville/events/ical/",
-    "facebook": "https://www.facebook.com/GDG-Louisville-1536561503322044/",
-    "twitter": "GDGLouisville",
-    "frequency": "Meets Monthly",
-    "description": "We are a Google Developer Group! We will be discussing Android Development, but also incorporate most Google Development Products."
-  },
   "girl-develop-it-louisville": {
     "name": "Girl Develop It Louisville",
     "frequency": "Meets sporadically",
