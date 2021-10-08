@@ -10,6 +10,20 @@
     "facebook": "https://www.facebook.com/FoundationForAHealthyKentucky",
     "twitter": "cspaceky"
   },
+  "co11ab": {
+    "name": "CO11AB",
+    "web": "https://co11abworkspace.com/"
+  },
+  "elevate": {
+    "name": "Elevate",
+    "web": "https://www.elevateoffice.com/locations/clarksville--in--1400-main-street",
+    "twitter": "Elevate_Office",
+    "facebook": "https://facebook.com/ElevateOffice"
+  },
+  "hopewell": {
+    "name": "Hopewell",
+    "web": "https://www.hopewelllabs.com/louisville",
+  },
   "ihub": {
     "name": "iHub",
     "web": "http://nucleusky.com/ihub",
@@ -21,15 +35,33 @@
     "facebook": "https://www.facebook.com/launchlou/",
     "twitter": "launchlou"
   },
+  "lodgic": {
+    "name": "Lodgic",
+    "web": "https://www.lodgicworkplace.org/louisville-ky",
+    "facebook": "https://www.facebook.com/Lodgic-Workplace-Louisville-106260641400879"
+  },
+  "louielab": {
+    "name": "LouieLab",
+    "web": "https://louisvilleky.gov/government/civic-innovation-and-technology/louielab",
+  },
   "lvl1-hackerspace": {
     "name": "LVL1 Hackerspace",
     "web": "http://www.lvl1.org/",
     "twitter": "LVL1HackerSpace"
   },
+  "maker13": {
+    "name": "Maker13",
+    "web": "https://www.maker13.com/",
+    "facebook": "https://www.facebook.com/maker13indiana/"
+  },
   "the-park": {
     "name": "The Park",
     "web": "http://www.workatthepark.com/",
     "twitter": "WorkAtThePark"
+  },
+  "regus": {
+    "name": "Regus",
+    "web": "https://www.regus.com/en-us/coworking"
   },
   "the-root": {
     "name": "The Root",
@@ -49,5 +81,10 @@
   "warp-zone-louisville": {
     "name": "Warp Zone Louisville",
     "web": "http://louisvillemakesgames.org/warpzone/"
+  },
+  "yes-working": {
+    "name": "Yes Working",
+    "web": "https://yesworking.com/",
+    "facebook": "https://www.facebook.com/yesworking"
   }
 }
