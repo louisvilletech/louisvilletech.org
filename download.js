@@ -43,13 +43,13 @@ function msToMin(ms) {
   return Math.floor(ms / 1000 / 60);
 }
 
-function httpGet(url, callback, nesting) {
+function httpGet(url, options, callback, nesting) {
   if (nesting > 3) {
     callback("Too many redirects");
     return;
   }
   var proto = url.indexOf("https://") === 0 ? https : http;
-  proto.get(url, function(response) {
+  proto.get(url, options, function(response) {
     if (response.statusCode == 302) {
       var newUrl = urlModule.resolve(url, response.headers.location);
       console.log("  REDIRECT", url, "=>", newUrl);
@@ -63,11 +63,18 @@ function httpGet(url, callback, nesting) {
 
 function downloadCalendar(url, filename, callback) {
   console.log("  GET", url, "=>", filename);
-  httpGet(url, function(err, res) {
+
+  var options = { headers: {} };
+  if (new URL(url).host === "www.meetup.com") {
+    options.headers["Cookie"] = "MEETUP_MEMBER=id=18422591&status=1;";
+  }
+
+  httpGet(url, options, function(err, res) {
     if (err) {
       callback(err);
       return;
     }
+    console.log("  response status", res.statusCode);
     if (res.statusCode === 200) {
       console.log("    writing", filename);
       var file = fs.createWriteStream(filename);
