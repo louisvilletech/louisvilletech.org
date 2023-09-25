@@ -86,7 +86,6 @@
     "name": "JSLou",
     "frequency": "Meets the 1st and 3rd Wednesday every month @ 7pm",
     "web": "http://jslou.org",
-    "mailing-list": "http://kyoss.org/mailman/listinfo/jslou",
     "calendar": "https://www.meetup.com/JSLouKY/events/ical/",
     "twitter": "JsLouKY",
     "description": "JSLou is a gathering where people of any experience level, and all types of JavaScript can feel right at home."
@@ -101,10 +100,9 @@
   "kyoss": {
     "name": "Kentucky Open Source Society (KYOSS)",
     "frequency": "Meets the 2nd Wednesday every month @ 6:30pm",
-    "web": "http://kyoss.org/",
+    "web": "https://www.meetup.com/louisvilleopensourceprogramming/",
     "calendar": "https://www.meetup.com/LouisvilleOpenSourceProgramming/events/ical/",
-    "mailing-list": "http://kyoss.org/mailman/listinfo/kyoss-discuss",
-    "freenode": "#kyoss",
+    "mailing-list": "https://groups.google.com/a/kyoss.dev/g/kyoss-discuss",
     "description": "The Kentucky Open Source Society (KYOSS) is a group of Programmers, Sysadmins, Devops, Linux enthusiasts, Web Developers, Mobile Developers, and just about anyone else who is interested in technology."
   },
   "kubernetes-louisville": {
