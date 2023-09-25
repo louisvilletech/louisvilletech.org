@@ -5,35 +5,14 @@
     "facebook": "https://www.facebook.com/CodePaLOUsa",
     "twitter": "CodePaLOUsa"
   },
-  "derbycon": {
-    "name": "DerbyCon",
-    "web": "http://www.derbycon.com/",
-    "twitter": "DerbyCon"
-  },
   "louisville-mini-maker-faire": {
     "name": "Louisville Mini Maker Faire",
-    "web": "http://makerfairelou.org/",
-    "facebook": "https://www.facebook.com/MakerFaireLou",
-    "twitter": "MakerFaireLou"
-  },
-  "midwest-ux-conference": {
-    "name": "Midwest UX Conference 2016",
-    "web": "http://2016.midwestuxconference.com/",
-    "twitter": "midwestUX"
-  },
-  "sqlsaturday": {
-    "name": "SQLSaturday",
-    "web": "http://www.sqlsaturday.com/403/eventhome.aspx"
+    "web": "https://louisville.makerfaire.com/",
+    "facebook": "https://www.facebook.com/MakerFaireLou"
   },
   "techfest-lou": {
     "name": "TechFest Lou",
     "web": "http://www.techfestlou.com/",
     "twitter": "TechFestLou"
-  },
-  "wordcamp-louisville": {
-    "name": "WordCamp Louisville",
-    "web": "https://2016.louisville.wordcamp.org/",
-    "facebook": "https://www.facebook.com/wordcamplou/",
-    "twitter": "WordCampLou"
   }
 }
