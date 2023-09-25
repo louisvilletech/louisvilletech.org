@@ -133,7 +133,6 @@
     "name": "Louisville Civic Data Alliance",
     "frequency": "Meets sporadically",
     "web": "http://www.civicdataalliance.org/",
-    "calendar": "https://calendar.google.com/calendar/ical/esusujgda5ff6proul0t8js3ibp84brm%40import.calendar.google.com/public/basic.ics",
     "twitter": "CivicDataAlly",
     "description": "Civic Data Alliance is interested in ethically liberating, improving, gathering, defining, and reporting on public data and the state of civic tech, while fostering an inclusive and diverse civic tech community."
   },
@@ -178,12 +177,6 @@
     "calendar": "https://www.meetup.com/Louisville-MOGRAPH/events/ical/",
     "description": "Calling all designers, animators and engineers of motion. This is a group for anyone interested in animation and motion design - motion graphics artists, 2D & 3D animators, VFX artists, and creative coders. The plan is to create a regular meetup where we can share our work, learn from each other, listen guest speakers, and collaborate on projects together."
   },
-  "louisville-remote-workers": {
-    "name": "Louisville Remote Workers",
-    "web": "https://www.meetup.com/Louisville-Remote-Workers/",
-    "calendar": "https://www.meetup.com/Louisville-Remote-Workers/events/ical/",
-    "description": "Remote workers have unique challenges. So, let’s get together and talk about those challenges, help each other, and meet others."
-  },
   "loumug": {
     "name": "Louisville Microsoft Users Group",
     "frequency": "Meets the last Friday every month @ 11:30 am",
@@ -194,8 +187,6 @@
   "louisville-ruby-brigade": {
     "name": "Louisville Ruby Brigade",
     "frequency": "Meets every other Thursday @ 7:00pm, check meetup.com for date and location.",
-    "web": "https://www.meetup.com/Louisville-Ruby-Brigade/",
-    "calendar": "https://www.meetup.com/Louisville-Ruby-Brigade/events/ical/",
     "twitter": "lvlrb",
     "slack": "https://louisvillerb.slack.com/",
     "description": "Meetup for Ruby developers and the Ruby-curious."
@@ -300,13 +291,6 @@
     "facebook": "https://www.facebook.com/techtalksky/",
     "twitter": "techtalksky",
     "description": "Tech Talks KY (formerly LEX>>FWD) is a meetup group with talks in both Louisville and Lexington. We focus on software, programming and IT technologies. Our aim is to be platform agnostic and to focus on overall concepts and practices. We are open to everyone."
-  },
-  "tech-foundations-louisville": {
-    "name": "Tech Foundations Louisville",
-    "frequency": "Meets the 3rd Tuesday every month @ 6:00pm",
-    "web": "https://www.meetup.com/Tech-Foundations-Louisville/",
-    "calendar": "https://www.meetup.com/Tech-Foundations-Louisville/events/ical/",
-    "description": "Tech Foundations Louisville is a meetup open to anyone interested in introductory-level topics in technology. This group is dedicated toward those that have some exposure technology and may be new to the industry or hoping to get into it. Our goal is to have speakers and discussion topics that are relevant to everyone interested in technology, whether they're new or an industry vetera. We will have a few minutes before each event to socialize followed by a topic discussion each month."
   },
   "ixda-louisville": {
     "name": "IxDA Louisville",
