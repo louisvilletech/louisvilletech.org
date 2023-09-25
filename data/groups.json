@@ -7,18 +7,10 @@
     "twitter": "aigalou",
     "description":"AIGA advances design as a professional craft, strategic advantage and vital cultural force. As the largest community of design advocates, we bring together practitioners, enthusiasts, and patrons to amplify the voice of design and create the vision for a collective future."
   },
-  "artificial-intelligence-innovation-consortium": {
-    "name": "Artificial Intelligence Innovation Consortium (AIIC)",
-    "frequency": "Meets sporadically",
-    "web": "https://www.meetup.com/Artificial-Intelligence-Innovation-Consortium-AIIC/",
-    "calendar": "https://www.meetup.com/Artificial-Intelligence-Innovation-Consortium-AIIC/events/ical/",
-    "description": "AI is becoming more applied into our everyday and understanding how to effectively implement AI solutions can bring value to businesses and customers. We will cover AI Consortium, Market Insights, and Microsoft Azure AI Use Cases."
-  },
   "code-for-kentuckiana": {
     "name": "Code for Kentuckiana",
     "frequency": "Meets sporadically",
     "web": "https://codeforkentuckiana.org/",
-    "calendar": "https://www.meetup.com/codeforkyana/events/ical/",
     "facebook": "https://www.facebook.com/CodeForKYana/",
     "twitter": "codeforkyana",
     "description": "We bring together community organizers, developers, and designers to use technology to improve the lives of citizens."
@@ -54,33 +46,12 @@
     "calendar": "https://www.meetup.com/devbookclub/events/ical/",
     "description": "Developers are always striving to learn more. Unfortunately development books can be dry and boring. Fortunately friends are fun. This group attempts to tackle boring development books in a social learning atmosphere with code challenges that correspond with the chapters."
   },
-  "devsechops-louisville": {
-    "name": "DevSecHops Louisville",
-    "frequency": "Meets monthly",
-    "web": "https://www.meetup.com/DevSecHops-Louisville/",
-    "calendar": "https://www.meetup.com/DevSecHops-Louisville/events/ical/",
-    "description": "DevSecHops Louisville is a casual networking group for IT professionals to engage in fun & interactive events around Louisville. All engineers, IT, and InfoSec enthusiasts at any career stage interested in networking with a local community of like-minded DevOps, Security, Networking, & Cloud engineers - please join us for a few cold ones!"
-  },
-  "devops-louisville": {
-    "name": "DevOps Louisville",
-    "frequency": "Meets monthly",
-    "web": "https://www.meetup.com/DevOps-Louisville/",
-    "calendar": "https://www.meetup.com/DevOps-Louisville/events/ical/",
-    "description": "For anyone interested in: Cloud / Containers, Infrastructure / Ops Automation, Continuous Integration / Delivery / Deployment, Monitoring / Metrics, Lean/Agile for Development or Operations"
-  },
   "elixir-louisville": {
     "name": "Elixir Louisville",
     "web": "https://www.meetup.com/Elixir-Louisville/",
     "calendar": "https://www.meetup.com/Elixir-Louisville/events/ical/",
     "twitter": "elixir_lou",
     "description": "We are group of programmers, students, and technology enthusiasts who are excited about the Elixir programming language. We meet on the second Tuesday of every month to discuss topics related to the Elixir ecosystem, distributed systems, and functional programming. All skill levels are welcome!"
-  },
-  "go-lou": {
-    "name": "Go Lou",
-    "frequency": "Meets sporadically",
-    "web": "https://www.meetup.com/go-lou/",
-    "calendar": "https://www.meetup.com/go-lou/events/ical/",
-    "description": "GoLou is Louisville's meetup for all Gophers in the Kentuckiana area interested in learning and sharing about the programming language Golang."
   },
   "hardware-happy-hour": {
     "name": "Hardware Happy Hour",
@@ -91,8 +62,6 @@
   "ionic-louisville": {
     "name": "Ionic Louisville",
     "frequency": "Meets sporadically",
-    "web": "https://www.meetup.com/ionic-louisville/",
-    "calendar": "https://www.meetup.com/ionic-louisville/events/ical/",
     "twitter": "ioniclouisville",
     "description": "This meetup will talk about ionic and the future of application development. Ionic will be pushed to the limits and used in new ways. Anyone who is interested in hybrid development and or who has experience in native/hybrid development should join."
   },
@@ -150,9 +119,6 @@
   "louisville-aws-user-group": {
     "name": "Louisville AWS User Group",
     "frequency": "Meets Monthly",
-    "web": "https://www.meetup.com/Louisville-AWS-Users-Group/",
-    "mailing-list": "https://www.meetup.com/Louisville-AWS-Users-Group/messages/boards/",
-    "calendar": "https://www.meetup.com/Louisville-AWS-Users-Group/events/ical/",
     "twitter": "Louisville_AWS",
     "description": "Come check us out to learn and share how you're using the AWS platform."
   },
