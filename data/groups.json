@@ -146,12 +146,6 @@
     "calendar": "https://www.meetup.com/Louisville-Haskell-Meetup/events/ical/",
     "description": "Meetup for Haskell enthusiasts. Haskell is an elegant and powerful language with a reputation for stretching your brain."
   },
-  "louisville-keyboard-club": {
-    "name": "Louisville Keyboard Club",
-    "web": "https://www.eventbrite.com/e/louisville-keyboard-club-2017-with-special-guest-don-bowman-of-unicomp-tickets-35757573866",
-    "calendar": "https://calendar.google.com/calendar/ical/eqqmthv970qfu3o5gsdqkuuplo%40group.calendar.google.com/public/basic.ics",
-    "description": "Are you keyboard-curious? Have been hearing about mechanical keyboard or gaming keyboards, and wanting to try them? There will be plenty of keyboards to try out and help you decide if they are for you."
-  },
   "louisville-makes-games": {
     "name": "Louisville Makes Games",
     "frequency": "Meets every other Sunday @ 2pm",
@@ -205,13 +199,6 @@
     "web": "https://civicdataalliance.org/Louisville-Software-Engineering/",
     "calendar": "https://calendar.google.com/calendar/ical/civicdataalliance.org_q528lks5hklj0faqrglvv1nnmo@group.calendar.google.com/public/basic.ics",
     "description": "Formerly LouPUG, the Louisville PHP User Group, we have shifted our focus on Software Engineering. While code samples may still include PHP, we didn't want to limit our members to a single technology. If you are strictly interested in PHP, check out the KYOSS Meetup."
-  },
-  "louisville-sql-server-users-group": {
-    "name": "Louisville SQL Server Users Group",
-    "frequency": "Meets sporadically",
-    "web": "http://louisville.sqlpass.org/",
-    "facebook": "https://www.facebook.com/groups/louisvillesqlpass/",
-    "description": " We represent the SQL Server community in Louisville, the surrounding metropolitan area, and throughout most of Kentucky. As a technical users group, we focus on monthly meetings, but also provide networking, learning opportunities, speaking opportunities, training, and collaboration for SQL Server professionals throughout the Ohio Valley area."
   },
   "louisville-tech-ladies": {
     "name": "Louisville Tech Ladies",
