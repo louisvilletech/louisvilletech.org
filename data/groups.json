@@ -18,7 +18,8 @@
   "code-louisville": {
     "name": "Code Louisville",
     "frequency": "Meets monthly on changing dates",
-    "web": "https://www.facebook.com/groups/597842787091041/",
+    "web": "https://codelouisville.org/",
+    "facebook": "https://www.facebook.com/codelouisville",
     "description": "A social event for Code Louisville students, graduates, mentors, staff, and friends to hang out, have a drink, talk, or play a game."
   },
   "creative-mornings-louisville": {
@@ -171,7 +172,6 @@
     "name": "Louisville Ruby Brigade",
     "frequency": "Meets every other Thursday @ 7:00pm, check meetup.com for date and location.",
     "twitter": "lvlrb",
-    "slack": "https://louisvillerb.slack.com/",
     "description": "Meetup for Ruby developers and the Ruby-curious."
   },
   "louisville-salesforce-user-goup": {
