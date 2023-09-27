@@ -7,6 +7,13 @@
     "twitter": "aigalou",
     "description":"AIGA advances design as a professional craft, strategic advantage and vital cultural force. As the largest community of design advocates, we bring together practitioners, enthusiasts, and patrons to amplify the voice of design and create the vision for a collective future."
   },
+  "aws-louisville-meetup-group": {
+    "name": "AWS Louisville Meetup Group",
+    "frequency": "Meets Monthly",
+    "calendar": "https://www.meetup.com/amazon-web-services-aws-louisville-meetup-group/events/ical/",
+    "web": "https://www.meetup.com/amazon-web-services-aws-louisville-meetup-group/",
+    "description": "LouisvilleAWS aims to cover all things Amazon Web Services. From new announcements, best practices, and demos to real customer architectures and experiences. Every month we invite anyone from new users to seasoned cloud veterans to join us to learn more about the AWS ecosystem."
+  },
   "code-for-kentuckiana": {
     "name": "Code for Kentuckiana",
     "frequency": "Meets sporadically",
@@ -105,12 +112,6 @@
     "mailing-list": "https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/messages/archive/",
     "twitter": "CloudLouisville",
     "description":"CNCF Official meetup for learning and sharing about Kubernetes and other cloud native technologies."
-  },
-  "louisville-aws-user-group": {
-    "name": "Louisville AWS User Group",
-    "frequency": "Meets Monthly",
-    "twitter": "Louisville_AWS",
-    "description": "Come check us out to learn and share how you're using the AWS platform."
   },
   "louisville-bi-and-big-data-analytics-meetup": {
     "name": "Louisville BI & Big Data Analytics Meetup",
