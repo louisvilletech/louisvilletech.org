@@ -53,13 +53,6 @@ pre {
 code {
   line-height:1.25em;
   font-family: $code-font-family;
-  &.pre-indent-cheat {
-    position: relative;
-    left: -170px;
-    @include media($medium-screen) {
-      left: -150px;
-    }
-  }
   .code-o {
     color:$code-object-color;
   }
