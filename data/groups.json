@@ -1,4 +1,11 @@
 {
+  "louisville-tech": {
+    "name": "Louisville Tech Events",
+    "frequency": "Meets sporadically",
+    "web": "https://events.louisvilletech.org",
+    "calendar": "https://events.louisvilletech.org/feed/ics?show_recurrent=true",
+    "description":"Technology focused events and meetups for the Louisville community"
+  },
   "aiga-louisville": {
     "name": "AIGA Louisville",
     "frequency": "Meets sporadically",
