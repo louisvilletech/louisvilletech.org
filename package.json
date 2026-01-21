@@ -18,7 +18,7 @@
     "url": "https://github.com/louisvilletech.org/louisvilletech.org.git"
   },
   "dependencies": {
-    "async": "^2.6.3",
+    "async": "^2.6.4",
     "bourbon": "^4.2.7",
     "bourbon-neat": "^1.9.1",
     "ical.js": "^1.4.0",
