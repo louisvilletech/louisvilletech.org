@@ -22,7 +22,7 @@
     "bourbon": "^4.2.7",
     "bourbon-neat": "^1.9.1",
     "ical.js": "^1.4.0",
-    "moment-timezone": "^0.5.27",
+    "moment-timezone": "^0.5.35",
     "node-fetch": "^2.6.1",
     "normalize.scss": "^0.1.0",
     "ramda": "^0.15.1",
